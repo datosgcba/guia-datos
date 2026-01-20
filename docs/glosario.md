@@ -13,7 +13,7 @@ Aquellos datos personales que revelan origen racial o étnico, opiniones políti
 
 ## Dato Personal
 
-Información de cualquier tipo referida a personas físicas o de existencia ideal, determinadas o determinables. 
+Información de cualquier tipo referida a personas físicas o de existencia ideal, determinadas o determinables.
 
 ## Dato Público
 
@@ -59,14 +59,8 @@ Ciertas características o atributos de los datos que son definidos para facilit
 ## Perfil de metadatos
 Es un estándar para documentar los activos de datos de un catálogo. En esta guía documentamos un perfil de metadatos que busca unificar el modo en el que estos se comparten desde el Gobierno de la Ciudad de Buenos Aires y es compatible con el perfil establecido para la Administración Pública Nacional. El Gobierno de la Ciudad de Buenos Aires documenta su perfil de metadatos en la [Guía para el uso y la publicación de metadatos](guia-metadatos.md)
 
-## Portal Andino
-Es el portal empaquetado y distribuible desarrollado sobre la base de la plataforma CKAN (portal de datos abiertos), diseñado por la Dirección Nacional de Datos e Información Pública del Ministerio de Modernización de la Nación para facilitar la apertura y federación de activos de datos en la Argentina.
-
-## Intermediarios
-
-Considerando a los datos como una materia prima, los intermediarios son la última capa que le agrega valor a los datos de cara al ciudadano. Aquellos que los interpretan, los utilizan para realizar investigaciones y desarrollar productos o servicios.
-
-En general definimos cinco grupos clave en este sentido: academia y comunidad educativa, periodismo, emprendedores tecnológicos, sociedad civil organizada y los propios funcionarios de gobierno.
+## Portal CKAN
+Es una plataforma de código abierto diseñada específicamente para la publicación, gestión y reutilización de datos abiertos. Desarrollada inicialmente por la Open Knowledge Foundation, CKAN permite organizar, catalogar y compartir datasets de manera estructurada. La Ciudad de Buenos Aires implementa CKAN como base tecnológica de su portal de datos abiertos.
 
 ## Transparencia activa
 
@@ -80,7 +74,7 @@ Los datos suelen ser publicados en sitios web específicos que facilitan el acce
 
 Implica la garantía del derecho de acceso a la información que tenemos todas las personas, así lo estipula la Declaración Universal de los Derechos del Humanos (art. 19) y el Pacto Internacional de Derechos Civiles y Políticos (art.19,2).
 
-Principalmente constituye el establecimiento de un canal institucional para que los ciudadanos puedan buscar, solicitar y acceder a la información que produce el Estado. En Argentina está garantizado por la Ley 27.275 de Acceso a la Información Pública
+Principalmente constituye el establecimiento de un canal institucional para que los ciudadanos puedan buscar, solicitar y acceder a la información que produce el Estado. En Argentina está garantizado por la Ley 27.275 de Acceso a la Información Pública.
 
 ## Usabilidad
 

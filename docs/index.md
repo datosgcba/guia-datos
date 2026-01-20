@@ -8,9 +8,8 @@ Podés colaborar con las guías cargando un nuevo issue, o respondiendo a un iss
 
 ## Recursos y documentos
 
-
-* [Guía para la publicación de datos en formatos abiertos](guia-abiertos.md)
-* [Guía para la identificación y uso de entidades interoperables](guia-interoperables.md)
-* [Guía para el uso y la publicación de metadatos](guia-metadatos.md)
 * [Política de Datos Abiertos](politica-datos-abiertos.md)
+* [Guía para la publicación de datos en formatos abiertos](guia-abiertos.md)
+* [Guía para el uso y la publicación de metadatos](guia-metadatos.md)
+* [Guía para la identificación y uso de entidades interoperables](guia-interoperables.md)
 * [Glosario](glosario.md)

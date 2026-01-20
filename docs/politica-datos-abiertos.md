@@ -1,271 +1,169 @@
 # Estrategia de Apertura de Datos - Gobierno de la Ciudad de Buenos Aires
 
-## Introducción
+## Inicio - Alcance del documento
 
-Estamos ante una transformación radical de nuestras vidas impulsada por la innovación tecnológica donde los datos y el acceso a la información ocupan un rol protagónico. Durante los últimos años, la vida en las ciudades ha cambiado sustancialmente y con ello los desafíos que enfrentan. Hoy nos relacionamos y accedemos a servicios públicos y privados de modos completamente distintos, que generan un gran volumen de información y que desafían las reglas establecidas. En este contexto existe una revolución global de datos que busca afrontar los nuevos desafíos económicos, sociales y políticos de las ciudades en clave colaborativa e innovadora. 
+  La presente guía busca colaborar con los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a fin de instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°156/2012 y N°478/2013, mejorando la calidad y la gestión de los datos generados por entidades del sector público que produzcan datos o bien los almacenen bajo su tutela y/o jurisdicción.
 
-El Estado genera datos todo el tiempo. Muchos de ellos son datos públicos, es decir que son generados en el ámbito gubernamental, o se encuentran bajo su guarda, y no cuentan con acceso restringido por ninguna legislación específica. Estos datos públicos pueden ayudar a las entidades públicas a ofrecer mejores servicios y a diseñar política pública, también pueden ayudarnos a tomar decisiones informadas, a generar nuevos negocios o a visibilizar nuestras demandas de manera colectiva.
+  Mediante el Decreto N° 156/2012 se implementó el sitio data.buenosaires.gob.ar como plataforma para facilitar la búsqueda, descubrimiento y acceso de aquellos conjuntos de datos del sector público que contribuyan a promover la transparencia, a incentivar la participación y colaboración de los ciudadanos, a fomentar la reutilización de la información para generar conocimiento, y a estimular la innovación y el desarrollo social, económico y cultural en el ámbito de la Ciudad de Buenos Aires.
 
-La apertura de datos es una estrategia ligada a las prácticas de Gobierno Abierto. Tiene como objetivo poner a disposición la información pública en formatos que puedan ser utilizados, reutilizados y redistribuidos libremente por la ciudadanía y así impulsar la transparencia, la participación, la colaboración, la innovación y el desarrollo económico. A partir del libre acceso a los datos es posible desarrollar nuevos conocimientos e ideas innovadoras para generar beneficios sociales y valor económico en el desarrollo de las ciudades.
+  El Decreto N° 478/2013 por su parte, establece que todos los datos producidos, almacenados y/o recolectados en medios digitales por los distintos órganos de la Administración Centralizada y Descentralizada, así como las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires, cuya publicidad no se encuentre excluida por normas específicas, serán publicados de manera tal de facilitar su descubrimiento, búsqueda, acceso, redistribución y reutilización por parte de los ciudadanos, en el sitio data.buenosaires.gob.ar.
 
-## Datos Abiertos
+  El presente documento tiene como objetivo establecer un conjunto de herramientas desarrolladas para visibilizar las acciones y prácticas adoptadas por el Gobierno de la Ciudad Autónoma de Buenos Aires en la gestión de datos abiertos.
 
-Un dato abierto es aquel que puede ser utilizado, reutilizado y redistribuido libremente por cualquier persona, y que sólo deben atribuirse y compartirse con la misma licencia con la que fueron publicados. La iniciativa Open Government Data definió ocho principios que especifican [condiciones a tener en cuenta para que los datos sean considerados abiertos](https://public.resource.org/8_principles.html):
+  Evidenciando los procesos de apertura de datos, este documento expone las estrategias, metodologías y normativas utilizadas para garantizar la accesibilidad, calidad y reutilización de la información pública. 
 
-1. **Completo**: estar disponibles y no tener restricciones para la apertura.
+  Se trata de una guía colaborativa y en progreso, en la cual valoramos y alentamos a los ciudadanos y a las organizaciones de la sociedad civil a plantear nuevas ideas, sugerencias, y comentarios que nos ayuden a enriquecer estas guías para fortalecer la gestión de datos abiertos en la ciudad. 
 
-2. **Primario**: estar publicados con el mayor nivel posible de detalle y haber sido recolectados en la fuente de origen.
+  Se trata de un trabajo en constante evolución, sujeto a mejoras continuas y a la incorporación de nuevas experiencias y aprendizajes, no sólo de la Administración, sino por parte de sectores no gubernamentales.
 
-3. **Oportuno**: estar disponibles tan rápido como sea necesario para preservar su valor. 
+  En esta guía se podrá encontrar material referente a: 
 
-4. **Accesible**: estar disponibles para el mayor espectro de ciudadanos y  para el más amplio rango de propósitos. No debe existir una limitación para su acceso.
+  *	Buenas prácticas para la publicación de datos en formatos abiertos.
 
-5. **Procesable**: estar razonablemente estructurados para permitir el procesamiento automático de los mismos mediante software.
+  *	Estándares usados a nivel nacional e internacional. 
 
-6. **No discriminatorio**: estar disponibles para todos. No contar con ningún tipo de restricción para que un grupo o actor de la sociedad no pueda acceder a los mismos.
+  *	Estándares definidos por el Gobierno de la Ciudad Autónoma de Buenos Aires. 
 
-7. **No propietario**: estar disponibles en un formato tal que ninguna entidad tenga un control exclusivo.
+  *	La experiencia de trabajo del equipo de la Dirección General de Gobernanza de Datos de la Subsecretaria de Innovación Administrativa, dependiente de la Secretaría de Innovación y Transformación Digital (en adelante, TecBA) del Gobierno de la Ciudad Autónoma de Buenos Aires. 
 
-8. **Libre de licencias**: no estar sujetos a ningún derecho de autor, patente, marca registrada o regulación de secreto comercial. Sólo están permitidas limitaciones  por razones de privacidad, seguridad o derechos.
 
-La apertura de datos en sí es un motor que conlleva una serie de beneficios para el Estado y para la sociedad:
+## Políticas de Datos abiertos
 
-**Innovación y Desarrollo económico**
+### Contexto
 
-La disponibilidad de datos genera oportunidades de empleo, negocio, innovación social y crecimiento económico. A través del uso y reutilización de datos, muchos emprendedores, empresas, PyMEs, Academia y ONGs pueden usar la información disponible para desarrollar nuevos servicios y/o transformarla en nuevos conocimientos que permitan mejorar la calidad de vida de los ciudadanos y generar valor económico.
+  Estamos viviendo una transformación radical impulsada por la innovación tecnológica, donde los datos y el acceso a la información ocupan un rol central. En los últimos años, la vida en las ciudades ha cambiado sustancialmente, transformando el acceso a servicios públicos y privados, y generando grandes volúmenes de información que desafían las reglas establecidas. En este contexto, una revolución global de datos busca abordar los nuevos desafíos económicos, sociales y políticos de manera colaborativa e innovadora.
 
-**Políticas Públicas basadas en evidencia**
+  El Estado genera datos de forma constante. Muchos de ellos son datos públicos, es decir, información producida o resguardada por el gobierno sin restricciones de acceso por normativa específica. La apertura de estos datos, en el marco de una política de Gobierno Abierto, busca garantizar el acceso libre a la información pública en formatos reutilizables y accesibles. Esto fortalece la transparencia, permite al ciudadano conocer y monitorear el accionar del Estado, e impulsa su participación en los asuntos públicos. Además, los datos abiertos pueden ser aprovechados para la investigación académica, el desarrollo de soluciones innovadoras, la creación de nuevos servicios y actividades económicas, y la generación de conocimiento que beneficie tanto a la sociedad como a la economía de la ciudad. **Para garantizar su correcto uso y sostenibilidad, los datos abiertos requieren un marco de gobernanza que establezca criterios claros sobre su gestión y publicación** cumpliendo con las normas de protección de datos.
 
-La apertura de datos permite encontrar información complementaria en otras áreas de gobierno para diseñar políticas más focalizadas en los problemas y necesidades de los ciudadanos . Mientras más organismos trabajen con catálogos estandarizados, más rica será la información disponible para planificar, implementar y evaluar las políticas públicas.
+  Con un enfoque integral que abarca desde la estandarización hasta la publicación de datos en formatos accesibles, el GCBA reafirma su compromiso con una gobernanza eficiente, impulsando la transformación digital y promoviendo una ciudad más abierta, inclusiva y orientada al desarrollo sostenible.
 
-**Ciudadanos empoderados**
+### Definición Datos abiertos
 
-La disponibilidad de datos impacta directamente en la capacidad de toma de decisiones y la colaboración. La apertura motiva un rol más activo en los ciudadanos, incentivando y enriqueciendo su participación en el debate público y permitiéndoles un mayor monitoreo de las políticas públicas.
+  Los datos abiertos se han convertido en un pilar esencial para fomentar la transparencia, la participación ciudadana y la innovación, al tiempo que facilitan la toma de decisiones basadas en evidencia, la identificación de tendencias y la optimización de recursos. En este marco, sugerimos adoptar la definición de la Open Knowledge Foundation (2015), la cual describe a los datos abiertos como aquellos accesibles al público en formatos estructurados, estandarizados y reutilizables, permitiendo su libre uso, modificación y redistribución, bajo la única condición de atribuir la fuente y mantener las mismas condiciones de licencia con las que fueron publicados.
 
-**Ahorro de recursos**
+  La iniciativa [Open Government Data](https://opengovdata.org/) definió ocho principios que especifican [condiciones a tener en cuenta para que los datos sean considerados abiertos](https://public.resource.org/8_principles.html):
 
-Al tener los datos ordenados y compilados en un solo lugar se favorece la reutilización y se evita la duplicidad en la generación y almacenamiento de información, ahorrando recursos en volver a producir esos mismos datos.
+  1.	**Completo**: estar disponibles y no tener restricciones para la apertura.
 
-**Transparencia**
+  2.	**Primario**: estar publicados con el mayor nivel posible de detalle y haber sido recolectados en la fuente de origen.
 
-Motiva una gestión más transparente. Se afianza el vínculo con el ciudadano, se incrementa la confianza a través de una mayor rendición de cuentas y se refuerza el sistema democrático.
+  3.	**Oportuno**: estar disponibles tan rápido como sea necesario para preservar su valor.
 
-## Datos Abiertos: Buenos Aires 
+  4.	**Accesible**: estar disponibles para el mayor espectro de ciudadanos y para el más amplio rango de propósitos. No debe existir una limitación para su acceso.
 
-En el Gobierno de la Ciudad la política de apertura de datos comenzó en 2012 con la firma del [Decreto 156/2012](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097) el cual impulsó la creación de la plataforma de datos públicos [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) para facilitar la búsqueda, descubrimiento y acceso de los datos abiertos producidos por la Ciudad, con el objetivo de promover la transparencia, participación y colaboración. 
+  5.	**Procesable**: estar razonablemente estructurados para permitir el procesamiento automático de los mismos mediante software.
 
-Un año más tarde la sanción del [Decreto 478/2013](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859) dio un nuevo impulso a esta política al establecer la apertura por defecto. A partir de entonces "todos los datos producidos, almacenados y/o recolectados en medios digitales por los distintos órganos de la Administración Centralizada y Descentralizada, así como las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires, cuya publicidad no se encuentre excluida por normas específicas, serán publicados de manera tal de facilitar su descubrimiento, búsqueda, acceso, redistribución y reutilización por parte de los ciudadanos, en el sitio [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar)". 
+  6.	**No discriminatorio**: estar disponibles para todos. No contar con ningún tipo de restricción para que un grupo o actor de la sociedad no pueda acceder a los mismos.
 
-Adicionalmente, a fines de 2015 la Ciudad [firmó la Carta Internacional de Datos Abiertos](https://opendatacharter.net/principles-es/) a través de la cual se compromete a seguir e implementar los lineamientos que establecen que los datos públicos deben ser:
+  7.	**No propietario**: estar disponibles en un formato tal que ninguna entidad tenga un control exclusivo.
 
-1. Abiertos por Defecto
+  8.	**Libre de licencias**: no estar sujetos a ningún derecho de autor, patente, marca registrada o regulación de secreto comercial. Sólo están permitidas limitaciones por razones de privacidad, seguridad o derechos.
 
-2. Oportunos y Exhaustivos
+  La apertura de datos en sí es un motor que conlleva una serie de beneficios para el Estado y para la sociedad:
 
-3. Accesibles y Utilizables
+  * **Innovación y Desarrollo Económico**
 
-4. Comparables e Interoperables
+  La disponibilidad de datos genera oportunidades de empleo, negocio, innovación social y crecimiento económico. A través del uso y reutilización de datos, muchos emprendedores, empresas, PyMEs, Academia y ONGs pueden usar la información disponible para desarrollar nuevos servicios y/o transformarla en nuevos conocimientos que permitan mejorar la calidad de vida de los ciudadanos y generar valor económico.
 
-5. Para mejorar la Gobernanza y la Participación Ciudadana
+  * **Mejores Políticas Públicas**
 
-6. Para el Desarrollo Incluyente y la Innovación
+  La apertura de datos permite encontrar información complementaria en otras áreas de gobierno para diseñar políticas más focalizadas en los problemas y necesidades de los ciudadanos. Mientras más organismos trabajen con catálogos estandarizados, más rica será la información disponible para planificar, implementar y evaluar las políticas públicas.
 
-La sanción de la nueva [Ley de Acceso a la Información Pública (Ley Nº 104)](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982) implicó también un avance en materia de apertura ya que estableció el "formato abierto" como criterio fundamental. La nueva reglamentación, cuyo órgano de aplicación es el Ministerio de Gobierno, también estableció un capítulo de [“Transparencia Activa”](http://www.buenosaires.gob.ar/sites/gcaba/files/ta_resumen_ejecutivo_1.pdf) el cual define una serie de datos fundamentales que todas las áreas deben abrir.
+  * **Ciudadanos empoderados**
 
-Actualmente la Dirección General de Calidad Institucional y Gobierno Abierto, de la Subsecretaría de Gestión Estratégica y Calidad Institucional, Secretarìa General y Relaciones Institucionales, es el área responsable de diseñar e implementar la política de datos abiertos de la Ciudad a través de [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar). Entre sus misiones y funciones se encuentran:
+  La disponibilidad de datos impacta directamente en la capacidad de toma de decisiones y la colaboración. La apertura motiva un rol más activo en los ciudadanos, incentivando y enriqueciendo su participación en el debate público y permitiéndoles un mayor monitoreo de las políticas públicas.
 
-* Formular políticas referidas a la apertura de datos.
+  * **Ahorro de recursos**
 
-* Coordinar con otras reparticiones la implementación de acciones de apertura de datos.
+  Al tener los datos ordenados y compilados en un solo lugar se favorece la reutilización y se evita la duplicidad en la generación y almacenamiento de información, ahorrando recursos en volver a producir esos mismos datos.
 
-* Liderar y generar espacios de colaboración con los distintos actores de la ciudadanía.
+  * **Transparencia**
 
-* Administrar el portal de datos abiertos de la Ciudad Autónoma de Buenos Aires.
+  Motiva una gestión más transparente. Se afianza el vínculo con el ciudadano, se incrementa la confianza a través de una mayor rendición de cuentas y se refuerza el sistema democrático.
 
-* Diseñar y promover visualizaciones y productos analíticos con los datos abiertos de la Ciudad de manera tal que sean de fácil acceso para la ciudadanía.
+  En esta línea, desde TecBA, trabajamos para que los datos sean accesibles, promoviendo la eliminación de barreras técnicas, legales y económicas, y reutilizables, impulsando su empleo en múltiples contextos y por diversos actores
 
-* Proveer asesoramiento a las distintas reparticiones para el mejoramiento de la calidad de la información.
+### Datos Abiertos en la Ciudad de Buenos Aires
 
-  El presente documento tiene como objetivo establecer los lineamientos y brindar  herramientas para implementar la política de datos abiertos en la Ciudad Autónoma de Buenos Aires siguiendo las buenas prácticas de ciudades y países a nivel nacional e internacional y la experiencia de la Dirección General de Calidad Institucional y Gobierno Abierto.
+  En el Gobierno de la Ciudad la política de apertura de datos comenzó en 2012 con la firma del [Decreto 156/2012](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097) el cual impulsó la creación de la plataforma de datos públicos [BA Data](https://data.buenosaires.gob.ar/) para facilitar la búsqueda, descubrimiento y acceso de los datos abiertos producidos por la Ciudad, con el objetivo de promover la transparencia, participación y colaboración.
 
-## Buenos Aires Data
+  Un año más tarde, la sanción del [Decreto 478/2013](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859) dio un nuevo impulso a esta política al establecer la apertura por defecto. A partir de entonces "*todos los datos producidos, almacenados y/o recolectados en medios digitales por los distintos órganos de la Administración Centralizada y Descentralizada, así como las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires, cuya publicidad no se encuentre excluida por normas específicas, serán publicados de manera tal de facilitar su descubrimiento, búsqueda, acceso, redistribución y reutilización por parte de los ciudadanos, en el sitio [BA Data](https://data.buenosaires.gob.ar/)*".
 
-[data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) es la plataforma de datos abiertos de la Ciudad en la que se encuentran centralizados los activos de información de todas las áreas de gobierno. En este sentido funciona como un medio único de diálogo e interacción entre los ciudadanos y el gobierno, donde el lenguaje son los datos. La unidad mínima del portal son los recursos, los cuales están agrupados por conjuntos de datos o datasets y a su vez pertenecen a categorías macro que facilitan su descubrimiento y acceso por parte del usuario.
+  Mas adelante, a fines de 2015 la Ciudad [firmó la Carta Internacional de Datos Abiertos](https://opendatacharter.org/principles/) a través de la cual se compromete a seguir e implementar los lineamientos que establecen que los datos públicos deben ser:
 
-El sitio está basado en [Andino](https://portal-andino.readthedocs.io/es/stable/), una instancia desarrollada por el Gobierno Nacional, basado en [CKAN](https://ckan.org/). El código utilizado es abierto y cuenta con una [API](http://docs.ckan.org/en/latest/api/) pública a través de la cual se facilita el acceso a los datos por parte de terceros. 
+  *	Abiertos por defecto
 
-Además de concentrar los recursos de la Ciudad en formato abierto, [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) disponibiliza todas las APIs desarrolladas por otras áreas, tales como la [API Unificada de Transporte](http://www.buenosaires.gob.ar/desarrollourbano/transporte/apitransporte) o los [servicios web de la Unidad de Sistemas de Información Geográfica](http://usig.buenosaires.gob.ar/#servicios). También se pone a disposición de las entidades que publiquen datos en el portal una Guía de Calidad de Datos, para favorecer su reutilización e interoperabilidad. Estos servicios son de libre uso y forman parte de la estrategia de apertura de datos de la Ciudad.
+  *	Oportunos y exhaustivos
 
-## Enlaces y Administradores de Datos
+  *	Accesibles y utilizables
 
-La apertura de datos es una estrategia que por su propia definición involucra la participación activa de todas las áreas de Gobierno. En este sentido, para su implementación se adoptará un enfoque mixto, con una Coordinación centralizada en la DGCIyGA y enlaces ministeriales, que serán los responsables de poner en práctica las medidas necesarias para implementar la Política de Apertura de Datos. 
+  *	Comparables e interoperables
 
-El Enlace de Datos Abiertos será el responsable máximo ante la DGCIyGA y tendrá las siguientes funciones:
+  *	Orientados a mejorar la gobernanza y la participación ciudadana
 
-1. Actuar como vínculo, institucional y operativo, entre su Ministerio y la DGCIyGA.
+  *	Enfocados en impulsar el desarrollo incluyente y la innovación
 
-2. Interactuar con los equipos técnicos de cada repartición bajo su órbita y los Responsables de Datos a fin de asegurar la información a publicar. 
+  La modificación a la [Ley de Acceso a la Información Pública (Ley Nº 104)](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982) implicó también un avance en materia de apertura ya que estableció el "formato abierto" como criterio fundamental. La nueva reglamentación, cuyo órgano de aplicación es el Ministerio de Gobierno, también estableció un capítulo de Transparencia Activa el cual define una serie de datos fundamentales que todas las áreas deben abrir.
 
-3. Comunicar a la DGCIyGA cualquier modificación de su estructura orgánica que implique un cambio en cuanto a la producción, administración, actualización y/o publicación de algunas de las obligaciones de Transparencia Activa contempladas.
+  Actualmente la Dirección General de Gobernanza de Datos es el área responsable de diseñar e implementar la política de datos abiertos de la Ciudad a través de [BA Data](https://data.buenosaires.gob.ar/).
 
-4. Diseñar junto a la DGCIyGA un Plan de Apertura de Datos de su jurisdicción en el que se estipule un cronograma de apertura.
+  Entre sus misiones y funciones se encuentran:
 
-5. Identificar y promover el uso y reúso de datos públicos dentro de su Ministerio y coordinar acciones con la DGCIyGA y los Administradores para fomentar una cultura de apertura de datos de calidad.
+  *	Formular políticas referidas a la apertura de datos.
 
-6. Coordinar con la DGCIyGA la realización de mesas de datos con el propósito de intercambiar experiencias, dar seguimiento al plan de apertura, convocar a taller de datos, entre otros.
+  *	Coordinar con otras reparticiones la implementación de acciones de apertura de datos.
 
-  Se recomienda que el Enlace de Apertura de Datos tenga una visión estratégica respecto a los activos de información que se encuentra bajo tutela o jurisdicción de su área.
+  *	Liderar y generar espacios de colaboración con los distintos actores de la ciudadanía.
 
-Mientras que los Administradores de Datos serán los encargados de operativizar los acuerdos de apertura realizados entre el área correspondiente y la DGCIyGA. Entre sus funciones se encuentran:
+  *	Administrar el portal de datos abiertos de la Ciudad Autónoma de Buenos Aires.
 
-1. Coordinar con el Enlace de Datos Abiertos de su área, la fuente del dato (en los casos en que no coinciden) y la DGCIyGA el medio a través del cual se harán disponibles los datos a ser abiertos. 
+  *	Proveer asesoramiento a las distintas reparticiones para el mejoramiento de la calidad de la información.
 
-2. Proveer asistencia para acceder a los datos acordados para su análisis y apertura.
+### Gobernanza de Datos Abiertos
 
-3. Informar al Enlace de Datos Abiertos de su área y la DGCIyGA cualquier cambio en la estructura de datos de los activos bajo su tutela y/o jurisdicción.
+  TecBA impulsa los [Lineamientos para la Gobernanza de Datos](https://buenosaires.gob.ar/innovacionytransformaciondigital/lineamientos-para-la-gobernanza-de-datos), en el marco del modelo establecido por el Decreto N° 118/2022 que promueve una política integral orientada a la gestión eficiente, transparente y responsable de los datos dentro del GCABA. Estos lineamientos son esenciales para establecer una cultura de datos y garantizar la consistencia y calidad de estos, transformando al gobierno en una organización **data-driven**.
 
-4. Enviar (o facilitar el acceso) a los datos acordados para su correcta actualización.
+  En el ámbito de los datos abiertos, los lineamientos aseguran la integración de procesos, previenen la duplicación de esfuerzos y refuerzan principios como la transparencia y la rendición de cuentas.
 
-5. Documentar casos de uso y reutilización de datos públicos de los recursos bajo su órbita. 
+  A continuación, se describen parte de los lineamientos que conforman este marco de gobernanza, orientados a garantizar una gestión transparente, responsable y eficiente de los datos abiertos. 
 
-6. Aplicar los estándares de calidad definidos en las guías de buenas prácticas de la Ciudad de Buenos Aires en los datos de los cuales son responsables.
+#### Clasificación de datos
 
-La designación y eventual actualización de los Enlaces y de los Administradores de Datos Abiertos se informará mediante Comunicación Oficial dirigida a la DGCIyGA.
+  La [Guía de Lineamientos para la Gobernanza de Datos](https://buenosaires.gob.ar/innovacionytransformaciondigital/lineamientos-para-la-gobernanza-de-datos) aborda en su sección *2 - Clasificación de Datos* la importancia de organizar la información según su naturaleza y sensibilidad para garantizar un tratamiento seguro y conforme a la normativa vigente.
 
-## Criterios para selección de datos
+  En el contexto de Datos Abiertos, aplicar estos criterios es fundamental para distinguir entre datos públicos -que pueden ser publicados libremente- y aquellos que, por su naturaleza requieren un tratamiento especial, como los datos personales y datos sensibles.
 
-El Decreto 478/2013 establece la apertura por defecto de todos los datos públicos bajo tutela y/o jurisdicción del Gobierno de la Ciudad de Buenos Aires, quedando excluidos aquellos que estén protegidos por alguna normativa específica (Ley de Protección de Datos Personales, Secreto Fiscal, Estadística, etc). En este sentido, al momento de seleccionar los datos que serán publicados en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) deberá tenerse en cuenta dicha normativa y luego priorizar según los siguientes criterios: 
+  Los datos abiertos comprenden información de carácter público, accesible en formatos reutilizables, promoviendo la transparencia y participación ciudadana. Sin embargo, no toda la información gestionada por el Estado es pública ni puede ser difundida sin restricciones. Los datos personales y sensibles están protegidos por regulaciones como la **Ley N° 1845 de Protección de Datos Personales**, y su divulgación requiere medidas adecuadas de resguardo. 
 
-* Responda a una demanda ciudadana
+  En este marco, pueden publicarse datos personales siempre que hayan sido debidamente anonimizados, es decir, procesados de modo tal que no sea posible identificar a las personas a las que refieren. Esto permite ampliar la disponibilidad de información útil sin comprometer la privacidad de los individuos.
 
-* Impulsa la Innovación
+  Para la correcta publicación en el portal **Buenos Aires Data**, es esencial aplicar los criterios de clasificación definidos en la **Guía de Lineamientos para la Gobernanza de Datos**, asegurando el equilibrio entre apertura y privacidad, el cumplimiento de las normativas y el uso responsable de la información.
 
-* Incrementa la rendición de cuentas y transparencia
+#### Transferencia de datos
 
-* Representa las misiones y funciones del área
+  Los conceptos de transferencia de datos están directamente relacionados con Datos Abiertos, ya que el portal de datos abiertos del GCBA, Buenos Aires Data, constituye una modalidad específica de transferencia de datos: información que es publicada y puesta a disposición de la ciudadanía para su acceso y reutilización. Los principios y requisitos de transferencia de datos son fundamentales para garantizar que:
 
-* Crea nuevas oportunidades económicas
+  1.	Los datos públicos se compartan de manera segura, cumpliendo con las normativas (como [la Ley N° 104 de Acceso a la Información Pública](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982)).
 
-* Genera valor agregado para las entidades públicas y otros actores
+  2.	Se respete la protección de datos sensibles o confidenciales, aplicando mecanismos como la disociación, cuando corresponda.
 
-* Tiene alto potencial de uso y reuso para el ecosistema de datos
+  3.	Se fomente la transparencia y el acceso a la información, asegurando que los datos sean completos, actualizados y accesibles en formatos reutilizables.
 
-* Fomente el diseño de política pública basada en evidencia
+  4.	Se definan mecanismos adecuados para la publicación de datos en el Portal Buenos Aires Data, asegurando su disponibilidad en formatos abiertos y con procesos que garanticen su actualización y accesibilidad.
 
-Adicionalmente, la Ley de Acceso a la Información Pública ha establecido una serie de componentes mínimos a ser publicados por las áreas en formato abierto, mientras que propicia que aquellas respuestas a pedidos concretos que se ajusten a los criterios de apertura de datos puedan ser publicadas en formato abierto en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar).
 
-Por último, la DGCIyGA podrá solicitar a las entidades la apertura de un recurso en función de los criterios anteriormente mencionados. En aquellos casos en los que la DGCIyGA haya solicitado la apertura de un set de datos en particular pero haya obtenido una respuesta negativa por parte del área responsable, ésta deberá brindar las razones de su decisión.
+  En este contexto, los lineamientos para la gobernanza de datos en la sección *3- Transferencia de datos* aseguran que el GCBA publique la información de manera responsable y conforme a las normativas, mientras facilita su reutilización por parte de ciudadanos y/o organizaciones.
 
-## Transferencia de datos
+#### Calidad y Estándares de datos
 
-La DGCIyGA es la responsable primaria de la administración de [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar). Con el objetivo de garantizar la sostenibilidad de la estrategia a de apertura se proponen 4 alternativas para la transferencia de archivos entre el área generadora y la DGCIyGA.
+  *La calidad de los datos* es un lineamiento clave detallado en la sección 4 de la Guía de Lineamientos para la Gobernanza de Datos, no solo optimiza su utilidad, sino que también contribuye a la transparencia y fortalece la confianza pública. La aplicación de estos estándares asegura que los datos abiertos sean coherentes, no contengan errores, y sean fácilmente interpretables. Además, la estandarización y normalización de los datos es clave para garantizar que estos sean reutilizables y aprovechables en diferentes contextos, facilitando la toma de decisiones basada en evidencia y la creación de iniciativas beneficiosas para la comunidad. Este enfoque integral también implica contar con documentación clara que describa la fuente, el formato y las restricciones de los datos, así como guías de datos y modelos de negocio que ayuden a interpretar correctamente la información.
 
-**1. Disponibilización de Servicios Web para acceso de datos**
+#### Roles y responsabilidades
 
-El área responsable otorga las credenciales necesarias y habilita a la DGCIyGA la extracción de datos a través de un servicio web. El desarrollo y mantenimiento del mismo es responsabilidad del área dueña del dato, a menos que lo contrario sea acordado con la DGCIyGA. 
+  La [Guía de Lineamientos para la Gobernanza de Datos](https://buenosaires.gob.ar/innovacionytransformaciondigital/lineamientos-para-la-gobernanza-de-datos) en su sección *5. Roles y Responsabilidades* remarca que la definición clara de estos roles es crucial para garantizar una correcta gestión de los datos. En particular, la asignación de roles específicos dentro de las unidades organizativas facilita la gobernanza, asegura la transparencia y optimiza la gestión de la información, tanto interna como externamente. Esta estructura contribuye directamente a mantener los datos actualizados, consistentes y de calidad, alineándose con las mejores prácticas en materia de gestión de datos.
+  
+  Una de las claves de esta sección, en relación con los Datos Abiertos, es la **designación de una persona responsable dentro de cada organización**, encargada de gestionar los datos de su área y de actuar como punto de contacto. Esto permite contar con un **enlace claro y específico para resolver consultas, gestionar actualizaciones o atender reclamos relacionados con los conjuntos de datos publicados**.
 
-**2. Habilitación de permisos de sólo lectura en base de datos**
+  El Gobierno de la Ciudad de Buenos Aires implementa un modelo híbrido de gobernanza de datos, en el que la Dirección General de Gobernanza de Datos establece las reglas y mejores prácticas generales, mientras que cada área tiene la responsabilidad de aplicar estas políticas de manera acorde a su contexto específico. Este modelo permite que se mantenga un enfoque común para todo el Gobierno, a la vez que da flexibilidad a cada unidad para implementarlo de forma eficiente.
 
-El área responsable otorga las credenciales necesarias y habilita a la DGCIyGA el acceso a una base de datos en modo lectura y la extracción de sus datos.
-
-**3. Carga de datos en ftp.buenosaires.gob.ar**
-
-El área responsable carga sus datos en ftp.buenosaires.gob.ar siguiendo en la mayor medida posible los lineamientos sobre estándares del presente documento. La DGCIyGA será la responsable de administrar los accesos al mismo.
-
-**4. Envío de archivos a DGCIyGA**
-
-El área responsable envía vía correo los datos a ser publicados en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) siguiendo en la mayor medida posible los lineamientos sobre estándares del presente documento.
-
-El acuerdo sobre la alternativa de transferencia de datos , así como la periodicidad de la actualización de los recursos publicados, se realizará entre la entidad generadora y la DGCIyGA. Cualquier cambio experimentado en los procesos mencionados deberá ser informado por las partes en miras de mantener estables los procesos de apertura de datos.
-
-La DGCIyGA mantendrá permanente relación con las áreas productoras de datos y brindará una devolución en relación a la calidad de los mismos en base a los estándares mencionados en el presente documento.
-
-## Calidad y Estándares de datos
-
-Para mejorar la calidad y la gestión de los datos generados, la DGCIyGA ha puesto a disposición de las entidades una Guía para la publicación de datos en formatos abiertos del Gobierno de la Ciudad de Buenos Aires, la cual define los estándares de calidad a ser utilizados para los recursos y datasets publicados en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar). Esta Guía se complementa con la Guía para la identificación y uso de entidades interoperables del Gobierno de la Ciudad de Buenos Aires, la cual está orientada a datos que se repiten en varios datasets y cuya estructura debe mantenerse con el objetivo de garantizar trazabilidad de la información. 
-
-## Metadatos
-
-Con el objetivo de poder facilitar la comprensión de los datos publicados todos los recursos están asociados a una serie de metadatos siguiendo el estándar [D-CAT](https://www.w3.org/TR/vocab-dcat/) e instrumentados a través de la Guía para la publicación de metadatos del Gobierno de la Ciudad de Buenos Aires.
-
-## Actualización
-
-En caso de que la transferencia de datos no sea de forma automática, las áreas correspondientes son las responsables de poner a disposición los datos para su correcta actualización según la frecuencia previamente establecida. Los datos enviados deberán respetar la misma estructura y formato que el envío anterior a menos que se estipulen cambios, los cuales deberán ser previamente acordados con la DGCIyGA.
-
-## Responsabilidades
-
-Las áreas productoras o mantenedoras de los datos mantienen la responsabilidad y titularidad sobre los datos publicados en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar). 
-
-Los datos abiertos son un recurso público disponible para que cualquiera los pueda usar, modificar y compartir, en tal sentido se aplicarán siempre licencias [Creative Commons](https://creativecommons.org) que fomenten el mayor grado de apertura posible. Teniendo en cuenta que el Gobierno de la Ciudad de Buenos Aires aplica la [Licencia Creative Commons Atribución 2.5 Argentina](https://creativecommons.org/licenses/by/2.5/ar/) (CC BY 2.5 AR) para todos sus contenidos digitales, se recomienda el uso de la misma.
-
-Ante cualquier consulta recibida por parte de ciudadanos respecto a los datos publicados la DGCIyGA se comunicará con las áreas responsables de los mismos en caso de que corresponda.
-
-## Esquema de apertura
-
-**1. Identificación de apertura**
-
-La incorporación de un nuevo conjunto de datos puede surgir de diversas fuentes:
-
-* Publicación proactiva del área
-
-* Respuesta a pedido de Acceso a la Información Pública 
-
-* Información estipulada en el Plan de Transparencia Activa
-
-* Solicitud por un tercero
-
-* Incluido en Compromisos de Gobierno
-
-* Publicación establecida por normativa
-
-* Relevamiento de la web de Gobierno
-
-* Estipulado por Decreto 478/2013
-
-* Producto de un proceso de innovación abierta
-
-* Solicitud de la DGCIyGA
-
-**2. Acuerdo con el área**
-
-Una vez identificado el dato, la DGCIyGA analiza con el área responsable la factibilidad de  su apertura. En esta etapa se tiene especial consideración aquellas normativas vigentes que regulan o que podrían alcanzar al conjunto de datos.
-
-En caso de ser posible su publicación, las partes acuerdan las condiciones de esta apertura(estructura, formato y frecuencia de actualización).
-
-**3. Recepción de información**
-
-Siguiendo el acuerdo alcanzado, el área responsable disponibiliza en el formato convenido los datos a la DGCIyGA para un análisis en profundidad previo a su apertura.
-
-**4. Análisis y Normalización**
-
-Teniendo en consideración la Guía de Apertura de Datos de la Ciudad de Buenos Aires, la DGCIyGA analiza exhaustivamente los datos provistos a fin de adecuarlos a los estándares definidos, así como verificar su coherencia. En caso de que sea necesario se aplicarán las transformaciones necesarias a fin de adecuar los datos y la estructura a los criterios generales, sin alterar su representación. La DGCIyGA deberá informar el detalle de los procesos aplicados así como disponibilizar el código utilizado en caso de que el área así lo solicite.
-
-**5. Documentación**
-
-En conjunto con el área responsable se completa y se publica la Guía de Metadatos correspondiente.
-
-**6. Publicación y notificación**
-
-La DGCIyGA disponibiliza el conjunto de datos en [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) siguiendo los criterios acordados con el área responsable y le notifica mediante mail su correcta publicación.
-
-**7. Monitoreo de Apertura**
-
-La DGCIyGA, en conjunto con el Enlace y Responsable de datos competentes para el área, realizarán un monitoreo de la actualización y la calidad de los recursos. Asimismo, realizarán un seguimiento al nivel de usabilidad del dataset e informarán al área correspondiente casos de reúso.
-
-# Contacto
-
-Cualquier duda o consulta que tengas sobre la política de apertura de datos podés escribirnos a [gobiernoabierto@buenosaires.gob.ar](mailto:gobiernoabierto@buenosaires.gob.ar) o bien escribirnos en nuestro twitter [@BAGobAbierto](https://twitter.com/bagobabierto?lang=en)
-
-# Normativa
-
-**Creación del sitio de datos abiertos**
-
-A través del [Decreto 156/2012](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097) se implementó [data.buenosaires.gob.ar](https://data.buenosaires.gob.ar) como plataforma para facilitar la búsqueda, descubrimiento y acceso de los datos abiertos de la Ciudad.
-
-**Apertura por defecto**
-
-El [Decreto 478/2013](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859) estableció que todos los datos producidos por el Gobierno de la Ciudad son públicos por defecto a menos que una normativa establezca lo contrario.
-
-**Acceso a la Información Pública**
-
-La [Ley 104](https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982) garantiza el cumplimiento del derecho de Acceso a la Información Pública en el ámbito de la Ciudad de Buenos Aires.
+  En el próximo apartado, se profundizará sobre los mismos en el contexto de la actividad operativa y técnica llevada adelante por el equipo de Datos Abiertos.
