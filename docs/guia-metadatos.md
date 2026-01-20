@@ -505,7 +505,7 @@ El **segundo** también contiene una lista de objetos que, juntos, definen una t
     <td>URL de descarga</td>
     <td>Sí</td>
     <td>URL que permite la descarga directa de la distribución del dataset, vincula directamente a un archivo descargable en un formato dado.</td>
-    <td><a href="https://data.buenosaires.gob.ar/api/files/acceso-a-la-informacion-publica.csv/download/csv">https://data.buenosaires.gob.ar/api/files/acceso-a-la-informacion-publica.csv/download/csv</a></td>
+    <td><a href="https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-gobierno/acceso-informacion-publica/acceso_info_publica_historica.csv">https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-gobierno/acceso-informacion-publica/acceso_info_publica_historica.csv</a></td>
     <td>downloadURL</td>
     <td>String</td>
   </tr>  
@@ -531,7 +531,7 @@ El **segundo** también contiene una lista de objetos que, juntos, definen una t
     <td>URL de acceso</td>
     <td>Sí</td>
     <td>URL que permite el acceso a la distribución del dataset. Puede ser una página, feed u otro tipo de recurso que dé acceso indirecto a las distribuciones. Si las distribuciones son solo accesibles a través de la página de referencia del dataset, debe completarse el valor de la URL de acceso a la distribución con el mismo valor de la página de referencia del dataset.</td>
-    <td><a href="https://data.buenosaires.gob.ar/api/files/acceso-a-la-informacion-publica.csv/download/csv">https://data.buenosaires.gob.ar/api/files/acceso-a-la-informacion-publica.csv/download/csv</a></td>
+    <td><a href="https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-gobierno/acceso-informacion-publica/acceso_info_publica_historica.csv">https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-gobierno/acceso-informacion-publica/acceso_info_publica_historica.csv</a></td>
     <td>accessURL</td>
     <td>String</td>
   </tr>  
@@ -659,7 +659,7 @@ El **segundo** también contiene una lista de objetos que, juntos, definen una t
   <tr>
     <td>Tipo</td>
     <td>Recomendado</td>
-    <td>El tipo de dato contenido en el campo según la lista utilizada por la librería <a href="http://okfnlabs.org/recline/docs/models.html#types">recline.js</a>
+    <td>El tipo de dato contenido en el campo según la lista utilizada por la librería recline.js
 
     Los tipos incluidos en esta lista son:
 
@@ -778,7 +778,7 @@ El **segundo** también contiene una lista de objetos que, juntos, definen una t
 
 ## Anexo I - Taxonomía temática global de la APN para los conjuntos de datos(tabla)
 
-  Siguiendo los lineamientos para la Administración Pública Nacional, se utilizará la [taxonomía temática definida por la Unión Europea](publications.europa.eu/mdr/authority/data-theme/index.html). Los campos de metadatos para definir la taxonomía son:
+  Siguiendo los lineamientos para la Administración Pública Nacional, se utilizará la taxonomía temática definida por la Unión Europea. Los campos de metadatos para definir la taxonomía son:
 
   * **themeTaxonomy**: es un campo de metadatos del catálogo que define una lista de temas que se pueden usar para clasificar los datasets. Refiere al esquema completo de la taxonomía en sí, no a alguna de sus etiquetas en particular.
 
@@ -1137,7 +1137,7 @@ El **segundo** también contiene una lista de objetos que, juntos, definen una t
 
   *	Fecha de última actualización/ modificación: 2025-04-05T16:51:27.433640-03:00
 
-  *	URL de descarga: [https://data.buenosaires.gob.ar/api/files/acceso-a-la-informacion-publica.csv/download](https://data.buenosaires.gob.ar/api/files/acceso-a-la-informacion-publica.csv/download)
+  *	URL de descarga: [https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-gobierno/acceso-informacion-publica/acceso_info_publica_historica.csv](https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-gobierno/acceso-informacion-publica/acceso_info_publica_historica.csv)
 
   *	Fecha de publicación: 2021-05-10T14:58:25.433640-03:00
 
