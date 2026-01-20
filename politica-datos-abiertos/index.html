@@ -1,44 +1,31 @@
 
-
-
-
 <!doctype html>
 <html lang="es" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
         <meta name="description" content="Recursos para la apertura de datos públicos del Gobierno de la Ciudad Autónoma de Buenos Aires.">
-      
-      
-        <link rel="canonical" href="https://datosgcba.github.io/guia-datos/politica-datos-abiertos/">
       
       
         <meta name="author" content="Buenos Aires Data">
       
       
-        <meta name="lang:clipboard.copy" content="Copiar al portapapeles">
+        <link rel="canonical" href="https://datosgcba.github.io/guia-datos/politica-datos-abiertos/">
       
-        <meta name="lang:clipboard.copied" content="Copiado al portapapeles">
       
-        <meta name="lang:search.language" content="es">
+        <link rel="prev" href="../guia-metadatos/">
       
-        <meta name="lang:search.pipeline.stopwords" content="True">
       
-        <meta name="lang:search.pipeline.trimmer" content="True">
+        <link rel="next" href="../glosario/">
       
-        <meta name="lang:search.result.none" content="No se encontraron documentos">
       
-        <meta name="lang:search.result.one" content="1 documento encontrado">
+        
       
-        <meta name="lang:search.result.other" content="# documentos encontrados">
       
-        <meta name="lang:search.tokenizer" content="[\s\-]+">
-      
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
+      <link rel="icon" href="../assets/obelisco/logo_ba.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -46,548 +33,621 @@
       
     
     
-  <link rel="stylesheet" href="../assets/stylesheets/bootstrap.css">
-  <link rel="stylesheet" href="../assets/stylesheets/bastrap.css">
-  <link rel="stylesheet" href="../assets/stylesheets/header.css">
-  <link rel="stylesheet" href="../assets/stylesheets/footer.css">
-  
-      <link rel="stylesheet" href="../assets/stylesheets/application.572ca0f0.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
-    
-  <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+
 
     
-      <script src="../assets/javascripts/modernizr.962652e9.js"></script>
+    
+      
     
     
       
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
-    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap">
+    
+      <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gcba/obelisco-v2@1.8.4/dist/styles.min.css">
+    
+      <link rel="stylesheet" href="../css/obelisco-bridge.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129525617-1"></script>
-<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-129525617-1")</script>
-      
+
     
     
   </head>
   
-    <body dir="ltr">
   
-    <svg class="md-svg">
-      <defs>
-        
-        
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
-    viewBox="0 0 416 448" id="__github">
-  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
-        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
-        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
-        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
-        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
-        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
-        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
-        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
-        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
-        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
-        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
-        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
-        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
-        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
-        99.5z" />
-</svg>
-        
-      </defs>
-    </svg>
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-    
-      <a href="#estrategia-de-apertura-de-datos-gobierno-de-la-ciudad-de-buenos-aires" tabindex="1" class="md-skip">
-        Saltar a contenido
-      </a>
-    
-    
-      <header id="header">
-    <div class="border-gradient">
-      <div class="container">
-        <div id="logo-sitio">
-          <a href="https://datosgcba.github.io/guia-datos/" title="Estrategia de Apertura de Datos" style="text-decoration: none;">
-            <div id="ba-logo" class="navbar-brand img-responsive" data-original-title="" title="">
-            </div>
-          </a>
-        </div>
-        <div id="nombre-sitio">
-          <a href="https://datosgcba.github.io/guia-datos/">
-            <h1>Estrategia de Apertura de Datos</h1>
-          </a>
-        </div>
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="container">
-            <div class="row back">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                  <label class="md-header-nav__button" for="__drawer">
-                    <span class="sr-only">Cambiar navegación</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </label>
-                </button>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <div class="md-header" data-md-component="header">
-      <div class="container">
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title"></div>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        
-          
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Escriba para comenzar la búsqueda
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-          
-        
-      </div>
-      
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-
-
-  
-
-
-  <a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      GitHub
-    </div>
-  </a>
-
-          </div>
-        </div>
-      
-    </div>
-  </div>
-    
-    <div class="md-container">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
       
         
+        <a href="#estrategia-de-apertura-de-datos-gobierno-de-la-ciudad-de-buenos-aires" class="md-skip">
+          Saltar a contenido
+        </a>
       
-      
-      <main class="md-main">
-        <div class="md-main__inner md-grid" data-md-component="container">
-          
-            
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    <!--
-  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to
-  deal in the Software without restriction, including without limitation the
-  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-  sell copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-  IN THE SOFTWARE.
--->
-
-<!-- Main navigation -->
-<nav class="md-nav md-nav--primary" data-md-level="0">
-
-        <!-- Site title -->
-        <label class="md-nav__title md-nav__title--site" for="__drawer">
-          <a href="https://datosgcba.github.io/guia-datos/"
-              title="Estrategia de Apertura de Datos" class="md-nav__button md-logo">
-            
-              <img src="../assets/images/logos/ba_logo.png" width="48" height="48" />
-            
-          </a>
-          Estrategia de Apertura de Datos
-        </label>
-      
-        <!-- Repository containing source -->
-        
-          <div class="md-nav__source">
-            
-
-
-  
-
-
-  <a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      GitHub
     </div>
-  </a>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="o-header navbar" role="banner">
+    <a href="#__main" class="skip-to-main-content-link">Saltar al contenido principal</a>
 
-          </div>
+    <div class="container header-container">
+        <a href="https://buenosaires.gob.ar" class="navbar-brand">
+            <img class="d-none d-xl-block" src="../assets/obelisco/logo_ba.svg"
+                alt="Gobierno de la Ciudad de Buenos Aires" />
+            <img class="d-xl-none" src="../assets/obelisco/logo_ba_mobile.svg"
+                alt="Gobierno de la Ciudad de Buenos Aires" />
+        </a>
+
+        <p style="font-size: 1.5em; margin-bottom: 0;">Estrategia de Apertura de Datos</p>
+
+        <div class="md-search" data-md-component="search"></div>
+
+        <a href="https://github.com/datosgcba/guia-datos" class="btn btn-outline-secondary btn-github"
+            style="margin-left:12px; white-space:nowrap;" target="_blank" rel="noopener">
+            Ver en GitHub
+        </a>
+    </div>
+
+    <div class="header-backdrop"></div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
         
       
-        <!-- Render item list -->
-        <ul class="md-nav__list" data-md-scrollfix>
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           
             
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href=".." title="Inicio" class="md-nav__link">
-      Inicio
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../guia-abiertos/" title="Guía para la publicación de datos en formatos abiertos" class="md-nav__link">
-      Guía para la publicación de datos en formatos abiertos
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../guia-interoperables/" title="Guía para la identificación y uso de entidades interoperables" class="md-nav__link">
-      Guía para la identificación y uso de entidades interoperables
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../guia-metadatos/" title="Guía para el uso y la publicación de metadatos" class="md-nav__link">
-      Guía para el uso y la publicación de metadatos
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Política de Datos Abiertos
-      </label>
-    
-    <a href="./" title="Política de Datos Abiertos" class="md-nav__link md-nav__link--active">
-      Política de Datos Abiertos
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Contenidos de la sección</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduccion" title="Introducción" class="md-nav__link">
-    Introducción
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#datos-abiertos" title="Datos Abiertos" class="md-nav__link">
-    Datos Abiertos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#datos-abiertos-buenos-aires" title="Datos Abiertos: Buenos Aires" class="md-nav__link">
-    Datos Abiertos: Buenos Aires
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#buenos-aires-data" title="Buenos Aires Data" class="md-nav__link">
-    Buenos Aires Data
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#enlaces-y-administradores-de-datos" title="Enlaces y Administradores de Datos" class="md-nav__link">
-    Enlaces y Administradores de Datos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#criterios-para-seleccion-de-datos" title="Criterios para selección de datos" class="md-nav__link">
-    Criterios para selección de datos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transferencia-de-datos" title="Transferencia de datos" class="md-nav__link">
-    Transferencia de datos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#calidad-y-estandares-de-datos" title="Calidad y Estándares de datos" class="md-nav__link">
-    Calidad y Estándares de datos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#metadatos" title="Metadatos" class="md-nav__link">
-    Metadatos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#actualizacion" title="Actualización" class="md-nav__link">
-    Actualización
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#responsabilidades" title="Responsabilidades" class="md-nav__link">
-    Responsabilidades
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#esquema-de-apertura" title="Esquema de apertura" class="md-nav__link">
-    Esquema de apertura
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../glosario/" title="Glosario" class="md-nav__link">
-      Glosario
-    </a>
-  </li>
-
-            <hr/>
-          
-        </ul>
-      </nav>
-      
-                  </div>
-                </div>
-              </div>
-            
-            
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-<nav class="md-nav md-nav--secondary">
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Estrategia de Apertura de Datos" class="md-nav__button md-logo" aria-label="Estrategia de Apertura de Datos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Estrategia de Apertura de Datos
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/datosgcba/guia-datos" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    datosgcba/guia-datos
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-abiertos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía para la publicación de datos en formatos abiertos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-interoperables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía para la identificación y uso de entidades interoperables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-metadatos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía para el uso y la publicación de metadatos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
   
   
     
   
   
-    <label class="md-nav__title" for="__toc">Contenidos de la sección</label>
-    <ul class="md-nav__list" data-md-scrollfix>
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Política de Datos Abiertos
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Política de Datos Abiertos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduccion" title="Introducción" class="md-nav__link">
-    Introducción
+  <a href="#inicio-alcance-del-documento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inicio - Alcance del documento
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#datos-abiertos" title="Datos Abiertos" class="md-nav__link">
-    Datos Abiertos
+  <a href="#politicas-de-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Políticas de Datos abiertos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Políticas de Datos abiertos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contexto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicion-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Definición Datos abiertos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datos-abiertos-en-la-ciudad-de-buenos-aires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datos Abiertos en la Ciudad de Buenos Aires
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gobernanza-de-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gobernanza de Datos Abiertos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gobernanza de Datos Abiertos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clasificacion-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clasificación de datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferencia-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transferencia de datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calidad-y-estandares-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calidad y Estándares de datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roles-y-responsabilidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roles y responsabilidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inicio-alcance-del-documento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inicio - Alcance del documento
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#datos-abiertos-buenos-aires" title="Datos Abiertos: Buenos Aires" class="md-nav__link">
-    Datos Abiertos: Buenos Aires
+  <a href="#politicas-de-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Políticas de Datos abiertos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Políticas de Datos abiertos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contexto
+      
+    </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#definicion-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
-  <a href="#buenos-aires-data" title="Buenos Aires Data" class="md-nav__link">
-    Buenos Aires Data
+        Definición Datos abiertos
+      
+    </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#datos-abiertos-en-la-ciudad-de-buenos-aires" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
-  <a href="#enlaces-y-administradores-de-datos" title="Enlaces y Administradores de Datos" class="md-nav__link">
-    Enlaces y Administradores de Datos
+        Datos Abiertos en la Ciudad de Buenos Aires
+      
+    </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#gobernanza-de-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
-  <a href="#criterios-para-seleccion-de-datos" title="Criterios para selección de datos" class="md-nav__link">
-    Criterios para selección de datos
+        Gobernanza de Datos Abiertos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gobernanza de Datos Abiertos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clasificacion-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clasificación de datos
+      
+    </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#transferencia-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
-  <a href="#transferencia-de-datos" title="Transferencia de datos" class="md-nav__link">
-    Transferencia de datos
+        Transferencia de datos
+      
+    </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#calidad-y-estandares-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
-  <a href="#calidad-y-estandares-de-datos" title="Calidad y Estándares de datos" class="md-nav__link">
-    Calidad y Estándares de datos
+        Calidad y Estándares de datos
+      
+    </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#roles-y-responsabilidades" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
-  <a href="#metadatos" title="Metadatos" class="md-nav__link">
-    Metadatos
+        Roles y responsabilidades
+      
+    </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#actualizacion" title="Actualización" class="md-nav__link">
-    Actualización
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#responsabilidades" title="Responsabilidades" class="md-nav__link">
-    Responsabilidades
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#esquema-de-apertura" title="Esquema de apertura" class="md-nav__link">
-    Esquema de apertura
-  </a>
-  
-</li>
-      
-      
-      
-      
       
     </ul>
   
@@ -597,20 +657,50 @@
               </div>
             
           
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
+          
+            <div class="md-content" data-md-component="content">
               
+              <article class="md-content__inner md-typeset">
                 
-                  <a href="https://github.com/datosgcba/edit/master/docs/politica-datos-abiertos.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
-                
-                
-                <h1 id="estrategia-de-apertura-de-datos-gobierno-de-la-ciudad-de-buenos-aires">Estrategia de Apertura de Datos - Gobierno de la Ciudad de Buenos Aires</h1>
-<h2 id="introduccion">Introducción</h2>
-<p>Estamos ante una transformación radical de nuestras vidas impulsada por la innovación tecnológica donde los datos y el acceso a la información ocupan un rol protagónico. Durante los últimos años, la vida en las ciudades ha cambiado sustancialmente y con ello los desafíos que enfrentan. Hoy nos relacionamos y accedemos a servicios públicos y privados de modos completamente distintos, que generan un gran volumen de información y que desafían las reglas establecidas. En este contexto existe una revolución global de datos que busca afrontar los nuevos desafíos económicos, sociales y políticos de las ciudades en clave colaborativa e innovadora. </p>
-<p>El Estado genera datos todo el tiempo. Muchos de ellos son datos públicos, es decir que son generados en el ámbito gubernamental, o se encuentran bajo su guarda, y no cuentan con acceso restringido por ninguna legislación específica. Estos datos públicos pueden ayudar a las entidades públicas a ofrecer mejores servicios y a diseñar política pública, también pueden ayudarnos a tomar decisiones informadas, a generar nuevos negocios o a visibilizar nuestras demandas de manera colectiva.</p>
-<p>La apertura de datos es una estrategia ligada a las prácticas de Gobierno Abierto. Tiene como objetivo poner a disposición la información pública en formatos que puedan ser utilizados, reutilizados y redistribuidos libremente por la ciudadanía y así impulsar la transparencia, la participación, la colaboración, la innovación y el desarrollo económico. A partir del libre acceso a los datos es posible desarrollar nuevos conocimientos e ideas innovadoras para generar beneficios sociales y valor económico en el desarrollo de las ciudades.</p>
-<h2 id="datos-abiertos">Datos Abiertos</h2>
-<p>Un dato abierto es aquel que puede ser utilizado, reutilizado y redistribuido libremente por cualquier persona, y que sólo deben atribuirse y compartirse con la misma licencia con la que fueron publicados. La iniciativa Open Government Data definió ocho principios que especifican <a href="https://public.resource.org/8_principles.html">condiciones a tener en cuenta para que los datos sean considerados abiertos</a>:</p>
+                  
+
+
+  
+  
+
+
+<h1 id="estrategia-de-apertura-de-datos-gobierno-de-la-ciudad-de-buenos-aires">Estrategia de Apertura de Datos - Gobierno de la Ciudad de Buenos Aires</h1>
+<h2 id="inicio-alcance-del-documento">Inicio - Alcance del documento</h2>
+<p>La presente guía busca colaborar con los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a fin de instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°156/2012 y N°478/2013, mejorando la calidad y la gestión de los datos generados por entidades del sector público que produzcan datos o bien los almacenen bajo su tutela y/o jurisdicción.</p>
+<p>Mediante el Decreto N° 156/2012 se implementó el sitio data.buenosaires.gob.ar como plataforma para facilitar la búsqueda, descubrimiento y acceso de aquellos conjuntos de datos del sector público que contribuyan a promover la transparencia, a incentivar la participación y colaboración de los ciudadanos, a fomentar la reutilización de la información para generar conocimiento, y a estimular la innovación y el desarrollo social, económico y cultural en el ámbito de la Ciudad de Buenos Aires.</p>
+<p>El Decreto N° 478/2013 por su parte, establece que todos los datos producidos, almacenados y/o recolectados en medios digitales por los distintos órganos de la Administración Centralizada y Descentralizada, así como las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires, cuya publicidad no se encuentre excluida por normas específicas, serán publicados de manera tal de facilitar su descubrimiento, búsqueda, acceso, redistribución y reutilización por parte de los ciudadanos, en el sitio data.buenosaires.gob.ar.</p>
+<p>El presente documento tiene como objetivo establecer un conjunto de herramientas desarrolladas para visibilizar las acciones y prácticas adoptadas por el Gobierno de la Ciudad Autónoma de Buenos Aires en la gestión de datos abiertos.</p>
+<p>Evidenciando los procesos de apertura de datos, este documento expone las estrategias, metodologías y normativas utilizadas para garantizar la accesibilidad, calidad y reutilización de la información pública. </p>
+<p>Se trata de una guía colaborativa y en progreso, en la cual valoramos y alentamos a los ciudadanos y a las organizaciones de la sociedad civil a plantear nuevas ideas, sugerencias, y comentarios que nos ayuden a enriquecer estas guías para fortalecer la gestión de datos abiertos en la ciudad. </p>
+<p>Se trata de un trabajo en constante evolución, sujeto a mejoras continuas y a la incorporación de nuevas experiencias y aprendizajes, no sólo de la Administración, sino por parte de sectores no gubernamentales.</p>
+<p>En esta guía se podrá encontrar material referente a: </p>
+<ul>
+<li>
+<p>Buenas prácticas para la publicación de datos en formatos abiertos.</p>
+</li>
+<li>
+<p>Estándares usados a nivel nacional e internacional. </p>
+</li>
+<li>
+<p>Estándares definidos por el Gobierno de la Ciudad Autónoma de Buenos Aires. </p>
+</li>
+<li>
+<p>La experiencia de trabajo del equipo de la Dirección General de Gobernanza de Datos de la Subsecretaria de Innovación Administrativa, dependiente de la Secretaría de Innovación y Transformación Digital (en adelante, TecBA) del Gobierno de la Ciudad Autónoma de Buenos Aires. </p>
+</li>
+</ul>
+<h2 id="politicas-de-datos-abiertos">Políticas de Datos abiertos</h2>
+<h3 id="contexto">Contexto</h3>
+<p>Estamos viviendo una transformación radical impulsada por la innovación tecnológica, donde los datos y el acceso a la información ocupan un rol central. En los últimos años, la vida en las ciudades ha cambiado sustancialmente, transformando el acceso a servicios públicos y privados, y generando grandes volúmenes de información que desafían las reglas establecidas. En este contexto, una revolución global de datos busca abordar los nuevos desafíos económicos, sociales y políticos de manera colaborativa e innovadora.</p>
+<p>El Estado genera datos de forma constante. Muchos de ellos son datos públicos, es decir, información producida o resguardada por el gobierno sin restricciones de acceso por normativa específica. La apertura de estos datos, en el marco de una política de Gobierno Abierto, busca garantizar el acceso libre a la información pública en formatos reutilizables y accesibles. Esto fortalece la transparencia, permite al ciudadano conocer y monitorear el accionar del Estado, e impulsa su participación en los asuntos públicos. Además, los datos abiertos pueden ser aprovechados para la investigación académica, el desarrollo de soluciones innovadoras, la creación de nuevos servicios y actividades económicas, y la generación de conocimiento que beneficie tanto a la sociedad como a la economía de la ciudad. <strong>Para garantizar su correcto uso y sostenibilidad, los datos abiertos requieren un marco de gobernanza que establezca criterios claros sobre su gestión y publicación</strong> cumpliendo con las normas de protección de datos.</p>
+<p>Con un enfoque integral que abarca desde la estandarización hasta la publicación de datos en formatos accesibles, el GCBA reafirma su compromiso con una gobernanza eficiente, impulsando la transformación digital y promoviendo una ciudad más abierta, inclusiva y orientada al desarrollo sostenible.</p>
+<h3 id="definicion-datos-abiertos">Definición Datos abiertos</h3>
+<p>Los datos abiertos se han convertido en un pilar esencial para fomentar la transparencia, la participación ciudadana y la innovación, al tiempo que facilitan la toma de decisiones basadas en evidencia, la identificación de tendencias y la optimización de recursos. En este marco, sugerimos adoptar la definición de la Open Knowledge Foundation (2015), la cual describe a los datos abiertos como aquellos accesibles al público en formatos estructurados, estandarizados y reutilizables, permitiendo su libre uso, modificación y redistribución, bajo la única condición de atribuir la fuente y mantener las mismas condiciones de licencia con las que fueron publicados.</p>
+<p>La iniciativa <a href="https://opengovdata.org/">Open Government Data</a> definió ocho principios que especifican <a href="https://public.resource.org/8_principles.html">condiciones a tener en cuenta para que los datos sean considerados abiertos</a>:</p>
 <ol>
 <li>
 <p><strong>Completo</strong>: estar disponibles y no tener restricciones para la apertura.</p>
@@ -619,10 +709,10 @@
 <p><strong>Primario</strong>: estar publicados con el mayor nivel posible de detalle y haber sido recolectados en la fuente de origen.</p>
 </li>
 <li>
-<p><strong>Oportuno</strong>: estar disponibles tan rápido como sea necesario para preservar su valor. </p>
+<p><strong>Oportuno</strong>: estar disponibles tan rápido como sea necesario para preservar su valor.</p>
 </li>
 <li>
-<p><strong>Accesible</strong>: estar disponibles para el mayor espectro de ciudadanos y  para el más amplio rango de propósitos. No debe existir una limitación para su acceso.</p>
+<p><strong>Accesible</strong>: estar disponibles para el mayor espectro de ciudadanos y para el más amplio rango de propósitos. No debe existir una limitación para su acceso.</p>
 </li>
 <li>
 <p><strong>Procesable</strong>: estar razonablemente estructurados para permitir el procesamiento automático de los mismos mediante software.</p>
@@ -634,46 +724,58 @@
 <p><strong>No propietario</strong>: estar disponibles en un formato tal que ninguna entidad tenga un control exclusivo.</p>
 </li>
 <li>
-<p><strong>Libre de licencias</strong>: no estar sujetos a ningún derecho de autor, patente, marca registrada o regulación de secreto comercial. Sólo están permitidas limitaciones  por razones de privacidad, seguridad o derechos.</p>
+<p><strong>Libre de licencias</strong>: no estar sujetos a ningún derecho de autor, patente, marca registrada o regulación de secreto comercial. Sólo están permitidas limitaciones por razones de privacidad, seguridad o derechos.</p>
 </li>
 </ol>
 <p>La apertura de datos en sí es un motor que conlleva una serie de beneficios para el Estado y para la sociedad:</p>
-<p><strong>Innovación y Desarrollo económico</strong></p>
+<ul>
+<li><strong>Innovación y Desarrollo Económico</strong></li>
+</ul>
 <p>La disponibilidad de datos genera oportunidades de empleo, negocio, innovación social y crecimiento económico. A través del uso y reutilización de datos, muchos emprendedores, empresas, PyMEs, Academia y ONGs pueden usar la información disponible para desarrollar nuevos servicios y/o transformarla en nuevos conocimientos que permitan mejorar la calidad de vida de los ciudadanos y generar valor económico.</p>
-<p><strong>Políticas Públicas basadas en evidencia</strong></p>
-<p>La apertura de datos permite encontrar información complementaria en otras áreas de gobierno para diseñar políticas más focalizadas en los problemas y necesidades de los ciudadanos . Mientras más organismos trabajen con catálogos estandarizados, más rica será la información disponible para planificar, implementar y evaluar las políticas públicas.</p>
-<p><strong>Ciudadanos empoderados</strong></p>
+<ul>
+<li><strong>Mejores Políticas Públicas</strong></li>
+</ul>
+<p>La apertura de datos permite encontrar información complementaria en otras áreas de gobierno para diseñar políticas más focalizadas en los problemas y necesidades de los ciudadanos. Mientras más organismos trabajen con catálogos estandarizados, más rica será la información disponible para planificar, implementar y evaluar las políticas públicas.</p>
+<ul>
+<li><strong>Ciudadanos empoderados</strong></li>
+</ul>
 <p>La disponibilidad de datos impacta directamente en la capacidad de toma de decisiones y la colaboración. La apertura motiva un rol más activo en los ciudadanos, incentivando y enriqueciendo su participación en el debate público y permitiéndoles un mayor monitoreo de las políticas públicas.</p>
-<p><strong>Ahorro de recursos</strong></p>
+<ul>
+<li><strong>Ahorro de recursos</strong></li>
+</ul>
 <p>Al tener los datos ordenados y compilados en un solo lugar se favorece la reutilización y se evita la duplicidad en la generación y almacenamiento de información, ahorrando recursos en volver a producir esos mismos datos.</p>
-<p><strong>Transparencia</strong></p>
+<ul>
+<li><strong>Transparencia</strong></li>
+</ul>
 <p>Motiva una gestión más transparente. Se afianza el vínculo con el ciudadano, se incrementa la confianza a través de una mayor rendición de cuentas y se refuerza el sistema democrático.</p>
-<h2 id="datos-abiertos-buenos-aires">Datos Abiertos: Buenos Aires</h2>
-<p>En el Gobierno de la Ciudad la política de apertura de datos comenzó en 2012 con la firma del <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097">Decreto 156/2012</a> el cual impulsó la creación de la plataforma de datos públicos <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a> para facilitar la búsqueda, descubrimiento y acceso de los datos abiertos producidos por la Ciudad, con el objetivo de promover la transparencia, participación y colaboración. </p>
-<p>Un año más tarde la sanción del <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859">Decreto 478/2013</a> dio un nuevo impulso a esta política al establecer la apertura por defecto. A partir de entonces "todos los datos producidos, almacenados y/o recolectados en medios digitales por los distintos órganos de la Administración Centralizada y Descentralizada, así como las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires, cuya publicidad no se encuentre excluida por normas específicas, serán publicados de manera tal de facilitar su descubrimiento, búsqueda, acceso, redistribución y reutilización por parte de los ciudadanos, en el sitio <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a>". </p>
-<p>Adicionalmente, a fines de 2015 la Ciudad <a href="https://opendatacharter.net/principles-es/">firmó la Carta Internacional de Datos Abiertos</a> a través de la cual se compromete a seguir e implementar los lineamientos que establecen que los datos públicos deben ser:</p>
-<ol>
+<p>En esta línea, desde TecBA, trabajamos para que los datos sean accesibles, promoviendo la eliminación de barreras técnicas, legales y económicas, y reutilizables, impulsando su empleo en múltiples contextos y por diversos actores</p>
+<h3 id="datos-abiertos-en-la-ciudad-de-buenos-aires">Datos Abiertos en la Ciudad de Buenos Aires</h3>
+<p>En el Gobierno de la Ciudad la política de apertura de datos comenzó en 2012 con la firma del <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097">Decreto 156/2012</a> el cual impulsó la creación de la plataforma de datos públicos <a href="https://data.buenosaires.gob.ar/">BA Data</a> para facilitar la búsqueda, descubrimiento y acceso de los datos abiertos producidos por la Ciudad, con el objetivo de promover la transparencia, participación y colaboración.</p>
+<p>Un año más tarde, la sanción del <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859">Decreto 478/2013</a> dio un nuevo impulso a esta política al establecer la apertura por defecto. A partir de entonces "<em>todos los datos producidos, almacenados y/o recolectados en medios digitales por los distintos órganos de la Administración Centralizada y Descentralizada, así como las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires, cuya publicidad no se encuentre excluida por normas específicas, serán publicados de manera tal de facilitar su descubrimiento, búsqueda, acceso, redistribución y reutilización por parte de los ciudadanos, en el sitio <a href="https://data.buenosaires.gob.ar/">BA Data</a></em>".</p>
+<p>Mas adelante, a fines de 2015 la Ciudad <a href="https://opendatacharter.org/principles/">firmó la Carta Internacional de Datos Abiertos</a> a través de la cual se compromete a seguir e implementar los lineamientos que establecen que los datos públicos deben ser:</p>
+<ul>
 <li>
-<p>Abiertos por Defecto</p>
+<p>Abiertos por defecto</p>
 </li>
 <li>
-<p>Oportunos y Exhaustivos</p>
+<p>Oportunos y exhaustivos</p>
 </li>
 <li>
-<p>Accesibles y Utilizables</p>
+<p>Accesibles y utilizables</p>
 </li>
 <li>
-<p>Comparables e Interoperables</p>
+<p>Comparables e interoperables</p>
 </li>
 <li>
-<p>Para mejorar la Gobernanza y la Participación Ciudadana</p>
+<p>Orientados a mejorar la gobernanza y la participación ciudadana</p>
 </li>
 <li>
-<p>Para el Desarrollo Incluyente y la Innovación</p>
+<p>Enfocados en impulsar el desarrollo incluyente y la innovación</p>
 </li>
-</ol>
-<p>La sanción de la nueva <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982">Ley de Acceso a la Información Pública (Ley Nº 104)</a> implicó también un avance en materia de apertura ya que estableció el "formato abierto" como criterio fundamental. La nueva reglamentación, cuyo órgano de aplicación es el Ministerio de Gobierno, también estableció un capítulo de <a href="http://www.buenosaires.gob.ar/sites/gcaba/files/ta_resumen_ejecutivo_1.pdf">“Transparencia Activa”</a> el cual define una serie de datos fundamentales que todas las áreas deben abrir.</p>
-<p>Actualmente la Dirección General de Calidad Institucional y Gobierno Abierto, de la Subsecretaría de Gestión Estratégica y Calidad Institucional, Secretarìa General y Relaciones Institucionales, es el área responsable de diseñar e implementar la política de datos abiertos de la Ciudad a través de <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a>. Entre sus misiones y funciones se encuentran:</p>
+</ul>
+<p>La modificación a la <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982">Ley de Acceso a la Información Pública (Ley Nº 104)</a> implicó también un avance en materia de apertura ya que estableció el "formato abierto" como criterio fundamental. La nueva reglamentación, cuyo órgano de aplicación es el Ministerio de Gobierno, también estableció un capítulo de Transparencia Activa el cual define una serie de datos fundamentales que todas las áreas deben abrir.</p>
+<p>Actualmente la Dirección General de Gobernanza de Datos es el área responsable de diseñar e implementar la política de datos abiertos de la Ciudad a través de <a href="https://data.buenosaires.gob.ar/">BA Data</a>.</p>
+<p>Entre sus misiones y funciones se encuentran:</p>
 <ul>
 <li>
 <p>Formular políticas referidas a la apertura de datos.</p>
@@ -688,246 +790,120 @@
 <p>Administrar el portal de datos abiertos de la Ciudad Autónoma de Buenos Aires.</p>
 </li>
 <li>
-<p>Diseñar y promover visualizaciones y productos analíticos con los datos abiertos de la Ciudad de manera tal que sean de fácil acceso para la ciudadanía.</p>
-</li>
-<li>
 <p>Proveer asesoramiento a las distintas reparticiones para el mejoramiento de la calidad de la información.</p>
 </li>
 </ul>
-<p>El presente documento tiene como objetivo establecer los lineamientos y brindar  herramientas para implementar la política de datos abiertos en la Ciudad Autónoma de Buenos Aires siguiendo las buenas prácticas de ciudades y países a nivel nacional e internacional y la experiencia de la Dirección General de Calidad Institucional y Gobierno Abierto.</p>
-<h2 id="buenos-aires-data">Buenos Aires Data</h2>
-<p><a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a> es la plataforma de datos abiertos de la Ciudad en la que se encuentran centralizados los activos de información de todas las áreas de gobierno. En este sentido funciona como un medio único de diálogo e interacción entre los ciudadanos y el gobierno, donde el lenguaje son los datos. La unidad mínima del portal son los recursos, los cuales están agrupados por conjuntos de datos o datasets y a su vez pertenecen a categorías macro que facilitan su descubrimiento y acceso por parte del usuario.</p>
-<p>El sitio está basado en <a href="https://portal-andino.readthedocs.io/es/stable/">Andino</a>, una instancia desarrollada por el Gobierno Nacional, basado en <a href="https://ckan.org/">CKAN</a>. El código utilizado es abierto y cuenta con una <a href="http://docs.ckan.org/en/latest/api/">API</a> pública a través de la cual se facilita el acceso a los datos por parte de terceros. </p>
-<p>Además de concentrar los recursos de la Ciudad en formato abierto, <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a> disponibiliza todas las APIs desarrolladas por otras áreas, tales como la <a href="http://www.buenosaires.gob.ar/desarrollourbano/transporte/apitransporte">API Unificada de Transporte</a> o los <a href="http://usig.buenosaires.gob.ar/#servicios">servicios web de la Unidad de Sistemas de Información Geográfica</a>. También se pone a disposición de las entidades que publiquen datos en el portal una Guía de Calidad de Datos, para favorecer su reutilización e interoperabilidad. Estos servicios son de libre uso y forman parte de la estrategia de apertura de datos de la Ciudad.</p>
-<h2 id="enlaces-y-administradores-de-datos">Enlaces y Administradores de Datos</h2>
-<p>La apertura de datos es una estrategia que por su propia definición involucra la participación activa de todas las áreas de Gobierno. En este sentido, para su implementación se adoptará un enfoque mixto, con una Coordinación centralizada en la DGCIyGA y enlaces ministeriales, que serán los responsables de poner en práctica las medidas necesarias para implementar la Política de Apertura de Datos. </p>
-<p>El Enlace de Datos Abiertos será el responsable máximo ante la DGCIyGA y tendrá las siguientes funciones:</p>
+<h3 id="gobernanza-de-datos-abiertos">Gobernanza de Datos Abiertos</h3>
+<p>TecBA impulsa los <a href="https://buenosaires.gob.ar/innovacionytransformaciondigital/lineamientos-para-la-gobernanza-de-datos">Lineamientos para la Gobernanza de Datos</a>, en el marco del modelo establecido por el Decreto N° 118/2022 que promueve una política integral orientada a la gestión eficiente, transparente y responsable de los datos dentro del GCABA. Estos lineamientos son esenciales para establecer una cultura de datos y garantizar la consistencia y calidad de estos, transformando al gobierno en una organización <strong>data-driven</strong>.</p>
+<p>En el ámbito de los datos abiertos, los lineamientos aseguran la integración de procesos, previenen la duplicación de esfuerzos y refuerzan principios como la transparencia y la rendición de cuentas.</p>
+<p>A continuación, se describen parte de los lineamientos que conforman este marco de gobernanza, orientados a garantizar una gestión transparente, responsable y eficiente de los datos abiertos. </p>
+<h4 id="clasificacion-de-datos">Clasificación de datos</h4>
+<p>La <a href="https://buenosaires.gob.ar/innovacionytransformaciondigital/lineamientos-para-la-gobernanza-de-datos">Guía de Lineamientos para la Gobernanza de Datos</a> aborda en su sección <em>2 - Clasificación de Datos</em> la importancia de organizar la información según su naturaleza y sensibilidad para garantizar un tratamiento seguro y conforme a la normativa vigente.</p>
+<p>En el contexto de Datos Abiertos, aplicar estos criterios es fundamental para distinguir entre datos públicos -que pueden ser publicados libremente- y aquellos que, por su naturaleza requieren un tratamiento especial, como los datos personales y datos sensibles.</p>
+<p>Los datos abiertos comprenden información de carácter público, accesible en formatos reutilizables, promoviendo la transparencia y participación ciudadana. Sin embargo, no toda la información gestionada por el Estado es pública ni puede ser difundida sin restricciones. Los datos personales y sensibles están protegidos por regulaciones como la <strong>Ley N° 1845 de Protección de Datos Personales</strong>, y su divulgación requiere medidas adecuadas de resguardo. </p>
+<p>En este marco, pueden publicarse datos personales siempre que hayan sido debidamente anonimizados, es decir, procesados de modo tal que no sea posible identificar a las personas a las que refieren. Esto permite ampliar la disponibilidad de información útil sin comprometer la privacidad de los individuos.</p>
+<p>Para la correcta publicación en el portal <strong>Buenos Aires Data</strong>, es esencial aplicar los criterios de clasificación definidos en la <strong>Guía de Lineamientos para la Gobernanza de Datos</strong>, asegurando el equilibrio entre apertura y privacidad, el cumplimiento de las normativas y el uso responsable de la información.</p>
+<h4 id="transferencia-de-datos">Transferencia de datos</h4>
+<p>Los conceptos de transferencia de datos están directamente relacionados con Datos Abiertos, ya que el portal de datos abiertos del GCBA, Buenos Aires Data, constituye una modalidad específica de transferencia de datos: información que es publicada y puesta a disposición de la ciudadanía para su acceso y reutilización. Los principios y requisitos de transferencia de datos son fundamentales para garantizar que:</p>
 <ol>
 <li>
-<p>Actuar como vínculo, institucional y operativo, entre su Ministerio y la DGCIyGA.</p>
+<p>Los datos públicos se compartan de manera segura, cumpliendo con las normativas (como <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982">la Ley N° 104 de Acceso a la Información Pública</a>).</p>
 </li>
 <li>
-<p>Interactuar con los equipos técnicos de cada repartición bajo su órbita y los Responsables de Datos a fin de asegurar la información a publicar. </p>
+<p>Se respete la protección de datos sensibles o confidenciales, aplicando mecanismos como la disociación, cuando corresponda.</p>
 </li>
 <li>
-<p>Comunicar a la DGCIyGA cualquier modificación de su estructura orgánica que implique un cambio en cuanto a la producción, administración, actualización y/o publicación de algunas de las obligaciones de Transparencia Activa contempladas.</p>
+<p>Se fomente la transparencia y el acceso a la información, asegurando que los datos sean completos, actualizados y accesibles en formatos reutilizables.</p>
 </li>
 <li>
-<p>Diseñar junto a la DGCIyGA un Plan de Apertura de Datos de su jurisdicción en el que se estipule un cronograma de apertura.</p>
-</li>
-<li>
-<p>Identificar y promover el uso y reúso de datos públicos dentro de su Ministerio y coordinar acciones con la DGCIyGA y los Administradores para fomentar una cultura de apertura de datos de calidad.</p>
-</li>
-<li>
-<p>Coordinar con la DGCIyGA la realización de mesas de datos con el propósito de intercambiar experiencias, dar seguimiento al plan de apertura, convocar a taller de datos, entre otros.</p>
+<p>Se definan mecanismos adecuados para la publicación de datos en el Portal Buenos Aires Data, asegurando su disponibilidad en formatos abiertos y con procesos que garanticen su actualización y accesibilidad.</p>
 </li>
 </ol>
-<p>Se recomienda que el Enlace de Apertura de Datos tenga una visión estratégica respecto a los activos de información que se encuentra bajo tutela o jurisdicción de su área.</p>
-<p>Mientras que los Administradores de Datos serán los encargados de operativizar los acuerdos de apertura realizados entre el área correspondiente y la DGCIyGA. Entre sus funciones se encuentran:</p>
-<ol>
-<li>
-<p>Coordinar con el Enlace de Datos Abiertos de su área, la fuente del dato (en los casos en que no coinciden) y la DGCIyGA el medio a través del cual se harán disponibles los datos a ser abiertos. </p>
-</li>
-<li>
-<p>Proveer asistencia para acceder a los datos acordados para su análisis y apertura.</p>
-</li>
-<li>
-<p>Informar al Enlace de Datos Abiertos de su área y la DGCIyGA cualquier cambio en la estructura de datos de los activos bajo su tutela y/o jurisdicción.</p>
-</li>
-<li>
-<p>Enviar (o facilitar el acceso) a los datos acordados para su correcta actualización.</p>
-</li>
-<li>
-<p>Documentar casos de uso y reutilización de datos públicos de los recursos bajo su órbita. </p>
-</li>
-<li>
-<p>Aplicar los estándares de calidad definidos en las guías de buenas prácticas de la Ciudad de Buenos Aires en los datos de los cuales son responsables.</p>
-</li>
-</ol>
-<p>La designación y eventual actualización de los Enlaces y de los Administradores de Datos Abiertos se informará mediante Comunicación Oficial dirigida a la DGCIyGA.</p>
-<h2 id="criterios-para-seleccion-de-datos">Criterios para selección de datos</h2>
-<p>El Decreto 478/2013 establece la apertura por defecto de todos los datos públicos bajo tutela y/o jurisdicción del Gobierno de la Ciudad de Buenos Aires, quedando excluidos aquellos que estén protegidos por alguna normativa específica (Ley de Protección de Datos Personales, Secreto Fiscal, Estadística, etc). En este sentido, al momento de seleccionar los datos que serán publicados en <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a> deberá tenerse en cuenta dicha normativa y luego priorizar según los siguientes criterios: </p>
-<ul>
-<li>
-<p>Responda a una demanda ciudadana</p>
-</li>
-<li>
-<p>Impulsa la Innovación</p>
-</li>
-<li>
-<p>Incrementa la rendición de cuentas y transparencia</p>
-</li>
-<li>
-<p>Representa las misiones y funciones del área</p>
-</li>
-<li>
-<p>Crea nuevas oportunidades económicas</p>
-</li>
-<li>
-<p>Genera valor agregado para las entidades públicas y otros actores</p>
-</li>
-<li>
-<p>Tiene alto potencial de uso y reuso para el ecosistema de datos</p>
-</li>
-<li>
-<p>Fomente el diseño de política pública basada en evidencia</p>
-</li>
-</ul>
-<p>Adicionalmente, la Ley de Acceso a la Información Pública ha establecido una serie de componentes mínimos a ser publicados por las áreas en formato abierto, mientras que propicia que aquellas respuestas a pedidos concretos que se ajusten a los criterios de apertura de datos puedan ser publicadas en formato abierto en <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a>.</p>
-<p>Por último, la DGCIyGA podrá solicitar a las entidades la apertura de un recurso en función de los criterios anteriormente mencionados. En aquellos casos en los que la DGCIyGA haya solicitado la apertura de un set de datos en particular pero haya obtenido una respuesta negativa por parte del área responsable, ésta deberá brindar las razones de su decisión.</p>
-<h2 id="transferencia-de-datos">Transferencia de datos</h2>
-<p>La DGCIyGA es la responsable primaria de la administración de <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a>. Con el objetivo de garantizar la sostenibilidad de la estrategia a de apertura se proponen 4 alternativas para la transferencia de archivos entre el área generadora y la DGCIyGA.</p>
-<p><strong>1. Disponibilización de Servicios Web para acceso de datos</strong></p>
-<p>El área responsable otorga las credenciales necesarias y habilita a la DGCIyGA la extracción de datos a través de un servicio web. El desarrollo y mantenimiento del mismo es responsabilidad del área dueña del dato, a menos que lo contrario sea acordado con la DGCIyGA. </p>
-<p><strong>2. Habilitación de permisos de sólo lectura en base de datos</strong></p>
-<p>El área responsable otorga las credenciales necesarias y habilita a la DGCIyGA el acceso a una base de datos en modo lectura y la extracción de sus datos.</p>
-<p><strong>3. Carga de datos en ftp.buenosaires.gob.ar</strong></p>
-<p>El área responsable carga sus datos en ftp.buenosaires.gob.ar siguiendo en la mayor medida posible los lineamientos sobre estándares del presente documento. La DGCIyGA será la responsable de administrar los accesos al mismo.</p>
-<p><strong>4. Envío de archivos a DGCIyGA</strong></p>
-<p>El área responsable envía vía correo los datos a ser publicados en <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a> siguiendo en la mayor medida posible los lineamientos sobre estándares del presente documento.</p>
-<p>El acuerdo sobre la alternativa de transferencia de datos , así como la periodicidad de la actualización de los recursos publicados, se realizará entre la entidad generadora y la DGCIyGA. Cualquier cambio experimentado en los procesos mencionados deberá ser informado por las partes en miras de mantener estables los procesos de apertura de datos.</p>
-<p>La DGCIyGA mantendrá permanente relación con las áreas productoras de datos y brindará una devolución en relación a la calidad de los mismos en base a los estándares mencionados en el presente documento.</p>
-<h2 id="calidad-y-estandares-de-datos">Calidad y Estándares de datos</h2>
-<p>Para mejorar la calidad y la gestión de los datos generados, la DGCIyGA ha puesto a disposición de las entidades una Guía para la publicación de datos en formatos abiertos del Gobierno de la Ciudad de Buenos Aires, la cual define los estándares de calidad a ser utilizados para los recursos y datasets publicados en <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a>. Esta Guía se complementa con la Guía para la identificación y uso de entidades interoperables del Gobierno de la Ciudad de Buenos Aires, la cual está orientada a datos que se repiten en varios datasets y cuya estructura debe mantenerse con el objetivo de garantizar trazabilidad de la información. </p>
-<h2 id="metadatos">Metadatos</h2>
-<p>Con el objetivo de poder facilitar la comprensión de los datos publicados todos los recursos están asociados a una serie de metadatos siguiendo el estándar <a href="https://www.w3.org/TR/vocab-dcat/">D-CAT</a> e instrumentados a través de la Guía para la publicación de metadatos del Gobierno de la Ciudad de Buenos Aires.</p>
-<h2 id="actualizacion">Actualización</h2>
-<p>En caso de que la transferencia de datos no sea de forma automática, las áreas correspondientes son las responsables de poner a disposición los datos para su correcta actualización según la frecuencia previamente establecida. Los datos enviados deberán respetar la misma estructura y formato que el envío anterior a menos que se estipulen cambios, los cuales deberán ser previamente acordados con la DGCIyGA.</p>
-<h2 id="responsabilidades">Responsabilidades</h2>
-<p>Las áreas productoras o mantenedoras de los datos mantienen la responsabilidad y titularidad sobre los datos publicados en <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a>. </p>
-<p>Los datos abiertos son un recurso público disponible para que cualquiera los pueda usar, modificar y compartir, en tal sentido se aplicarán siempre licencias <a href="https://creativecommons.org">Creative Commons</a> que fomenten el mayor grado de apertura posible. Teniendo en cuenta que el Gobierno de la Ciudad de Buenos Aires aplica la <a href="https://creativecommons.org/licenses/by/2.5/ar/">Licencia Creative Commons Atribución 2.5 Argentina</a> (CC BY 2.5 AR) para todos sus contenidos digitales, se recomienda el uso de la misma.</p>
-<p>Ante cualquier consulta recibida por parte de ciudadanos respecto a los datos publicados la DGCIyGA se comunicará con las áreas responsables de los mismos en caso de que corresponda.</p>
-<h2 id="esquema-de-apertura">Esquema de apertura</h2>
-<p><strong>1. Identificación de apertura</strong></p>
-<p>La incorporación de un nuevo conjunto de datos puede surgir de diversas fuentes:</p>
-<ul>
-<li>
-<p>Publicación proactiva del área</p>
-</li>
-<li>
-<p>Respuesta a pedido de Acceso a la Información Pública </p>
-</li>
-<li>
-<p>Información estipulada en el Plan de Transparencia Activa</p>
-</li>
-<li>
-<p>Solicitud por un tercero</p>
-</li>
-<li>
-<p>Incluido en Compromisos de Gobierno</p>
-</li>
-<li>
-<p>Publicación establecida por normativa</p>
-</li>
-<li>
-<p>Relevamiento de la web de Gobierno</p>
-</li>
-<li>
-<p>Estipulado por Decreto 478/2013</p>
-</li>
-<li>
-<p>Producto de un proceso de innovación abierta</p>
-</li>
-<li>
-<p>Solicitud de la DGCIyGA</p>
-</li>
-</ul>
-<p><strong>2. Acuerdo con el área</strong></p>
-<p>Una vez identificado el dato, la DGCIyGA analiza con el área responsable la factibilidad de  su apertura. En esta etapa se tiene especial consideración aquellas normativas vigentes que regulan o que podrían alcanzar al conjunto de datos.</p>
-<p>En caso de ser posible su publicación, las partes acuerdan las condiciones de esta apertura(estructura, formato y frecuencia de actualización).</p>
-<p><strong>3. Recepción de información</strong></p>
-<p>Siguiendo el acuerdo alcanzado, el área responsable disponibiliza en el formato convenido los datos a la DGCIyGA para un análisis en profundidad previo a su apertura.</p>
-<p><strong>4. Análisis y Normalización</strong></p>
-<p>Teniendo en consideración la Guía de Apertura de Datos de la Ciudad de Buenos Aires, la DGCIyGA analiza exhaustivamente los datos provistos a fin de adecuarlos a los estándares definidos, así como verificar su coherencia. En caso de que sea necesario se aplicarán las transformaciones necesarias a fin de adecuar los datos y la estructura a los criterios generales, sin alterar su representación. La DGCIyGA deberá informar el detalle de los procesos aplicados así como disponibilizar el código utilizado en caso de que el área así lo solicite.</p>
-<p><strong>5. Documentación</strong></p>
-<p>En conjunto con el área responsable se completa y se publica la Guía de Metadatos correspondiente.</p>
-<p><strong>6. Publicación y notificación</strong></p>
-<p>La DGCIyGA disponibiliza el conjunto de datos en <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a> siguiendo los criterios acordados con el área responsable y le notifica mediante mail su correcta publicación.</p>
-<p><strong>7. Monitoreo de Apertura</strong></p>
-<p>La DGCIyGA, en conjunto con el Enlace y Responsable de datos competentes para el área, realizarán un monitoreo de la actualización y la calidad de los recursos. Asimismo, realizarán un seguimiento al nivel de usabilidad del dataset e informarán al área correspondiente casos de reúso.</p>
-<h1 id="contacto">Contacto</h1>
-<p>Cualquier duda o consulta que tengas sobre la política de apertura de datos podés escribirnos a <a href="mailto:gobiernoabierto@buenosaires.gob.ar">gobiernoabierto@buenosaires.gob.ar</a> o bien escribirnos en nuestro twitter <a href="https://twitter.com/bagobabierto?lang=en">@BAGobAbierto</a></p>
-<h1 id="normativa">Normativa</h1>
-<p><strong>Creación del sitio de datos abiertos</strong></p>
-<p>A través del <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097">Decreto 156/2012</a> se implementó <a href="https://data.buenosaires.gob.ar">data.buenosaires.gob.ar</a> como plataforma para facilitar la búsqueda, descubrimiento y acceso de los datos abiertos de la Ciudad.</p>
-<p><strong>Apertura por defecto</strong></p>
-<p>El <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859">Decreto 478/2013</a> estableció que todos los datos producidos por el Gobierno de la Ciudad son públicos por defecto a menos que una normativa establezca lo contrario.</p>
-<p><strong>Acceso a la Información Pública</strong></p>
-<p>La <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982">Ley 104</a> garantiza el cumplimiento del derecho de Acceso a la Información Pública en el ámbito de la Ciudad de Buenos Aires.</p>
-                
-                  
-                
-              
-              
-                
+<p>En este contexto, los lineamientos para la gobernanza de datos en la sección <em>3- Transferencia de datos</em> aseguran que el GCBA publique la información de manera responsable y conforme a las normativas, mientras facilita su reutilización por parte de ciudadanos y/o organizaciones.</p>
+<h4 id="calidad-y-estandares-de-datos">Calidad y Estándares de datos</h4>
+<p><em>La calidad de los datos</em> es un lineamiento clave detallado en la sección 4 de la Guía de Lineamientos para la Gobernanza de Datos, no solo optimiza su utilidad, sino que también contribuye a la transparencia y fortalece la confianza pública. La aplicación de estos estándares asegura que los datos abiertos sean coherentes, no contengan errores, y sean fácilmente interpretables. Además, la estandarización y normalización de los datos es clave para garantizar que estos sean reutilizables y aprovechables en diferentes contextos, facilitando la toma de decisiones basada en evidencia y la creación de iniciativas beneficiosas para la comunidad. Este enfoque integral también implica contar con documentación clara que describa la fuente, el formato y las restricciones de los datos, así como guías de datos y modelos de negocio que ayuden a interpretar correctamente la información.</p>
+<h4 id="roles-y-responsabilidades">Roles y responsabilidades</h4>
+<p>La <a href="https://buenosaires.gob.ar/innovacionytransformaciondigital/lineamientos-para-la-gobernanza-de-datos">Guía de Lineamientos para la Gobernanza de Datos</a> en su sección <em>5. Roles y Responsabilidades</em> remarca que la definición clara de estos roles es crucial para garantizar una correcta gestión de los datos. En particular, la asignación de roles específicos dentro de las unidades organizativas facilita la gobernanza, asegura la transparencia y optimiza la gestión de la información, tanto interna como externamente. Esta estructura contribuye directamente a mantener los datos actualizados, consistentes y de calidad, alineándose con las mejores prácticas en materia de gestión de datos.</p>
+<p>Una de las claves de esta sección, en relación con los Datos Abiertos, es la <strong>designación de una persona responsable dentro de cada organización</strong>, encargada de gestionar los datos de su área y de actuar como punto de contacto. Esto permite contar con un <strong>enlace claro y específico para resolver consultas, gestionar actualizaciones o atender reclamos relacionados con los conjuntos de datos publicados</strong>.</p>
+<p>El Gobierno de la Ciudad de Buenos Aires implementa un modelo híbrido de gobernanza de datos, en el que la Dirección General de Gobernanza de Datos establece las reglas y mejores prácticas generales, mientras que cada área tiene la responsabilidad de aplicar estas políticas de manera acorde a su contexto específico. Este modelo permite que se mantenga un enfoque común para todo el Gobierno, a la vez que da flexibilidad a cada unidad para implementarlo de forma eficiente.</p>
+<p>En el próximo apartado, se profundizará sobre los mismos en el contexto de la actividad operativa y técnica llevada adelante por el equipo de Datos Abiertos.</p>
 
 
-              
-            </article>
-          </div>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
       </main>
       
-        
-<footer id="ba-footer">
-  <div class="container">
-    <div class="row footer-row">
-      <div class="col-md-6 col-sm-12 col-xs-12" >
-        <div class="col-xs-6">
-          <div class="container-ba">
-            <a href="http://www.buenosaires.gob.ar/"><div class="img-responsive logo_footer"></div></a>
-          </div>
-        </div>
-        <div class="col-xs-6">
-          <div class="container-ba-border">
-            <a href="#"><h3>Estrategia de Apertura de Datos del GCBA</h3></a>
-          </div>
-        </div>
-      </div>
+        <footer class="main-footer">
+    <div class="container">
+        <section class="footer-legal-section">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-xl-4 footer-content-img">
+                    <img class="d-md-none" src="../assets/obelisco/footer/logo-footer-mobile.svg"
+                        alt="Logo GCBA" height="48" />
+                    <img class="d-none d-md-inline" src="../assets/obelisco/footer/logo-footer.svg"
+                        alt="Logo GCBA" height="40" />
+                    <img class="img-vamos-ba" src="../assets/obelisco/footer/logo-footer-ba.svg"
+                        alt="Vamos Buenos Aires" />
+                </div>
 
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <section class="container-redes">
-          <ul class="mini-social">
-            <li><a class="social-fb" href="http://www.facebook.com/gcba" target="_blank">Facebook</a></li>
-            <li><a class="social-tw" href="http://www.twitter.com/gcba" target="_blank">Twitter</a></li>
-            <li><a class="social-yt" href="http://www.youtube.com/user/GCBA" target="_blank">Youtube</a></li>
-            <li><a class="social-in" href="https://www.instagram.com/buenosaires/" target="_blank">Instagram</a></li>
-            <li><a class="social-gp" href="https://plus.google.com/+GobiernodelaCiudaddeBuenosAires/" target="_blank">Google+</a></li>
-          </ul>
+                <div class="col-12">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://boletinoficial.buenosaires.gob.ar">Boletín
+                                oficial</a></li>
+                        <li class="list-inline-item"><a
+                                href="https://buenosaires.gob.ar/inicio/terminos-y-condiciones">Términos y
+                                condiciones</a></li>
+                        <li class="list-inline-item"><a href="https://buenosaires.gob.ar/inicio/privacidad">Política de
+                                privacidad</a></li>
+                        <li class="list-inline-item"><a
+                                href="https://buenosaires.gob.ar/gobierno/transparencia">Transparencia</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
-      </div>
-    </div>
-      <br>
 
-      <div class="col-md-12 col-sm-12" style="margin-top: -55px;">
-        <div class="container-ciudad">
-        <br>
-        <a href="http://www.buenosaires.gob.ar/"><div class="img-responsive logo_footer_ciudad"></div></a>
-      </div>
+        <section>
+            <div class="footer-license-text">
+                Los contenidos de buenosaires.gob.ar están licenciados bajo Creative Commons Reconocimiento 2.5
+                Argentina License.
+            </div>
+        </section>
     </div>
-  </div>
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
     
-      <script src="../assets/javascripts/application.a353778b.js"></script>
+    
+    
       
-        
-        
-          
-          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
-          
-            
-              
-              
-                <script src="../assets/javascripts/lunr/lunr.es.js"></script>
-              
-            
-          
-          
-        
       
-      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top|", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
       
     
   </body>

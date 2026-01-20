@@ -1,44 +1,31 @@
 
-
-
-
 <!doctype html>
 <html lang="es" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
         <meta name="description" content="Recursos para la apertura de datos públicos del Gobierno de la Ciudad Autónoma de Buenos Aires.">
-      
-      
-        <link rel="canonical" href="https://datosgcba.github.io/guia-datos/guia-abiertos/">
       
       
         <meta name="author" content="Buenos Aires Data">
       
       
-        <meta name="lang:clipboard.copy" content="Copiar al portapapeles">
+        <link rel="canonical" href="https://datosgcba.github.io/guia-datos/guia-abiertos/">
       
-        <meta name="lang:clipboard.copied" content="Copiado al portapapeles">
       
-        <meta name="lang:search.language" content="es">
+        <link rel="prev" href="..">
       
-        <meta name="lang:search.pipeline.stopwords" content="True">
       
-        <meta name="lang:search.pipeline.trimmer" content="True">
+        <link rel="next" href="../guia-interoperables/">
       
-        <meta name="lang:search.result.none" content="No se encontraron documentos">
       
-        <meta name="lang:search.result.one" content="1 documento encontrado">
+        
       
-        <meta name="lang:search.result.other" content="# documentos encontrados">
       
-        <meta name="lang:search.tokenizer" content="[\s\-]+">
-      
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
+      <link rel="icon" href="../assets/obelisco/logo_ba.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -46,730 +33,321 @@
       
     
     
-  <link rel="stylesheet" href="../assets/stylesheets/bootstrap.css">
-  <link rel="stylesheet" href="../assets/stylesheets/bastrap.css">
-  <link rel="stylesheet" href="../assets/stylesheets/header.css">
-  <link rel="stylesheet" href="../assets/stylesheets/footer.css">
-  
-      <link rel="stylesheet" href="../assets/stylesheets/application.572ca0f0.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
-    
-  <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+
 
     
-      <script src="../assets/javascripts/modernizr.962652e9.js"></script>
+    
+      
     
     
       
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
-    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap">
+    
+      <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gcba/obelisco-v2@1.8.4/dist/styles.min.css">
+    
+      <link rel="stylesheet" href="../css/obelisco-bridge.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129525617-1"></script>
-<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-129525617-1")</script>
-      
+
     
     
   </head>
   
-    <body dir="ltr">
   
-    <svg class="md-svg">
-      <defs>
-        
-        
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
-    viewBox="0 0 416 448" id="__github">
-  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
-        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
-        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
-        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
-        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
-        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
-        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
-        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
-        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
-        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
-        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
-        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
-        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
-        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
-        99.5z" />
-</svg>
-        
-      </defs>
-    </svg>
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-    
-      <a href="#guia-para-la-publicacion-de-datos-en-formatos-abiertos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires" tabindex="1" class="md-skip">
-        Saltar a contenido
-      </a>
-    
-    
-      <header id="header">
-    <div class="border-gradient">
-      <div class="container">
-        <div id="logo-sitio">
-          <a href="https://datosgcba.github.io/guia-datos/" title="Estrategia de Apertura de Datos" style="text-decoration: none;">
-            <div id="ba-logo" class="navbar-brand img-responsive" data-original-title="" title="">
-            </div>
-          </a>
-        </div>
-        <div id="nombre-sitio">
-          <a href="https://datosgcba.github.io/guia-datos/">
-            <h1>Estrategia de Apertura de Datos</h1>
-          </a>
-        </div>
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="container">
-            <div class="row back">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                  <label class="md-header-nav__button" for="__drawer">
-                    <span class="sr-only">Cambiar navegación</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </label>
-                </button>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <div class="md-header" data-md-component="header">
-      <div class="container">
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title"></div>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        
-          
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Escriba para comenzar la búsqueda
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-          
-        
-      </div>
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
       
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-
-
-  
-
-
-  <a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      GitHub
-    </div>
-  </a>
-
-          </div>
-        </div>
+        
+        <a href="#guia-para-la-publicacion-de-datos-en-formatos-abiertos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires" class="md-skip">
+          Saltar a contenido
+        </a>
       
     </div>
-  </div>
-    
-    <div class="md-container">
+    <div data-md-component="announce">
       
-        
-      
-      
-      <main class="md-main">
-        <div class="md-main__inner md-grid" data-md-component="container">
-          
-            
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    <!--
-  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to
-  deal in the Software without restriction, including without limitation the
-  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-  sell copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-  IN THE SOFTWARE.
--->
-
-<!-- Main navigation -->
-<nav class="md-nav md-nav--primary" data-md-level="0">
-
-        <!-- Site title -->
-        <label class="md-nav__title md-nav__title--site" for="__drawer">
-          <a href="https://datosgcba.github.io/guia-datos/"
-              title="Estrategia de Apertura de Datos" class="md-nav__button md-logo">
-            
-              <img src="../assets/images/logos/ba_logo.png" width="48" height="48" />
-            
-          </a>
-          Estrategia de Apertura de Datos
-        </label>
-      
-        <!-- Repository containing source -->
-        
-          <div class="md-nav__source">
-            
-
-
-  
-
-
-  <a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      GitHub
     </div>
-  </a>
+    
+    
+      <header class="o-header navbar" role="banner">
+    <a href="#__main" class="skip-to-main-content-link">Saltar al contenido principal</a>
 
-          </div>
+    <div class="container header-container">
+        <a href="https://buenosaires.gob.ar" class="navbar-brand">
+            <img class="d-none d-xl-block" src="../assets/obelisco/logo_ba.svg"
+                alt="Gobierno de la Ciudad de Buenos Aires" />
+            <img class="d-xl-none" src="../assets/obelisco/logo_ba_mobile.svg"
+                alt="Gobierno de la Ciudad de Buenos Aires" />
+        </a>
+
+        <p style="font-size: 1.5em; margin-bottom: 0;">Estrategia de Apertura de Datos</p>
+
+        <div class="md-search" data-md-component="search"></div>
+
+        <a href="https://github.com/datosgcba/guia-datos" class="btn btn-outline-secondary btn-github"
+            style="margin-left:12px; white-space:nowrap;" target="_blank" rel="noopener">
+            Ver en GitHub
+        </a>
+    </div>
+
+    <div class="header-backdrop"></div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
         
       
-        <!-- Render item list -->
-        <ul class="md-nav__list" data-md-scrollfix>
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
           
             
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href=".." title="Inicio" class="md-nav__link">
-      Inicio
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Guía para la publicación de datos en formatos abiertos
-      </label>
-    
-    <a href="./" title="Guía para la publicación de datos en formatos abiertos" class="md-nav__link md-nav__link--active">
-      Guía para la publicación de datos en formatos abiertos
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Contenidos de la sección</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#indice" title="Indice" class="md-nav__link">
-    Indice
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#introduccion" title="Introducción" class="md-nav__link">
-    Introducción
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#objetivo-de-la-guia" title="Objetivo de la guía" class="md-nav__link">
-    Objetivo de la guía
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#formatos-abiertos-de-archivos" title="Formatos abiertos de archivos" class="md-nav__link">
-    Formatos abiertos de archivos
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#csv" title="CSV" class="md-nav__link">
-    CSV
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#json" title="JSON" class="md-nav__link">
-    JSON
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fragmentacion-de-archivos" title="Fragmentación de archivos" class="md-nav__link">
-    Fragmentación de archivos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#nomenclatura-de-archivos" title="Nomenclatura de archivos" class="md-nav__link">
-    Nomenclatura de archivos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#codificacion" title="Codificación" class="md-nav__link">
-    Codificación
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#estructura-y-caracteristicas-de-los-datos-tabulares" title="Estructura y características de los datos tabulares" class="md-nav__link">
-    Estructura y características de los datos tabulares
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#recomendaciones-generales" title="Recomendaciones generales" class="md-nav__link">
-    Recomendaciones generales
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nomenclatura-de-los-campos-nombres-de-las-columnas" title="Nomenclatura de los campos (nombres de las columnas)" class="md-nav__link">
-    Nomenclatura de los campos (nombres de las columnas)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nivel-de-granularidad-de-los-datos" title="Nivel de granularidad de los datos" class="md-nav__link">
-    Nivel de granularidad de los datos
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usar-orientacion-vertical-en-lugar-de-horizontal" title="Usar orientación vertical en lugar de horizontal" class="md-nav__link">
-    Usar orientación vertical en lugar de horizontal
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#incluir-solo-un-atributo-por-campo" title="Incluir sólo un atributo por campo" class="md-nav__link">
-    Incluir sólo un atributo por campo
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#valores-nulos-desconocidos-o-en-blanco-en-campos-numericos" title="Valores nulos, desconocidos o en blanco en campos numéricos" class="md-nav__link">
-    Valores nulos, desconocidos o en blanco en campos numéricos
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recomendaciones-para-estructurar-planillas-de-calculo" title="Recomendaciones para estructurar planillas de cálculo" class="md-nav__link">
-    Recomendaciones para estructurar planillas de cálculo
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#usar-celdas-simples" title="Usar celdas simples" class="md-nav__link">
-    Usar celdas simples
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fila-de-encabezado" title="Fila de encabezado" class="md-nav__link">
-    Fila de encabezado
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#celdas-vacias-en-filas-para-agrupar-conceptos" title="Celdas vacías en filas para agrupar conceptos" class="md-nav__link">
-    Celdas vacías en filas para agrupar conceptos
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#formato-de-celdas" title="Formato de celdas" class="md-nav__link">
-    Formato de celdas
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#exportacion-a-csv" title="Exportación a CSV" class="md-nav__link">
-    Exportación a CSV
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#estandares-segun-el-tipo-de-datos" title="Estándares según el tipo de Datos" class="md-nav__link">
-    Estándares según el tipo de Datos
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#texto" title="Texto" class="md-nav__link">
-    Texto
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#entidades" title="Entidades" class="md-nav__link">
-    Entidades
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nombres-propios" title="Nombres propios" class="md-nav__link">
-    Nombres propios
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instituciones-del-gobierno-de-la-ciudad-de-buenos-aires" title="Instituciones del Gobierno de la Ciudad de Buenos Aires" class="md-nav__link">
-    Instituciones del Gobierno de la Ciudad de Buenos Aires
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#siglas" title="Siglas" class="md-nav__link">
-    Siglas
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#numero" title="Número" class="md-nav__link">
-    Número
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#moneda" title="Moneda" class="md-nav__link">
-    Moneda
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#numeros-telefonicos" title="Números telefónicos" class="md-nav__link">
-    Números telefónicos
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#coordenadas" title="Coordenadas" class="md-nav__link">
-    Coordenadas
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tiempo" title="Tiempo" class="md-nav__link">
-    Tiempo
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fecha" title="Fecha" class="md-nav__link">
-    Fecha
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rangos-horarios" title="Rangos horarios" class="md-nav__link">
-    Rangos horarios
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#otros-estandares-sectoriales" title="Otros estándares sectoriales" class="md-nav__link">
-    Otros estándares sectoriales
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#booleano" title="Booleano" class="md-nav__link">
-    Booleano
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#glosario" title="Glosario" class="md-nav__link">
-    Glosario
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../guia-interoperables/" title="Guía para la identificación y uso de entidades interoperables" class="md-nav__link">
-      Guía para la identificación y uso de entidades interoperables
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../guia-metadatos/" title="Guía para el uso y la publicación de metadatos" class="md-nav__link">
-      Guía para el uso y la publicación de metadatos
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../politica-datos-abiertos/" title="Política de Datos Abiertos" class="md-nav__link">
-      Política de Datos Abiertos
-    </a>
-  </li>
-
-            <hr/>
-          
-            
-            
-            
-
-
-  <li class="md-nav__item">
-    <a href="../glosario/" title="Glosario" class="md-nav__link">
-      Glosario
-    </a>
-  </li>
-
-            <hr/>
-          
-        </ul>
-      </nav>
-      
-                  </div>
-                </div>
-              </div>
-            
-            
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-<nav class="md-nav md-nav--secondary">
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Estrategia de Apertura de Datos" class="md-nav__button md-logo" aria-label="Estrategia de Apertura de Datos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Estrategia de Apertura de Datos
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/datosgcba/guia-datos" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    datosgcba/guia-datos
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
   
   
     
   
   
-    <label class="md-nav__title" for="__toc">Contenidos de la sección</label>
-    <ul class="md-nav__list" data-md-scrollfix>
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía para la publicación de datos en formatos abiertos
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía para la publicación de datos en formatos abiertos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#indice" title="Indice" class="md-nav__link">
-    Indice
+  <a href="#indice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indice
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#introduccion" title="Introducción" class="md-nav__link">
-    Introducción
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introducción
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#objetivo-de-la-guia" title="Objetivo de la guía" class="md-nav__link">
-    Objetivo de la guía
+  <a href="#transformacion-digital-y-transparencia-el-rol-del-equipo-de-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transformación Digital y Transparencia: El Rol del Equipo de Datos Abiertos
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#formatos-abiertos-de-archivos" title="Formatos abiertos de archivos" class="md-nav__link">
-    Formatos abiertos de archivos
+  <a href="#buenos-aires-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buenos Aires Data
+      
+    </span>
   </a>
   
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="Buenos Aires Data">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#csv" title="CSV" class="md-nav__link">
-    CSV
+  <a href="#composicion-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Composición portal
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#json" title="JSON" class="md-nav__link">
-    JSON
+  <a href="#actualizacion-y-creacion-de-recursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actualización y creación de recursos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enlaces-y-administradores-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enlaces y administradores de Datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-para-seleccion-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios para selección de datos
+      
+    </span>
   </a>
   
 </li>
@@ -780,126 +358,68 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fragmentacion-de-archivos" title="Fragmentación de archivos" class="md-nav__link">
-    Fragmentación de archivos
-  </a>
-  
-</li>
+  <a href="#esquema-de-apertura" class="md-nav__link">
+    <span class="md-ellipsis">
       
-        <li class="md-nav__item">
-  <a href="#nomenclatura-de-archivos" title="Nomenclatura de archivos" class="md-nav__link">
-    Nomenclatura de archivos
-  </a>
-  
-</li>
+        Esquema de apertura
       
-        <li class="md-nav__item">
-  <a href="#codificacion" title="Codificación" class="md-nav__link">
-    Codificación
+    </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#estructura-y-caracteristicas-de-los-datos-tabulares" title="Estructura y características de los datos tabulares" class="md-nav__link">
-    Estructura y características de los datos tabulares
-  </a>
-  
-    <nav class="md-nav">
+    <nav class="md-nav" aria-label="Esquema de apertura">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#recomendaciones-generales" title="Recomendaciones generales" class="md-nav__link">
-    Recomendaciones generales
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nomenclatura-de-los-campos-nombres-de-las-columnas" title="Nomenclatura de los campos (nombres de las columnas)" class="md-nav__link">
-    Nomenclatura de los campos (nombres de las columnas)
+  <a href="#1-identificacion-de-apertura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Identificación de apertura
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#nivel-de-granularidad-de-los-datos" title="Nivel de granularidad de los datos" class="md-nav__link">
-    Nivel de granularidad de los datos
+  <a href="#2-acuerdo-con-el-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Acuerdo con el área
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#usar-orientacion-vertical-en-lugar-de-horizontal" title="Usar orientación vertical en lugar de horizontal" class="md-nav__link">
-    Usar orientación vertical en lugar de horizontal
+  <a href="#3-analisis-y-normalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Análisis y Normalización
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#incluir-solo-un-atributo-por-campo" title="Incluir sólo un atributo por campo" class="md-nav__link">
-    Incluir sólo un atributo por campo
+  <a href="#4-publicacion-y-notificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Publicación y notificación
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#valores-nulos-desconocidos-o-en-blanco-en-campos-numericos" title="Valores nulos, desconocidos o en blanco en campos numéricos" class="md-nav__link">
-    Valores nulos, desconocidos o en blanco en campos numéricos
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recomendaciones-para-estructurar-planillas-de-calculo" title="Recomendaciones para estructurar planillas de cálculo" class="md-nav__link">
-    Recomendaciones para estructurar planillas de cálculo
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#usar-celdas-simples" title="Usar celdas simples" class="md-nav__link">
-    Usar celdas simples
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fila-de-encabezado" title="Fila de encabezado" class="md-nav__link">
-    Fila de encabezado
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#celdas-vacias-en-filas-para-agrupar-conceptos" title="Celdas vacías en filas para agrupar conceptos" class="md-nav__link">
-    Celdas vacías en filas para agrupar conceptos
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#formato-de-celdas" title="Formato de celdas" class="md-nav__link">
-    Formato de celdas
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#exportacion-a-csv" title="Exportación a CSV" class="md-nav__link">
-    Exportación a CSV
+  <a href="#5-monitoreo-de-apertura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Monitoreo de Apertura
+      
+    </span>
   </a>
   
 </li>
@@ -910,125 +430,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#estandares-segun-el-tipo-de-datos" title="Estándares según el tipo de Datos" class="md-nav__link">
-    Estándares según el tipo de Datos
+  <a href="#licencia-de-utilizacion-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licencia de utilización de datos
+      
+    </span>
   </a>
   
-    <nav class="md-nav">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-tecnicos-para-la-gestion-de-recursos-en-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios Técnicos para la Gestión de Recursos en Datos Abiertos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criterios Técnicos para la Gestión de Recursos en Datos Abiertos">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#texto" title="Texto" class="md-nav__link">
-    Texto
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#entidades" title="Entidades" class="md-nav__link">
-    Entidades
+  <a href="#diccionario-de-datos-y-metadatos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diccionario de Datos y Metadatos
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#nombres-propios" title="Nombres propios" class="md-nav__link">
-    Nombres propios
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instituciones-del-gobierno-de-la-ciudad-de-buenos-aires" title="Instituciones del Gobierno de la Ciudad de Buenos Aires" class="md-nav__link">
-    Instituciones del Gobierno de la Ciudad de Buenos Aires
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#siglas" title="Siglas" class="md-nav__link">
-    Siglas
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#numero" title="Número" class="md-nav__link">
-    Número
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#moneda" title="Moneda" class="md-nav__link">
-    Moneda
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#numeros-telefonicos" title="Números telefónicos" class="md-nav__link">
-    Números telefónicos
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#coordenadas" title="Coordenadas" class="md-nav__link">
-    Coordenadas
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tiempo" title="Tiempo" class="md-nav__link">
-    Tiempo
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fecha" title="Fecha" class="md-nav__link">
-    Fecha
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rangos-horarios" title="Rangos horarios" class="md-nav__link">
-    Rangos horarios
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#otros-estandares-sectoriales" title="Otros estándares sectoriales" class="md-nav__link">
-    Otros estándares sectoriales
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#booleano" title="Booleano" class="md-nav__link">
-    Booleano
+  <a href="#formatos-abiertos-de-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formatos abiertos de archivos
+      
+    </span>
   </a>
   
 </li>
@@ -1039,15 +480,1172 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#glosario" title="Glosario" class="md-nav__link">
+  <a href="#csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSV
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JSON
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fragmentacion-de-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fragmentación de archivos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nomenclatura-de-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nomenclatura de archivos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Codificación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-y-caracteristicas-de-los-datos-tabulares" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estructura y características de los datos tabulares
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura y características de los datos tabulares">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recomendaciones-generales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recomendaciones generales
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomendaciones generales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nomenclatura-de-los-campos-nombres-de-las-columnas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nomenclatura de los campos (nombres de las columnas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nivel-de-granularidad-de-los-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nivel de granularidad de los datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usar-orientacion-vertical-en-lugar-de-horizontal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usar orientación vertical en lugar de horizontal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incluir-solo-un-atributo-por-campo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incluir sólo un atributo por campo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valores-nulos-desconocidos-o-no-aplicables-en-los-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Valores nulos, desconocidos o no aplicables en los datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomendaciones-para-estructurar-planillas-de-calculo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recomendaciones para estructurar planillas de cálculo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomendaciones para estructurar planillas de cálculo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usar-celdas-simples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usar celdas simples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fila-de-encabezado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fila de encabezado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#celdas-vacias-en-filas-para-agrupar-conceptos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Celdas vacías en filas para agrupar conceptos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formato-de-celdas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formato de celdas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estandares-segun-el-tipo-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estándares según el tipo de Datos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estándares según el tipo de Datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#texto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Texto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Texto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombres-propios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nombres propios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instituciones-del-gobierno-de-la-ciudad-de-buenos-aires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instituciones del Gobierno de la Ciudad de Buenos Aires
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#siglas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Siglas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numero" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Número
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Número">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moneda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Moneda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#porcentaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Porcentaje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numeros-telefonicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Números telefónicos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordenadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coordenadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tiempo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tiempo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fecha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fecha
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rangos-horarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rangos horarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#otros-estandares-sectoriales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otros estándares sectoriales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#booleano" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Booleano
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-interoperables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía para la identificación y uso de entidades interoperables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-metadatos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía para el uso y la publicación de metadatos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../politica-datos-abiertos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Política de Datos Abiertos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
     Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#indice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indice
+      
+    </span>
   </a>
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    <span class="md-ellipsis">
       
+        Introducción
       
+    </span>
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#transformacion-digital-y-transparencia-el-rol-del-equipo-de-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transformación Digital y Transparencia: El Rol del Equipo de Datos Abiertos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buenos-aires-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buenos Aires Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Buenos Aires Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#composicion-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Composición portal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actualizacion-y-creacion-de-recursos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actualización y creación de recursos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enlaces-y-administradores-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enlaces y administradores de Datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-para-seleccion-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios para selección de datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esquema-de-apertura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Esquema de apertura
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Esquema de apertura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-identificacion-de-apertura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Identificación de apertura
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-acuerdo-con-el-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Acuerdo con el área
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-analisis-y-normalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Análisis y Normalización
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-publicacion-y-notificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Publicación y notificación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-monitoreo-de-apertura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Monitoreo de Apertura
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licencia-de-utilizacion-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licencia de utilización de datos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-tecnicos-para-la-gestion-de-recursos-en-datos-abiertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios Técnicos para la Gestión de Recursos en Datos Abiertos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Criterios Técnicos para la Gestión de Recursos en Datos Abiertos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diccionario-de-datos-y-metadatos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diccionario de Datos y Metadatos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formatos-abiertos-de-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formatos abiertos de archivos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSV
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JSON
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fragmentacion-de-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fragmentación de archivos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nomenclatura-de-archivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nomenclatura de archivos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Codificación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-y-caracteristicas-de-los-datos-tabulares" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estructura y características de los datos tabulares
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura y características de los datos tabulares">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recomendaciones-generales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recomendaciones generales
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomendaciones generales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nomenclatura-de-los-campos-nombres-de-las-columnas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nomenclatura de los campos (nombres de las columnas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nivel-de-granularidad-de-los-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nivel de granularidad de los datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usar-orientacion-vertical-en-lugar-de-horizontal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usar orientación vertical en lugar de horizontal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incluir-solo-un-atributo-por-campo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Incluir sólo un atributo por campo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valores-nulos-desconocidos-o-no-aplicables-en-los-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Valores nulos, desconocidos o no aplicables en los datos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recomendaciones-para-estructurar-planillas-de-calculo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recomendaciones para estructurar planillas de cálculo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomendaciones para estructurar planillas de cálculo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usar-celdas-simples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usar celdas simples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fila-de-encabezado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fila de encabezado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#celdas-vacias-en-filas-para-agrupar-conceptos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Celdas vacías en filas para agrupar conceptos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formato-de-celdas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formato de celdas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estandares-segun-el-tipo-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estándares según el tipo de Datos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estándares según el tipo de Datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#texto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Texto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Texto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombres-propios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nombres propios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instituciones-del-gobierno-de-la-ciudad-de-buenos-aires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instituciones del Gobierno de la Ciudad de Buenos Aires
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#siglas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Siglas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numero" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Número
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Número">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moneda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Moneda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#porcentaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Porcentaje
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numeros-telefonicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Números telefónicos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordenadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coordenadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tiempo
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tiempo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fecha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fecha
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rangos-horarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rangos horarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#otros-estandares-sectoriales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Otros estándares sectoriales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#booleano" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Booleano
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
     </ul>
   
@@ -1057,125 +1655,319 @@
               </div>
             
           
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
+          
+            <div class="md-content" data-md-component="content">
               
+              <article class="md-content__inner md-typeset">
                 
-                  <a href="https://github.com/datosgcba/edit/master/docs/guia-abiertos.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
-                
-                
-                <h1 id="guia-para-la-publicacion-de-datos-en-formatos-abiertos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires">Guía para la publicación de datos en formatos abiertos del Gobierno de la Ciudad Autónoma de Buenos Aires</h1>
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+                  
 
+
+  
+  
+
+
+<h1 id="guia-para-la-publicacion-de-datos-en-formatos-abiertos-del-gobierno-de-la-ciudad-autonoma-de-buenos-aires">Guía para la publicación de datos en formatos abiertos del Gobierno de la Ciudad Autónoma de Buenos Aires</h1>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 <h2 id="indice">Indice</h2>
 <ul>
 <li><a href="#introduccion">Introducción</a></li>
-<li><a href="#objetivo-de-la-guia">Objetivo de la guía</a></li>
+<li><a href="#transformacion-digital-y-transparencia-el-rol-del-equipo-de-datos-abiertos">Transformación Digital y Transparencia: El Rol del Equipo de Datos Abiertos</a></li>
+<li><a href="#buenos-aires-data">Buenos Aires Data</a><ul>
+<li><a href="#composicion-portal">Composición portal</a></li>
+<li><a href="#actualizacion-y-creacion-de-recursos">Actualización y creación de recursos</a></li>
+<li><a href="#enlaces-y-administradores-de-datos">Enlaces y administradores de Datos</a></li>
+<li><a href="#criterios-para-seleccion-de-datos">Criterios para selección de datos</a></li>
+</ul>
+</li>
+<li><a href="#esquema-de-apertura">Esquema de apertura</a><ul>
+<li><a href="#1-identificacion-de-apertura">1. Identificación de apertura</a></li>
+<li><a href="#2.acuerdo-con-el-area">2. Acuerdo con el área</a></li>
+<li><a href="#3-analisis-y-normalizacion">3. Análisis y Normalización</a></li>
+<li><a href="#4-publicacion-y-notificacion">4. Publicación y notificación</a></li>
+<li><a href="#5-monitoreo-de-apertura">5. Monitoreo de Apertura</a></li>
+</ul>
+</li>
+<li><a href="#licencia-de-utilizacion-de-datos">Licencia de utilización de datos</a></li>
+<li><a href="#criterios-tecnicos-para-la-gestion-de-recursos-en-datos-abiertos">Criterios Técnicos para la Gestión de Recursos en Datos Abiertos</a><ul>
+<li><a href="#diccionario-de-datos-y-metadatos">Diccionario de Datos y Metadatos</a></li>
 <li><a href="#formatos-abiertos-de-archivos">Formatos abiertos de archivos</a></li>
+</ul>
+</li>
 <li><a href="#csv">CSV</a></li>
 <li><a href="#json">JSON</a></li>
-<li><a href="#fragmentacion-de-archivos">Fragmentación de archivos</a></li>
+<li><a href="#fragmentacio-de-archivos">Fragmentación de archivos</a></li>
 <li><a href="#nomenclatura-de-archivos">Nomenclatura de archivos</a></li>
 <li><a href="#codificacion">Codificación</a></li>
-<li><a href="#estructura-y-caracteristicas-de-los-datos-tabulares">Estructura y características de los datos tabulares</a></li>
-<li><a href="#recomendaciones-generales">Recomendaciones generales</a><ul>
+<li><a href="#estructura-y-caracteristicas-de-los-datos-tabulares">Estructura y características de los datos tabulares</a><ul>
+<li><a href="#recomendaciones-generales">Recomendaciones generales</a></li>
 <li><a href="#nomenclatura-de-los-campos-nombres-de-las-columnas">Nomenclatura de los campos (nombres de las columnas)</a></li>
 <li><a href="#nivel-de-granularidad-de-los-datos">Nivel de granularidad de los datos</a></li>
 <li><a href="#usar-orientacion-vertical-en-lugar-de-horizontal">Usar orientación vertical en lugar de horizontal</a></li>
 <li><a href="#incluir-solo-un-atributo-por-campo">Incluir sólo un atributo por campo</a></li>
-<li><a href="#valores-nulos-desconocidos-o-en-blanco-en-campos-numericos">Valores nulos, desconocidos o en blanco en campos numéricos</a></li>
-</ul>
-</li>
-<li><a href="#recomendaciones-para-estructurar-planillas-de-calculo">Recomendaciones para estructurar planillas de cálculo</a><ul>
+<li><a href="#valores-nulos-desconocidos-o-no-aplicables-en-los-datos">Valores nulos, desconocidos o no aplicables en los datos</a></li>
+<li><a href="#recomendaciones-para-estructurar-planillas-de-calculo">Recomendaciones para estructurar planillas de cálculo</a></li>
 <li><a href="#usar-celdas-simples">Usar celdas simples</a></li>
 <li><a href="#fila-de-encabezado">Fila de encabezado</a></li>
 <li><a href="#celdas-vacias-en-filas-para-agrupar-conceptos">Celdas vacías en filas para agrupar conceptos</a></li>
 <li><a href="#formato-de-celdas">Formato de celdas</a></li>
 </ul>
 </li>
-<li><a href="#exportacion-a-csv">Exportación a CSV</a></li>
-<li><a href="#estandares-segun-el-tipo-de-datos">Estándares según el tipo de Datos</a></li>
-<li><a href="#texto">Texto</a><ul>
+<li><a href="#estandares-segun-el-tipo-de-datos">Estándares según el tipo de Datos</a><ul>
+<li><a href="#texto">Texto</a></li>
 <li><a href="#entidades">Entidades</a></li>
 <li><a href="#nombres-propios">Nombres propios</a></li>
 <li><a href="#instituciones-del-gobierno-de-la-ciudad-de-buenos-aires">Instituciones del Gobierno de la Ciudad de Buenos Aires</a></li>
 <li><a href="#siglas">Siglas</a></li>
-</ul>
-</li>
-<li><a href="#numero">Número</a><ul>
+<li><a href="#numero">Número</a></li>
 <li><a href="#moneda">Moneda</a></li>
+<li><a href="#porcentaje">Porcentaje</a></li>
 <li><a href="#numeros-telefonicos">Números telefónicos</a></li>
 <li><a href="#coordenadas">Coordenadas</a></li>
-</ul>
-</li>
-<li><a href="#tiempo">Tiempo</a><ul>
+<li><a href="#tiempo">Tiempo</a></li>
 <li><a href="#fecha">Fecha</a></li>
 <li><a href="#rangos-horarios">Rangos horarios</a></li>
-</ul>
-</li>
 <li><a href="#otros-estandares-sectoriales">Otros estándares sectoriales</a></li>
 <li><a href="#booleano">Booleano</a></li>
+</ul>
+</li>
 </ul>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 <h2 id="introduccion">Introducción</h2>
-<p>Esta guía busca ayudar a los organismos de la Administración Centralizada y Descentralizada y a las Entidades Autárquicas del Gobierno de la Ciudad Autónoma de Buenos Aires a instrumentar los lineamientos en materia de apertura de datos públicos establecidos en los Decretos N°<a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/190097">156/2012</a> y N° <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/234859">478/2013</a> y a mejorar la calidad y la gestión de los datos generados por entidades que produzcan datos o bien los tengan bajo su tutela y/o jurisdicción. Está basada en la <a href="https://paquete-apertura-datos.readthedocs.io/es/stable/guia_abiertos.html">Guía de buenas prácticas para la publicación de datos en formatos abiertos</a> elaborada por el equipo de la Dirección Nacional de Datos e Información Pública de la Secretaría de Gobierno de Modernización de la Jefatura de Gabinete de Ministros de la Nación. </p>
-<h2 id="objetivo-de-la-guia">Objetivo de la guía</h2>
-<p>Esta es <strong>una guía de buenas prácticas para la publicación de datos en formatos abiertos de la Ciudad Autónoma de Buenos Aires.</strong></p>
-<p>Estas recomendaciones se basan en:</p>
+<p>Esta sección tiene como objetivo establecer criterios técnicos y pautas operativas para la generación, estructuración y publicación de datos en formatos abiertos, con el fin de facilitar su acceso, reutilización y comprensión por parte de la ciudadanía y otros actores.</p>
+<p>El contenido de este documento se apoya en marcos normativos y guías técnicas utilizados a nivel internacional, nacional y también la regulación local, incluyendo la <a href="https://datosgobar.github.io/paquete-apertura-datos/guia-subnacionales/">Guía de buenas prácticas para la publicación de datos en formatos abiertos</a>, creada al amparo del Decreto Nº 117/2016 por el cual el Poder Ejecutivo Nacional instruye la implementación de un “Plan de Apertura de Datos”, los <a href="https://buenosaires.gob.ar/innovacionytransformaciondigital/lineamientos-para-la-gobernanza-de-datos">Lineamientos para la Gobernanza de Datos del Gobierno de la Ciudad de Buenos Aires</a>, <a href="https://datosgcba.github.io/guia-datos/guia-interoperables/">la Guía para la Identificación y Uso de Entidades Interoperables</a> y las especificaciones técnicas del portal “datos.gob.ar” -estas últimas en el ámbito local-, entre otras. </p>
+<p>También esta guía incorpora normativa definida por el Gobierno de la Ciudad de Buenos Aires y la experiencia operativa de la Dirección General de Gobernanza de Datos (DGGDA) dependiente de la Subsecretaría de Innovación Administrativa de la Secretaría de Innovación y Transformación Digital.</p>
+<p>Dado que se trata de una guía sujeta a actualización, se contempla la posibilidad de incorporar sugerencias y observaciones por parte de equipos técnicos y funcionales, áreas de gobierno, organizaciones y ciudadanos interesados.</p>
+<h2 id="transformacion-digital-y-transparencia-el-rol-del-equipo-de-datos-abiertos">Transformación Digital y Transparencia: El Rol del Equipo de Datos Abiertos</h2>
+<p>El equipo de Datos Abiertos es el encargado de la administración y gobernanza del portal de datos abiertos, garantizando la disponibilidad, accesibilidad y calidad de la información publicada. </p>
+<p>Su labor se orienta hacia la actualización, mantenimiento y mejora continua del portal de datos abiertos, en conformidad con los principios de transparencia y acceso a la información pública.</p>
+<p>Entre sus competencias principales se encuentra la gestión integral de los conjuntos de datos, lo que incluye su actualización periódica, la publicación de nuevos datasets y el monitoreo de la frecuencia con la que deben ser revisados y mantenidos. Asimismo, el equipo se encarga de asegurar que los conjuntos de datos permanezcan accesibles y comprensibles para los usuarios, optimizando su calidad y usabilidad mediante la normalización de formatos y la implementación de estándares técnicos.</p>
+<p>En cuanto a la articulación con las áreas generadoras de datos, el equipo de Datos Abiertos actúa como intermediario entre las distintas dependencias gubernamentales, promoviendo el flujo de información y aunando por la coherencia en la publicación de los datos. </p>
+<p>Por otro lado, el equipo mantiene un contacto permanente con la comunidad de usuarios del portal, atendiendo sus demandas y requerimientos, con el fin de mejorar la pertinencia y el impacto de los datos abiertos en la ciudad.</p>
+<p>El equipo también se encarga de actualizar y mejorar continuamente las tecnologías utilizadas en el portal, con el objetivo de optimizar la experiencia del usuario y facilitar la explotación de los datos.</p>
+<p>Además, impulsa la automatización de los procesos de publicación y monitoreo, permitiendo una mayor eficiencia en la gestión y reduciendo la posibilidad de errores en la actualización de los conjuntos de datos.</p>
+<h2 id="buenos-aires-data">Buenos Aires Data</h2>
+<p><a href="https://data.buenosaires.gob.ar/">BA Data</a> es la plataforma oficial de datos abiertos de la Ciudad implementada por el Gobierno de la Ciudad Autónoma de Buenos Aires a través del Decreto N° 156/2012. </p>
+<p>La misma se creó con el objetivo de facilitar la búsqueda, descubrimiento y acceso a conjuntos de datos del sector público, que contribuyan a promover la transparencia, a incentivar la participación y colaboración de los ciudadanos, a fomentar la reutilización de la información para generar conocimiento, y a estimular la innovación y el desarrollo social, económico y cultural en el ámbito de la Ciudad de Buenos Aires. </p>
+<p>A lo largo de todo el portal se encuentran centralizados los activos de información de todas las áreas de gobierno. La unidad mínima del portal son los recursos, los cuales están agrupados por conjuntos de datos o datasets y a su vez pertenecen a categorías macro que facilitan su descubrimiento y acceso por parte del usuario.</p>
+<p>El Portal está basado en la herramienta <a href="https://ckan.org/">CKAN</a>, una plataforma de código abierto muy utilizada a nivel global para la gestión y publicación de datos abiertos. Si bien, comparte una base tecnológica común con otras iniciativas de apertura de datos -como el portal de datos de Nación- BA Data ha evolucionado, con el tiempo, hacia una plataforma adaptada a las particularidades y demandas de la Ciudad de Buenos Aires.</p>
+<p>La arquitectura del portal está orientada a garantizar el acceso estable, eficiente y seguro a la información pública, alineándose con los principios de apertura, interoperabilidad y escalabilidad.</p>
+<h3 id="composicion-portal">Composición portal</h3>
+<p>La estructura digital se organiza entorno a conjuntos de datos, grupos temáticos y organizaciones, y se complementa con diversas herramientas orientadas a facilitar el acceso, la exploración y la reutilización de la información disponible.</p>
+<p>El portal se organiza de la siguiente manera: </p>
 <ul>
 <li>
-<p>La Guía de buenas prácticas para la publicación de datos en formatos abiertos de Nación.</p>
+<p>Datasets: conjunto principal de datos disponibles para su consulta y descarga. El portal alberga más de 430 conjuntos de datos que abarcan diversas temáticas, incluyendo salud, educación, transporte, medio ambiente, entre otros. Cada dataset está acompañado de metadatos que describen su contenido, formato, frecuencia de actualización y fuente de origen.</p>
 </li>
 <li>
-<p>Estándares usados a nivel nacional e internacional.</p>
+<p>Organizaciones: dependencias gubernamentales responsables de la generación y mantenimiento de los datos.  Actualmente, se encuentran registradas 35 organizaciones activas en el portal.</p>
 </li>
 <li>
-<p>Estándares definidos por el Gobierno de la Ciudad Autónoma de Buenos Aires.</p>
+<p>Grupos: categorías temáticas que agrupan datasets relacionados, como "Transporte", "Salud" o "Educación", que facilitan la búsqueda por áreas de interés.</p>
 </li>
 <li>
-<p>La experiencia de trabajo del equipo de la Dirección General de Calidad Institucional y Gobierno Abierto, de la Subsecretaría de Gestión Estratégica y Calidad Institucional, Secretaría General y Relaciones Institucionales del Gobierno de la Ciudad Autónoma de Buenos Aires.</p>
+<p>APIs: interfaz de programación que permite a los desarrolladores interactuar con los datos de forma automatizada. Entre las principales se destacan la API de Transporte Público, los servicios geoespaciales (como el normalizador de direcciones y el geocodificador), y recursos específicos como mapas interactivos, datos catastrales y organigramas institucionales. Estas interfaces están disponibles en formatos estandarizados (como JSON y XML),</p>
 </li>
 </ul>
-<p>Esta es <strong>una guía colaborativa y en progreso</strong>. Valoramos, y alentamos, a organizaciones y ciudadanos a plantear ideas, sugerencias, y comentarios que nos ayuden a crear un mejor documento.</p>
-<p>El documento sigue la estructura de la Guía para la apertura del Gobierno Nacional y se organiza de la siguiente manera:</p>
-<p><strong>Formatos abiertos de archivos:</strong> cuáles son los formatos más usuales en los que se publican datos y cuáles son los más recomendables.</p>
+<p>Adicionalmente, los usuarios cuentan con herramientas y funcionalidades que optimizan y agilizan la utilización del portal:</p>
 <ul>
 <li>
-<p><strong>Fragmentación de archivos</strong>: cuáles son los criterios para decidir que un archivo es demasiado grande (y hay que fragmentarlo) o demasiado chico (y hay que juntarlo con otros).</p>
+<p>Historial de Actualizaciones: cada conjunto de datos cuenta con un historial de actualizaciones que documenta los cambios realizados, incluyendo modificaciones en los datos, actualizaciones de metadatos y ajustes en la descripción, entre otros. Esta funcionalidad permite realizar un seguimiento preciso de las intervenciones efectuadas sobre cada dataset.</p>
 </li>
 <li>
-<p><strong>Nomenclatura de archivos</strong>: cómo nombrar adecuadamente un archivo.</p>
+<p>Filtros Dinámicos: la página de datasets incluye filtros dinámicos, una funcionalidad propia del sistema CKAN, que permite refinar la búsqueda de datos. En el caso del portal BA Data, esta herramienta está disponible para combinar filtros de organización, temas y etiquetas, facilitando la navegación temática dentro del catálogo.</p>
 </li>
 <li>
-<p><strong>Codificación</strong>: cuál es la codificación en que se debe guardar un archivo.</p>
+<p>Barra de Búsqueda: el portal dispone de una barra de búsqueda general y una específica por dataset permitiendo identificar recursos dentro del conjunto.</p>
 </li>
 <li>
-<p><strong>Estructura y características de los datos tabulares</strong></p>
+<p>Menú ordenamiento: permite reorganizar los resultados visualizados en el catálogo general según tres criterios: orden alfabético ascendente, orden alfabético descendente y fecha de última actualización. También se encuentra disponible de manera particular para cada dataset. </p>
+</li>
+<li>
+<p>Vista Previa de Recursos: antes de descargar un recurso, los usuarios pueden acceder a una vista previa del contenido, donde se plasma una muestra representativa de los registros. </p>
+</li>
+<li>
+<p>Composición de los Metadatos: cada recurso cuenta con un cuadro donde se detalla la información correspondiente a los campos incluidos en el recurso. Este aspecto se profundiza en la sección dedicada a la guía de metadatos.</p>
+</li>
+</ul>
+<p>Por último, para mejorar la experiencia del usuario y promover la interacción con la comunidad de datos abiertos, el portal pone a disposición, en la sección “Información adicional” presente en cada dataset, diversos canales de comunicación y espacios de participación:</p>
 <ul>
 <li>
-<p>Recomendaciones generales: aplican a todos los casos.</p>
+<p>Encuesta de Satisfacción: los usuarios pueden brindar retroalimentación sobre su experiencia de uso del portal, con el fin de identificar oportunidades de mejora.</p>
 </li>
 <li>
-<p>Recomendaciones para estructurar planillas de cálculo: aplican exclusivamente al trabajo en planillas de cálculo.</p>
+<p>BA Colaborativa: canal habilitado para recibir consultas, sugerencias y observaciones vinculadas al funcionamiento del portal o al contenido de los conjuntos de datos publicados.</p>
 </li>
 <li>
-<p>Exportación a CSV: cómo exportar adecuadamente planillas de cálculo a un archivo de formato abierto.</p>
+<p>Correo Institucional: <a href="mailto:datosabiertos@buenosaires.gob.ar">datosabiertos@buenosaires.gob.ar</a> disponible para atender requerimientos específicos de carácter técnico, operativo o vinculado al uso de los datos.</p>
 </li>
 </ul>
+<p>Además de estos canales, el portal incorpora un <strong>banner</strong> informativo en su página principal, mediante el cual se difunden noticias relevantes vinculadas a la comunidad de datos abiertos, incluyendo actividades de networking, eventos, talleres y nuevas publicaciones institucionales.</p>
+<h3 id="actualizacion-y-creacion-de-recursos">Actualización y creación de recursos</h3>
+<p>La actualización de los conjuntos de datos se realiza conforme a la frecuencia establecida en cada dataset, la cual se encuentra definida en sus respectivos metadatos. Dependiendo del caso, la actualización puede implicar la sobreescritura de un recurso existente o bien la incorporación de un nuevo recurso dentro del conjunto.</p>
+<p>La Dirección General de Gobernanza de Datos(DGGDA), como administradora del portal BA Data, establece mecanismos de transferencia para facilitar la carga de información desde las áreas generadoras. Si bien existen diferentes alternativas para realizar esta transferencia, se prioriza la implementación de procesos automatizados de extracción, transformación y carga (ETL), desarrollados por las áreas responsables de los datos.</p>
+<p>La implementación de mecanismos automáticos de transferencia y carga permite reducir la intervención manual, disminuir el margen de error y garantizar la regularidad de los envíos. Se favorece de esta manera la trazabilidad de las actualizaciones, minimiza la participación de múltiples actores y permite que los datos lleguen al portal en su forma más directa posible, preservando su estructura original y facilitando su disponibilidad conforme a lo planificado.</p>
+<p>El acuerdo sobre la alternativa de transferencia de datos, así como la periodicidad de la actualización de los recursos publicados, se realizará entre el área responsable y la DGGDA. </p>
+<p>Cualquier cambio experimentado en los procesos mencionados deberá ser informado por las partes en miras de mantener estables los procesos de apertura de datos.</p>
+<p>La DGGDA mantendrá una relación continua con las áreas productoras de datos, proporcionando retroalimentación sobre la calidad de los conjuntos publicados, en base a los estándares establecidos en el presente documento.</p>
+<h3 id="enlaces-y-administradores-de-datos">Enlaces y administradores de Datos</h3>
+<p>La apertura de datos es una estrategia que por su propia definición involucra la participación de todas las áreas del Gobierno de la Ciudad de Buenos Aires. Para su implementación se adoptará un enfoque mixto, con una coordinación desde la Dirección General de Gobernanza de Datos, la cual es la responsable de poner en práctica las medidas necesarias para implementar la Política de Apertura de Datos.</p>
+<p>Teniendo en cuenta que actualmente dispone de más de 430 conjuntos de datos pertenecientes a diversas áreas del Gobierno, cada área productora de uno o más datasets deberá designar a un agente que estará en calidad de <strong>persona responsable de datos en las unidades organizativas</strong>. Este agente actuará como referente para la gestión y publicación de los datos, y asumirá las responsabilidades que se detallan a continuación:</p>
+<p>El <strong>responsable de datos en las unidades organizativas</strong> será el responsable máximo ante la DGGDA y tendrá las siguientes funciones:</p>
+<ol>
+<li>
+<p>Actuar como vínculo institucional y operativo, entre su unidad organizativa y la DGGDA.</p>
 </li>
 <li>
-<p><strong>Estándares según el tipo de datos</strong>: cuáles son los estándares recomendados para manejar distintos tipos de datos.</p>
+<p>Interactuar con los equipos técnicos de cada repartición bajo su órbita y los responsables de Datos a fin de asegurar la información a publicar.</p>
+</li>
+<li>
+<p>Comunicar a la DGGDA cualquier modificación de su estructura orgánica que implique un cambio en cuanto a la producción, administración, actualización y/o publicación de algunas de las obligaciones de Transparencia Activa contempladas.</p>
+</li>
+<li>
+<p>Diseñar junto a la DGGDA un Plan de Apertura de Datos de su unidad en el que se estipule un cronograma de apertura.</p>
+</li>
+<li>
+<p>Identificar y promover el uso y reúso de datos públicos dentro de su unidad y coordinar acciones con la DGGDA y los Administradores para fomentar una cultura de apertura de datos de calidad.</p>
+</li>
+<li>
+<p>Coordinar con la DGGDA la realización de mesas de datos con el propósito de intercambiar experiencias, dar seguimiento al plan de apertura, convocar a taller de datos, entre otros.</p>
+</li>
+</ol>
+<p>Se recomienda que el responsable de datos tenga una visión estratégica respecto a los activos de información que se encuentra bajo tutela o jurisdicción de su área.</p>
+<p>Por otro lado, los Administradores de Datos serán los encargados de operativizar los acuerdos de apertura realizados con las áreas y será la DGGDA quien lleve adelante estas acciones. Entre sus funciones se encuentran:</p>
+<ol>
+<li>
+<p>Coordinar con el responsable de datos, la fuente del dato.</p>
+</li>
+<li>
+<p>Proveer asistencia para acceder a los datos acordados para su análisis y apertura.</p>
+</li>
+<li>
+<p>Informar al responsable de datos abiertos del dataset de referencia, cualquier cambio en la estructura de datos.</p>
+</li>
+<li>
+<p>Inviar los datos o facilitar su acceso para su correcta actualización.</p>
+</li>
+<li>
+<p>Documentar casos de uso y reutilización de datos públicos de los recursos bajo su órbita.</p>
+</li>
+<li>
+<p>Aplicar los estándares de calidad definidos en las guías de buenas prácticas de la Ciudad de Buenos Aires en los datos. </p>
+</li>
+</ol>
+<h3 id="criterios-para-seleccion-de-datos">Criterios para selección de datos</h3>
+<p>El Decreto 478/2013 establece la apertura por defecto de todos los datos públicos bajo tutela y/o jurisdicción del Gobierno de la Ciudad de Buenos Aires, quedando excluidos aquellos que estén protegidos por alguna normativa específica (Ley de Protección de Datos Personales, Secreto Fiscal, Estadística, etc.), a fin de de facilitar su descubrimiento, búsqueda, acceso, redistribución y reutilización por parte de los ciudadanos, en el sitio data.buenosaires.gob.ar.</p>
+<p>En este sentido, al momento de seleccionar los datos que serán publicados en <a href="https://data.buenosaires.gob.ar/">BA Data</a> deberá tenerse en cuenta dicha normativa y luego priorizar según los siguientes criterios:</p>
+<ul>
+<li>
+<p>Responda a una demanda ciudadana</p>
+</li>
+<li>
+<p>Impulsa la innovación</p>
+</li>
+<li>
+<p>Incrementa la rendición de cuentas y transparencia</p>
+</li>
+<li>
+<p>Representa los objetivos y funciones del área</p>
+</li>
+<li>
+<p>Crea nuevas oportunidades económicas</p>
+</li>
+<li>
+<p>Genera valor agregado para las entidades públicas y otros actores</p>
+</li>
+<li>
+<p>Tiene alto potencial de uso y reúso para el ecosistema de datos</p>
+</li>
+<li>
+<p>Fomente el diseño de política pública basada en evidencia</p>
 </li>
 </ul>
-<p>Estos son los primeros aspectos importantes para la estandarización de datos.</p>
-<p>Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la <strong><a href="../guia-interoperables/">Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires</a></strong>.</p>
-<h2 id="formatos-abiertos-de-archivos">Formatos abiertos de archivos</h2>
+<p>Adicionalmente, la <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982">Ley de Acceso a la Información Pública</a>  N° 104 de la Ciudad de Buenos Aires ha establecido una serie de componentes mínimos a ser publicados por las áreas en formato abierto, mientras que propicia que aquellas respuestas a pedidos concretos que se ajusten a los criterios de apertura de datos puedan ser publicadas en formato abierto en <a href="https://data.buenosaires.gob.ar/">Buenos Aires Data</a>.</p>
+<p>Por último, la DGGDA podrá solicitar a las entidades la apertura de un recurso en función de los criterios anteriormente mencionados. Por último, la DGGDA podrá sugerir a las entidades la apertura de un recurso en función de los criterios anteriormente mencionados  </p>
+<h2 id="esquema-de-apertura">Esquema de apertura</h2>
+<h3 id="1-identificacion-de-apertura">1. Identificación de apertura</h3>
+<p>La incorporación de un nuevo conjunto de datos puede surgir de diversas fuentes, entre las que se pueden mencionar:</p>
+<ul>
+<li>
+<p>Publicación proactiva del área</p>
+</li>
+<li>
+<p>Respuesta a un pedido de Acceso a la Información Pública por Ley N° 104</p>
+</li>
+<li>
+<p>Información estipulada en el Plan de Transparencia Activa</p>
+</li>
+<li>
+<p>Solicitud por un tercero a través de BA Colaborativa</p>
+</li>
+<li>
+<p>Incluido en Compromisos de Gobierno</p>
+</li>
+<li>
+<p>Publicación establecida por normativa</p>
+</li>
+<li>
+<p>Relevamiento de la web de Gobierno</p>
+</li>
+<li>
+<p>Estipulado por Decreto 478/2013</p>
+</li>
+<li>
+<p>Producto de un proceso de mesas de Estado Abierto.</p>
+</li>
+<li>
+<p>Propuestas de la DGGDA</p>
+</li>
+</ul>
+<h3 id="2-acuerdo-con-el-area">2. Acuerdo con el área</h3>
+<p>Una vez identificado el dato, la DGGDA analiza con el área responsable la factibilidad de su apertura. En esta etapa se tiene especial consideración aquellas normativas vigentes que regulan o que podrían alcanzar al conjunto de datos.</p>
+<p>En caso de ser posible su publicación, las partes acuerdan las condiciones de esta apertura (estructura, formato y frecuencia de actualización).</p>
+<h3 id="3-analisis-y-normalizacion">3. Análisis y Normalización</h3>
+<p>Siguiendo el acuerdo alcanzado, el área responsable disponibiliza en el formato convenido los datos a la DGGDA para un análisis en profundidad previo a su apertura.</p>
+<p>Teniendo en consideración la Guía de Apertura de Datos de la Ciudad de Buenos Aires, la DGGDA analiza exhaustivamente los datos provistos a fin de adecuarlos a los estándares definidos, así como verificar su coherencia. En caso de que sea necesario se aplicarán las transformaciones necesarias a fin de disponer los datos y la estructura en el formato adecuado, sin alterar su representación.</p>
+<h3 id="4-publicacion-y-notificacion">4. Publicación y notificación</h3>
+<p>La DGGDA disponibiliza el conjunto de datos en BA Data siguiendo los criterios acordados con el área responsable.</p>
+<h3 id="5-monitoreo-de-apertura">5. Monitoreo de Apertura</h3>
+<p>La DGGDA, en conjunto con el responsable de datos del área, realizarán un monitoreo de la actualización y la calidad de los recursos. Asimismo, realizarán un seguimiento al nivel de usabilidad del dataset e informarán al área correspondiente casos de reúso.</p>
+<h2 id="licencia-de-utilizacion-de-datos">Licencia de utilización de datos</h2>
+<p>La publicación de datos abiertos no solo implica poner información a disposición del público, sino también garantizar que esta pueda ser utilizada de manera libre, segura y conforme a estándares internacionales. </p>
+<p>Los datos abiertos son un recurso público disponible para que cualquiera los pueda usar, modificar y compartir, en tal sentido se aplicarán siempre Licencia Creative Commons Attribution 4.0 (CC BY 4.0) para todos sus contenidos digitales. </p>
+<p>Dicha licencia habilita para compartir y redistribuir el material en cualquier medio o formato, así como a adaptar, remezclar y construir a partir del contenido, incluso con fines comerciales. La única condición es cumplir con la atribución correspondiente, es decir, citar adecuadamente la fuente original de los datos y señalar si se han realizado modificaciones sobre el material original. </p>
+<h2 id="criterios-tecnicos-para-la-gestion-de-recursos-en-datos-abiertos">Criterios Técnicos para la Gestión de Recursos en Datos Abiertos</h2>
+<p>Esta sección presenta los lineamientos técnicos adoptados por el equipo de Datos Abiertos para la gestión, estructuración, normalización y estandarización de los datos publicados en el portal. Su contenido reúne criterios esenciales para la conformación de recursos y datasets, los cuales permiten garantizar coherencia estructural, interoperabilidad semántica y consistencia técnica entre las distintas publicaciones.</p>
+<p>La consecución de estas prácticas toma como base los Lineamientos para la Gobernanza de Datos del GCBA, así como los estándares internacionales y normativas vigentes adoptadas a nivel local.</p>
+<p>Las principales herramientas técnicas utilizadas para la gestión de datos son las siguientes: </p>
+<ul>
+<li><strong>Diccionario de Datos y Metadatos:</strong> cómo debe estar estructurado cada dato.</li>
+<li><strong>Formatos abiertos de archivos:</strong> cuáles son los formatos más usuales en los que se publican datos y cuáles son los más recomendables.</li>
+<li><strong>Fragmentación de archivos:</strong> criterios para decidir si un archivo es demasiado grande (y debe fragmentarse) o demasiado pequeño (y debe agruparse con otros).</li>
+<li><strong>Nomenclatura de archivos:</strong> cómo nombrar adecuadamente un archivo.</li>
+<li><strong>Codificación:</strong> en qué codificación se debe guardar un archivo.</li>
+<li><strong>Estructura y características de los datos tabulares.</strong><ul>
+<li><strong>Recomendaciones generales:</strong> aplican a todos los casos.</li>
+<li><strong>Recomendaciones para estructurar planillas de cálculo:</strong> aplican exclusivamente al trabajo en planillas de cálculo.</li>
+<li><strong>Exportación a CSV:</strong> cómo exportar adecuadamente planillas de cálculo a un archivo de formato abierto.</li>
+</ul>
+</li>
+<li><strong>Estándares según el tipo de datos:</strong> cuáles son los estándares recomendados para manejar distintos tipos de datos.</li>
+</ul>
+<p>Estos constituyen los aspectos iniciales clave para la estandarización de datos. En los apartados siguientes, cada uno de ellos se desarrolla en profundidad.</p>
+<p>Para una discusión sobre los estándares recomendados en el manejo de datos básicos y fundamentales, transversales a distintas áreas temáticas, se puede consultar la <a href="https://datosgcba.github.io/guia-datos/guia-interoperables/">Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires</a>.</p>
+<h3 id="diccionario-de-datos-y-metadatos">Diccionario de Datos y Metadatos</h3>
+<p>Como parte del esfuerzo por mejorar la calidad y estandarización de los datos abiertos, el Gobierno de la Ciudad Autónoma de Buenos Aires cuenta con un Diccionario de Datos y Metadatos aprobado por Disposición N° 13-DGGDA/24. Esta herramienta fundamentada en estas directrices proporciona definiciones detalladas sobre los formatos de los datos utilizados en las distintas áreas de gobierno, asegurando un modelo unificado para su denominación y estructuración.</p>
+<p>Su uso facilita la interoperabilidad, mejora la precisión de la información y permite que todas las áreas trabajen con un mismo criterio. Al establecer un lenguaje común para los datos ayuda a optimizar procesos internos y fortalecer la transparencia de la gestión pública.</p>
+<p>El Diccionario se encuentra alojado en el Sistema de Administración Documental Electrónica (SADE), dentro del módulo Registro de Legajo Multipropósito (RLM), y se actualiza en tiempo real para garantizar la vigencia de su contenido. Ante la identificación de una nueva necesidad de datos, la Dirección General de Gobernanza de Datos, o el área que la reemplace, será responsable de analizar y realizar las adecuaciones necesarias en el Diccionario.</p>
+<p>Para obtener más detalles, se recomienda consultar <a href="https://cdn2.buenosaires.gob.ar/manual_diccionario_de_datos_metadatos.pdf">el manual de uso del Diccionario de Datos y Metadatos del Gobierno de la Ciudad de Buenos Aires</a>.</p>
+<h3 id="formatos-abiertos-de-archivos">Formatos abiertos de archivos</h3>
 <p>Hay una gran variedad de tecnologías disponibles para producir y almacenar datos (planillas de cálculo, bases de datos, software estadístico más específico, entre otros), algunos de ellos con un nivel bajo de apertura y de difícil reúso. En este cuadro consideramos algunos de los formatos más usados y evaluamos su nivel de apertura:</p>
 <table id="left-align-col-2">
-<tbody>
+  <tbody>
   <tr>
     <th>Formato</th>
     <th>Descripción</th>
@@ -1202,14 +1994,13 @@
   </tr>
   <tr>
     <td>ODS</td>
-    <td>Los ODS son archivos con la estructura de un XML. Es un formato abierto basado en OASIS OpenDocument Format (ISO/IEC 26300) . Es el formato por defecto del procesador de planillas de cálculo Open Office.</td>
+    <td>Los ODS son archivos con la estructura de un XML. Es un formato abierto basado en OASIS OpenDocument Format (ISO/IEC 26300). Es el formato por defecto del procesador de planillas de cálculo Open Office.</td>
     <td>Tabulares</td>
     <td>Medio</td>
   </tr>
   <tr>
     <td>CSV</td>
-    <td>Los archivos CSV son archivos de texto plano donde las columnas se separan por comas y las filas por saltos de línea.
-Es un formato abierto para datos tabulares.</td>
+    <td>Los archivos CSV son archivos de texto plano donde las columnas se separan por comas y las filas por saltos de línea. Es un formato abierto para datos tabulares.</td>
     <td>Tabulares</td>
     <td>Alto</td>
   </tr>
@@ -1251,24 +2042,27 @@ Es un formato abierto para datos tabulares.</td>
 </ul>
 <p>Un recurso en formato tabular es un archivo plano que se ajusta a un esquema predefinido de columnas, incluyendo el nombre de la columna y el tipo de datos.</p>
 <p>En la mayoría de los casos, corresponde a datos que llegan de bases de datos, reportes y planillas de cálculo en general. A diferencia de los formatos tabulares, los archivos JSON siguen una estructura diferente donde se definen listas de objetos con pares "clave" - “valor”.</p>
-<p><strong>Recomendamos con énfasis la publicación de los datos en formato CSV y/o JSON</strong>. En caso de utilizar formatos propietarios o aún no estandarizados, es útil indicar software, versión y aplicación que permite procesar esos formatos.</p>
-<h3 id="csv">CSV</h3>
+<p><strong>Recomendamos con énfasis la publicación de los datos en formato CSV, XLSX y/o JSON.</strong> En caso de utilizar formatos propietarios o aún no estandarizados, es útil indicar software, versión y aplicación que permite procesar esos formatos.</p>
+<h2 id="csv">CSV</h2>
 <p>El CSV es un formato estándar de archivo de texto plano donde:</p>
 <ul>
 <li>
-<p>Los campos (columnas) se separan por comas <code>,</code></p>
+<p>Los campos (columnas) se separan por comas.</p>
 </li>
 <li>
-<p>Los registros (filas) se separan por saltos de línea <code>\n</code> o <code>\r\n</code> (CRLF - Carriage Return Line Feed)).</p>
+<p>Los registros (filas) se separan por saltos de línea \n o \r\n (CRLF - Carriage Return Line Feed)).</p>
 </li>
 <li>
-<p>Los números decimales utilizan <code>.</code> para separar la parte entera de la parte decimal</p>
+<p>Los números decimales se utilizan para separar la parte entera de la parte decimal</p>
 </li>
 <li>
-<p>Se utilizan las comillas dobles <code>"</code> como caracter de entrecomillado. Los valores en tablas CSV que incluyen dentro de sí caracteres especiales como <code>,</code> o <code>"</code>, deben estar encerrados entre <code>"</code> para su correcta interpretación.</p>
+<p><strong>Durante la exportación a CSV, la codificación (encoding, en inglés) siempre debe ser UTF-8</strong>, garantizando la correcta interpretación de caracteres en distintos sistemas y aplicaciones.</p>
+</li>
+<li>
+<p>Se utilizan las comillas dobles <code>"</code> como caracter de entrecomillado. Los valores en tablas CSV que incluyen dentro de sí caracteres especiales como, o <code>"</code>, deben estar encerrados entre <code>"</code> para su correcta interpretación.</p>
 </li>
 </ul>
-<p>Algunas versiones alternativas de esta forma de publicar datos usan otros separadores como punto y coma (<code>;</code>) o pipe (<code>|</code>), pero la recomendación para todos los organismos del Gobierno de la Ciudad Autónoma de Buenos Aires, siguiendo los lineamientos para la Administración Pública Nacional, se basa en la versión de CSV más estándar, indicada por la especificación <a href="http://tools.ietf.org/html/rfc4180">RFC4180</a> y las pautas de la <a href="https://www.w3.org/TR/tabular-data-model/">W3C</a>.</p>
+<p>Algunas versiones alternativas de esta forma de publicar datos usan otros separadores como punto y coma (<code>;</code>) o pipe (<code>|</code>), pero la recomendación para todos los organismos del Gobierno de la Ciudad Autónoma de Buenos Aires, siguiendo los lineamientos para la Administración Pública Nacional, se basa en la versión de CSV más estándar, indicada por la especificación <a href="https://datatracker.ietf.org/doc/html/rfc4180">RFC4180</a> y las pautas de la <a href="https://www.w3.org/TR/tabular-data-model/">W3C</a>.</p>
 <p>Otros elementos a tener en cuenta:</p>
 <ul>
 <li>
@@ -1284,44 +2078,41 @@ Es un formato abierto para datos tabulares.</td>
 <p>Tanto los campos como los valores deben estar separados por comas (<code>,</code>).</p>
 </li>
 <li>
-<p>En el caso de que un valor contenga el caracter separador (<code>,</code>) o cualquiera de los caracteres que separan las líneas (<code>\r</code>, <code>\n</code> o <code>\r\n</code>), el valor completo debe ser encerrado entre comillas dobles <code>""</code>. Esto indica que el caracter no cumple el rol de separar columnas o filas, sino que es parte de un valor.</p>
+<p>En el caso de que un valor contenga el caracter separador (<code>,</code>) o cualquiera de los caracteres que separan las líneas (\r, \n o \r\n), el valor completo debe ser encerrado entre comillas dobles <code>""</code>. Esto indica que el caracter no cumple el rol de separar columnas o filas, sino que es parte de un valor</p>
 </li>
 </ul>
 <p>Ejemplo:</p>
-<pre><code>col1,col2\r\n
-&quot;La tasa de Juan, está vacía&quot;,La tasa de Pablo está llena\r\n
-&quot;La tasa de Juan\nestá vacía&quot;,La tasa de Pablo está llena\r\n
-&quot;La tasa de Juan\r\nestá vacía&quot;,La tasa de Pablo está llena\r\n
-</code></pre>
-
+<p><code>col1,col2\r\n
+  "La tasa de Juan, está vacía",La tasa de Pablo está llena\r\n
+  "La tasa de Juan\nestá vacía",La tasa de Pablo está llena\r\n
+  "La tasa de Juan\r\nestá vacía",La tasa de Pablo está llena\r\n</code></p>
 <ul>
 <li>En el caso de que un valor contenga el caracter comilla doble (<code>"</code>), el valor debe ser encerrado entre comillas dobles como en el caso anterior (<code>""</code>) y, además, los caracteres comilla doble que se encuentren dentro del valor deben escribirse dos veces (<code>""</code>).</li>
 </ul>
 <p>Ejemplo:</p>
-<pre><code>col1,col2\r\n
-&quot;La tasa de &quot;&quot;Juan&quot;&quot; está vacía&quot;,La tasa de Pablo está llena\r\n
-</code></pre>
-
+<p><code>col1,col2\r\n
+  "La tasa de ""Juan"" está vacía",La tasa de Pablo está llena\r\n</code></p>
 <ul>
-<li>Para todos los tipos de datos se considera válido el valor indefinido. Este se expresará con la ausencia de todo caracter y no con un caracter o string especial como podrían ser ".", "null", "none", "nan", etc.</li>
+<li>Para todos los tipos de datos, el valor indefinido se expresará con "NULL" (o "N/A" según corresponda) en lugar de dejar la celda vacía. No se utilizarán otros valores como ".", "none", "CD", etc.</li>
 </ul>
 <p>Ejemplo:</p>
-<pre><code>col1,col2,col3\r\n
-a,,b\r\n
-a,&quot;&quot;,b\r\n
-</code></pre>
-
-<p>Cabe destacar que un archivo csv puede convertirse en un archivo de planilla de cálculo ingresando al formato propietario de MS Office o software similar, donde los campos se separarán en columnas independientes a través de (,).</p>
-<h3 id="json">JSON</h3>
-<p>JSON es un formato de texto popular para el intercambio de datos, es un acrónimo de  JavaScript Object Notation. Por su característica de ser un formato de tipo estructurado es especialmente útil para el intercambio de datos entre máquina (<em>machine - readable format</em>).</p>
-<p>El formato JSON ha sido definido por la especificación <a href="https://tools.ietf.org/html/rfc7159">RFC 7159</a> y, tal como CSV, también es un estándar abierto.</p>
+<p><code>col1,col2,col3\r\n
+  a,NULL,b\r\n
+  a,N/A,b\r\n</code></p>
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, el atributo Observaciones detalla la forma en que cada tipo de dato debe representar la ausencia de valor.</li>
+</ul>
+<p>Cabe destacar que un archivo csv puede convertirse en un archivo de planilla de cálculo ingresando al formato propietario de MS Office o software similar, donde los campos se separarán en columnas independientes a través de (<code>,</code>).</p>
+<h2 id="json">JSON</h2>
+<p>JSON es un formato de texto popular para el intercambio de datos, es un acrónimo de JavaScript Object Notation. Por su característica de ser un formato de tipo estructurado es especialmente útil para el intercambio de datos entre máquina (machine - readable format).</p>
+<p>El formato JSON ha sido definido por la especificación <a href="https://datatracker.ietf.org/doc/html/rfc7159">RFC 7159</a> y, tal como CSV, también es un estándar abierto.</p>
 <h2 id="fragmentacion-de-archivos">Fragmentación de archivos</h2>
-<p>Para garantizar la accesibilidad a los datos, <strong>es necesario fragmentar los archivos excesivamente grandes</strong>, que superen el millón de filas.</p>
+<p>Para garantizar la accesibilidad a los datos, es necesario fragmentar los archivos excesivamente grandes, que superen el millón de filas.</p>
 <p>Para esto, recomendamos usar conceptos simples, fragmentando:</p>
 <p>(a) <strong>por períodos</strong> en caso de tratarse de información temporal (Ej. Años, semestres, trimestres, meses, semanas, días),</p>
 <p>(b) <strong>por zonas</strong> en caso de tratarse de información geográfica (Ej. comunas, barrios, secciones, manzanas o parcelas) o</p>
 <p>(c) <strong>por dimensiones temáticas</strong> propias del dominio particular de la información.</p>
-<p>Sin embargo, siempre que se decida fragmentar un archivo para garantizar su accesibilidad,  recomendamos publicar también una versión no fragmentada que contenga el conjunto de datos completo (aunque sea muy grande), a los fines de evitar la tarea de consolidación.</p>
+<p>Sin embargo, siempre que se decida fragmentar un archivo para garantizar su accesibilidad, recomendamos publicar también una versión no fragmentada que contenga el conjunto de datos completo (aunque sea muy grande), a los fines de evitar la tarea de consolidación.</p>
 <p>Para eso, sugerimos usar protocolos de compresión, en especial para archivos muy grandes, y altamente compresibles. De hacerlo, aconsejamos protocolos sin pérdida, y abiertos. Sugerimos utilizar el formato de compresión ZIP.</p>
 <h2 id="nomenclatura-de-archivos">Nomenclatura de archivos</h2>
 <p>Recomendamos estas convenciones para nombrar archivos:</p>
@@ -1330,33 +2121,36 @@ a,&quot;&quot;,b\r\n
 <li>No usar artículos.</li>
 <li>Usar únicamente letras y números ASCII, siempre en minúsculas, comprendidos en el rango "a-z" y “0-9”.</li>
 <li>Separar las palabras con guión medio "-".</li>
-<li>En caso de corresponder, ubicar la referencia temporal o del atributo de fragmentación siempre al final.</li>
+<li>En caso de corresponder, ubicar la referencia temporal o del atributo de fragmentación siempre al final (*).</li>
 </ul>
 <p>Ejemplos:</p>
-<ul>
-<li>
-<p><em>procesos-de-compra-pliego.csv</em>: Versión completa del recurso.</p>
-</li>
-<li>
-<p><em>procesos-de-compra-pliego-2018.csv</em>: Versión del recurso fragmentada por año.</p>
-</li>
-<li>
-<p><em>procesos-de-compra-pliego-2010-al-2013.csv</em>: Versión del recurso fragmentada por período.</p>
-</li>
-</ul>
+<p><code>• procesos-de-compra-pliego.csv: Versión completa del recurso.
+  • procesos-de-compra-pliego-2018.csv: Versión del recurso fragmentada por año.
+  • procesos-de-compra-pliego-2010-al-2013.csv: Versión del recurso fragmentada por período.</code></p>
 <p>Para la fragmentación temporal, recomendamos el estándar de los ejemplos, ya que es compacto y ordena los recursos por tiempo: YYYYMMDD. Por favor, recordá mantener siempre dos dígitos para el mes y el día, incluso si el número es menor a 10.</p>
-<p>Para la fragmentación por zonas, consultá la <strong><a href="../guia-interoperables/">Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires</a></strong>, y mirá cómo nombrarlas adecuadamente.</p>
+<p>Ejemplo:</p>
+<p><code>• procesos-de-compra-pliego-20240315.csv → Archivo correspondiente al 15 de marzo de 2024.
+  • procesos-de-compra-pliego-202501.csv → Archivo correspondiente a enero de 2025.
+  • procesos-de-compra-pliego-20231005.csv → Archivo correspondiente al 5 de octubre de 2023.</code>
+ <strong>(*) Nota:</strong> La nomenclatura utilizada sigue buenas prácticas reconocidas internacionalmente. Como alternativa, se puede optar por ubicar la fecha al inicio del nombre del archivo para priorizar la ordenación cronológica. </p>
+<p>Ejemplo:</p>
+<p><code>• 20240315-procesos-de-compra-pliego.csv
+  • 202501-procesos-de-compra-pliego.csv</code>
+  Para la fragmentación por zonas, consultá la <a href="https://datosgcba.github.io/guia-datos/guia-interoperables/">Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires</a>, y mirá cómo nombrarlas adecuadamente.</p>
 <p>En el caso de usar dimensiones temáticas propias del dominio particular de la información, podés ver esa guía o usar el mejor estándar identificado para esa temática particular.</p>
 <p>En caso de comprimir varios archivos, recomendamos mantener la misma nomenclatura para todos los archivos (con distintos tipos de formato), incluso para el comprimido.</p>
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, se encuentra descrito bajo el nombre “Nombre de archivo”.</li>
+</ul>
 <h2 id="codificacion">Codificación</h2>
 <p>De acuerdo con los lineamientos establecidos para la Administración Pública Nacional, todos los recursos de datos, incluyendo los geográficos, deben publicarse usando la codificación UTF-8 siguiendo las <a href="https://www.w3.org/TR/tabular-data-model/#h-encoding">recomendaciones de la W3C</a>.</p>
-<p>Una de las principales razones es que UTF-8 soporta una gran variedad de lenguajes, <a href="https://www.w3.org/International/questions/qa-choosing-encodings">según la W3C</a> es un <em>"estándar en el que se definen todos los caracteres necesarios para la escritura de la mayoría de los idiomas hablados en la actualidad. Su objetivo es ser, y, en gran medida, ya lo ha logrado, un superconjunto de todos los sets de caracteres que se hayan codificado"</em>.</p>
+<p>Una de las principales razones es que UTF-8 soporta una gran variedad de lenguajes, <a href="https://www.w3.org/International/questions/qa-choosing-encodings">según la W3C</a> es un "estándar en el que se definen todos los caracteres necesarios para la escritura de la mayoría de los idiomas hablados en la actualidad. Su objetivo es ser, y, en gran medida, ya lo ha logrado, un superconjunto de todos los sets de caracteres que se hayan codificado".</p>
 <h2 id="estructura-y-caracteristicas-de-los-datos-tabulares">Estructura y características de los datos tabulares</h2>
 <p>En esta sección veremos:</p>
 <p>(a) Recomendaciones generales para el trabajo con datos, y</p>
 <p>(b) Recomendaciones para el trabajo con planillas de cálculo, orientadas tanto a facilitar su exportación a formatos abiertos, como a su propia usabilidad en el contexto de cualquier aplicación de planillas de cálculo.</p>
 <h3 id="recomendaciones-generales">Recomendaciones generales</h3>
-<p>Muchas de las recomendaciones, tomadas de la Guía de Nación, se encuadran en los principios de <a href="https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf">Tidy Data</a> delineados por <a href="http://hadley.nz/">Hadley Wickham</a>. Éstos establecen, por ejemplo, que en una tabla de datos <em>"cada variable es una columna, cada observacion es una fila, y cada tipo de unidad observacional es una tabla"</em>. Sugerimos complementar la lectura de esta guía con la del trabajo que mencionamos.</p>
+<p>Muchas de las recomendaciones, tomadas de la Guía de Nación, se encuadran en los principios de <a href="https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf">Tidy Data</a> delineados por <a href="https://hadley.nz/">Hadley Wickham</a>. Éstos establecen, por ejemplo, que en una tabla de datos "cada variable es una columna, cada observacion es una fila, y cada tipo de unidad observacional es una tabla". Sugerimos complementar la lectura de esta guía con la del trabajo que mencionamos.</p>
 <h4 id="nomenclatura-de-los-campos-nombres-de-las-columnas">Nomenclatura de los campos (nombres de las columnas)</h4>
 <p>La "nomenclatura de los campos" es el nombre de las columnas en los datos de estructura tabular. Estas recomendaciones aplican a la generalidad de los casos, pero cuando haya convenciones particulares según la temática o rubro de datos de que se trate y éstas entren en conflicto, puede ser conveniente privilegiar primero la convención de la temática específica y luego la convención general.</p>
 <p>Los nombres de los campos deben:</p>
@@ -1377,68 +2171,54 @@ a,&quot;&quot;,b\r\n
 </li>
 <li>
 <p>Estar en minúsculas, no incluir caracteres especiales, ni estar subrayados.</p>
-<ul>
-<li>
-<p>Usar palabras compuestas únicamente de caracteres en minúsculas comprendidos en el rango a-z (letras sin tildes) y en el rango 0-9 (dígitos).</p>
 </li>
 <li>
-<p>Las palabras deben unirse con guión bajo " _ ".</p>
+<p>Usar palabras compuestas únicamente de caracteres en minúsculas comprendidos en el rango a-z (letras sin tildes) y en el rango 0-9 (dígitos).</p>
 </li>
 <li>
 <p>No contener espacios.</p>
 </li>
 <li>
-<p>Las palabras deben separarse siempre con " _ ", en lugar de no tener separación alguna: fecha_audiencia_solicitada en lugar de fechaaudienciasolicitada</p>
-</li>
-</ul>
+<p>Las palabras deben separarse siempre con guión bajo " _ ", en lugar de no tener separación alguna: fecha_audiencia_solicitada en lugar de fechaaudienciasolicitada.</p>
 </li>
 <li>
 <p>Referirse a un sólo atributo de los datos, indivisible en más de un campo.</p>
-<ul>
+</li>
 <li>
-<p>Los campos deben separar los atributos de los datos en la forma más desagregada que sea posible. </p>
+<p>Los campos deben separar los atributos de los datos en la forma más desagregada que sea posible.</p>
 </li>
 <li>
 <p>Se debe evitar definir campos que contengan más de un tipo de información (por ejemplo: e-mail y sitio web, número de teléfono, etc. bajo "datos_de_contacto").</p>
 </li>
+<li>
+<p>Si existe una entidad que engloba varias características separadas en campos diferentes, comenzar nombrando los campos con esa entidad y luego con los atributos más específicos (de lo más general a lo más específico).
+  Ej.: en los pedidos de acceso a la información pública, “solicitante” es una entidad que puede repetirse en varios campos que corresponden a atributos más específicos:</p>
+<ul>
+<li>solicitante_id</li>
+<li>solicitante_tipo</li>
 </ul>
 </li>
 <li>
-<p>Si existe una entidad que engloba varias características separadas en campos diferentes, comenzar nombrando los campos con esa entidad y luego con los atributos más específicos (de lo más general a lo más específico). </p>
-<ul>
-<li>Ej.: en los pedidos de acceso a la información pública, “solicitante” es una entidad que puede repetirse en varios campos que corresponden a atributos más específicos.</li>
-</ul>
-</li>
-<li>
-<p>solicitante_id</p>
-</li>
-<li>
-<p>solicitante_tipo</p>
-<ul>
-<li>
-<p>Resulta más fácil  identificar qué campos están relacionados entre sí porque configuran atributos de una misma entidad, en lugar de parecer campos conceptualmente independientes.  Además, el ordenamiento alfabético de los campos los dejaría automáticamente agrupados por su pertenencia a una entidad más importante.</p>
+<p>Resulta más fácil identificar qué campos están relacionados entre sí porque configuran atributos de una misma entidad, en lugar de parecer campos conceptualmente independientes. Además, el ordenamiento alfabético de los campos los dejaría automáticamente agrupados por su pertenencia a una entidad más importante.</p>
 </li>
 <li>
 <p>Incluso cuando la entidad de un atributo parezca evidente (ej.: un dataset llamado "audiencias" donde todos los campos son atributos de la entidad “audiencia”), se recomienda nombrar el campo incluyendo la entidad a la que hace referencia el atributo.</p>
-</li>
+<ul>
+<li><strong>No recomendado:</strong> “fecha_hora”</li>
+<li><strong>Recomendado:</strong> "audiencia_id", “audiencia_fecha_hora”.Los campos que sean identificadores o códigos, deberán incluir el sufijo "_id" en el nombre del campo, salvo casos excepcionales donde un nombre alternativo sea más conveniente porque ofrece información sobre el sistema de identificación usado.</li>
 </ul>
 </li>
 <li>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span>: “fecha_hora”</p>
+<p>En cuanto a los campos que contengan la descripción de ese identificador, se recomienda que incluyan el sufijo "_desc" (por "descripción") en caso de que no exista una forma más conveniente de nombrar el campo.</p>
 </li>
-<li><span class="recomendado"><strong>Recomendado</strong></span>: "audiencia_id", “audiencia_fecha_hora”.</li>
 </ul>
-<p>Los campos que sean identificadores o códigos, deberán incluir el sufijo "_id" en el nombre del campo, salvo casos excepcionales donde un nombre alternativo sea más conveniente porque ofrece información sobre el sistema de identificación usado.</p>
-<ul>
-<li>En cuanto a los campos que contengan la descripción de ese identificador, se recomienda que incluyan el sufijo "_desc" (por "descripción") en caso de que no exista una forma más conveniente de nombrar el campo.</li>
-</ul>
-<p><span class="recomendado"><strong>Recomendado</strong></span></p>
-<table>
-<tbody>
+<p><strong>Recomendado</strong></p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>contracts_item_id</td>
     <td>contracts_items_desc</td>
-  </tr>
+  </tr>  
   <tr>
     <td>20.01.001.0009.2-10</td>
     <td>TELEVISOR INTELIGENTE (SMART)</td>
@@ -1447,27 +2227,24 @@ a,&quot;&quot;,b\r\n
     <td>03.02.001.0061.3-2</td>
     <td>SERVICIO DE ARTES GRAFICAS - GRABADO SOBRE BOLIGRAFO</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, se encuentra descrito bajo el nombre “Nombre del campo”.</li>
+</ul>
 <h4 id="nivel-de-granularidad-de-los-datos">Nivel de granularidad de los datos</h4>
-<p>Por favor, no incluir totales, subtotales ni agrupamientos de datos. Un dataset debe ser consistente en el nivel de granularidad de los datos que contiene. Está bien tener un dataset con la cantidad de proyectos por comuna y está bien tener un dataset con la cantidad de proyectos firmados por barrio. No está bien tener un dataset que mezcle ambos. </p>
+<p>Por favor, no incluir totales, subtotales ni agrupamientos de datos. Un dataset debe ser consistente en el nivel de granularidad de los datos que contiene. Está bien tener un dataset con la cantidad de proyectos por comuna y está bien tener un dataset con la cantidad de proyectos firmados por barrio. No está bien tener un dataset que mezcle ambos.</p>
 <p>Dicho esto, el dato agregado "proyectos firmados por comuna" siempre se puede calcular a partir de un proceso del dataset más desagregado, pero esto no es así a la inversa (es imposible recuperar los datos a nivel de barrio desde el dataset comunal).</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - datos con subtotales y/o totales incluidos (diferentes niveles de granularidad)</p>
-<table>
-  <colgroup>
-    <col style="width:21%">
-    <col style="width:21%">
-    <col style="width:28%">
-    <col style="width:30%">
-  </colgroup>
-<tbody>
+<p><strong>No recomendado</strong> - datos con subtotales y/o totales incluidos (diferentes niveles de granularidad)</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
-    <td style="font-size: 11px">comuna</td>
-    <td style="font-size: 11px">barrio</td>
-    <td style="font-size: 11px">proyectos_anio</td>
-    <td style="font-size: 11px">proyectos_numero</td>
-  </tr>
+    <td>comuna</td>
+    <td>barrio_caba</td>
+    <td>proyectos_anio</td>
+    <td>proyectos_numero</td>
+  </tr>  
   <tr>
     <td> </td>
     <td>Barrio X</td>
@@ -1475,387 +2252,359 @@ a,&quot;&quot;,b\r\n
     <td>2011</td>
   </tr>
   <tr>
-    <td>Comuna X</td>
+    <td>1</td>
     <td>Barrio X</td>
     <td>2011</td>
     <td>15</td>
   </tr>
-  <tr>
-    <td>Comuna X</td>
+  <tr> 
+    <td>1</td>
     <td>Subtotal</td>
     <td>2011</td>
     <td>25</td>
   </tr>
-  <tr>
-    <td>Comuna Y</td>
+  <tr>   
+    <td>3</td>
     <td>Barrio Z</td>
     <td>2011</td>
     <td>5</td>
   </tr>
-  <tr>
-    <td>Comuna Y</td>
+  <tr>           
+    <td>3</td>
     <td>Subtotal</td>
     <td>2011</td>
     <td>5</td>
   </tr>
   <tr>
-    <td></td>
+    <td> </td>
     <td>TOTAL</td>
     <td>2011</td>
     <td>30</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
-<p><span class="recomendado"><strong>Recomendado</strong></span> - datos de un mismo nivel de granularidad</p>
-<table>
-  <colgroup>
-    <col style="width:21%">
-    <col style="width:21%">
-    <col style="width:28%">
-    <col style="width:30%">
-  </colgroup>
-<tbody>
+<p><strong>Recomendado</strong> - datos de un mismo nivel de granularidad</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
-    <td style="font-size: 11px">comuna</td>
-    <td style="font-size: 11px">barrio</td>
-    <td style="font-size: 11px">proyectos_anio</td>
-    <td style="font-size: 11px">proyectos_numero</td>
-  </tr>
-  <tr>
-    <td>Comuna X</td>
+    <td>1</td>
     <td>Barrio W</td>
     <td>2011</td>
     <td>10</td>
   </tr>
-  <tr>
-    <td>Comuna X</td>
+  <tr>   
+    <td>3</td>
     <td>Barrio X</td>
     <td>2011</td>
     <td>15</td>
   </tr>
   <tr>
-    <td>Comuna Y</td>
+    <td>15</td>
     <td>Barrio Z</td>
     <td>2011</td>
     <td>5</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
 <h4 id="usar-orientacion-vertical-en-lugar-de-horizontal">Usar orientación vertical en lugar de horizontal</h4>
 <p>Es preferible que la orientación de los datos sea "vertical" en lugar de “horizontal” en los casos en que esto sea posible. La principal razón es que los datos orientados de manera vertical facilitan el tratamiento y análisis de los datos.</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - Orientación horizontal</p>
-<table>
-  <colgroup>
-    <col style="width:19%">
-    <col style="width:17%">
-    <col style="width:27%">
-    <col style="width:28%">
-  </colgroup>
-<tbody>
-  <tr>
-    <td style="font-size: 11px">comuna</td>
-    <td style="font-size: 11px">solicitudes_anio</td>
-    <td style="font-size:11px;">solicitudes_poda_y_arbolado_numero</td>
-    <td style="font-size:11px;">solicitudes_recoleccion_residuos_numero</td>
-  </tr>
-  <tr>
-    <td>Comuna 6</td>
-    <td>2015</td>
-    <td>340</td>
-    <td>198</td>
-</tbody>
-</table>
-
-<p><span class="recomendado"><strong>Recomendado</strong></span> - Orientación vertical</p>
-<table>
-  <colgroup>
-    <col style="width:19%">
-    <col style="width:17%">
-    <col style="width:27%">
-    <col style="width:28%">
-  </colgroup>
-
-<tbody>
-  <tr>
-    <td style="font-size: 11px">comuna</td>
-    <td style="font-size: 11px">solicitudes_anio</td>
-    <td style="font-size:11px;">solicitudes_categoria</td>
-    <td style="font-size:11px;">solicitudes_numero</td>
-  </tr>
-  <tr>
-    <td>Comuna 6</td>
-    <td>2015</td>
-    <td>Poda y arbolado</td>
-    <td>340</td>
-  </tr>
-  <tr>
-    <td>Comuna 6</td>
-    <td>2015</td>
-    <td>Recolección de residuos</td>
-    <td>198</td>
-  </tr>
-</tbody>
-</table>
-
-<h4 id="incluir-solo-un-atributo-por-campo">Incluir sólo un atributo por campo</h4>
-<p>Se recomienda definir los campos de forma atómica de modo de incluir un sólo atributo por elemento, en lugar de datos múltiples, generando campos adicionales de ser necesario.</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - múltiples datos en una celda</p>
-<table>
-<tbody>
+<p><strong>No recomendado</strong> - Orientación horizontal</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>comuna</td>
     <td>solicitudes_anio</td>
-    <td style="font-size:11px;">categoria_solicitudes_numero_y_tipo</td>
-  </tr>
+    <td>solicitudes_poda_y_arbolado_numero</td>
+    <td>solicitudes_recoleccion_residuos_numero</td>
+  </tr>  
   <tr>
-    <td>Comuna 6</td>
+    <td>6</td>
     <td>2015</td>
-    <td>Poda y arbolado - 340
-Recolección de residuos - 198</td>
-</tbody>
-</table>
+    <td>340</td>
+    <td>198</td>
+  </tr>
+  </tbody>
+  </table>
 
-<p><span class="recomendado"><strong>Recomendado</strong></span> - un dato por celda</p>
-<table>
-<tbody>
+<p><strong>Recomendado</strong> - Orientación vertical</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>comuna</td>
     <td>solicitudes_anio</td>
     <td>solicitudes_categoria</td>
     <td>solicitudes_numero</td>
-  </tr>
+  </tr>  
   <tr>
-    <td>Comuna 6</td>
+    <td>6</td>
     <td>2015</td>
     <td>Poda y arbolado</td>
     <td>340</td>
   </tr>
-  <tr>
-    <td>Comuna 6</td>
+    <tr>
+    <td>6</td>
     <td>2015</td>
     <td>Recolección de residuos</td>
     <td>198</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
-<h4 id="valores-nulos-desconocidos-o-en-blanco-en-campos-numericos">Valores nulos, desconocidos o en blanco en campos numéricos</h4>
-<p>Los valores de los datos deben ser siempre explícitos y respetando el tipo de datos del campo de que se trate. Los elementos o celdas en blanco se interpretarán siempre como "valor ausente" y no se representan con "0". </p>
-<p>Si existen distintas interpretaciones posibles de un "valor ausente", éstas deben ser explicitadas en un campo aparte. Si sólo hay “valores ausentes” (no hay distintas interpretaciones, es siempre un “valor ausente”) no es necesario agregar una columna adicional.</p>
-<p>Es importante destacar, por ejemplo, que cuando un valor numérico sea "0" siempre debe ponerse un “0” como dato (y no un valor nulo, en blanco o vacío).</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - texto presente en campos numéricos</p>
-<table id="una-columna">
-<tbody>
+<h4 id="incluir-solo-un-atributo-por-campo">Incluir sólo un atributo por campo</h4>
+<p>Se recomienda definir los campos de forma atómica de modo de incluir un sólo atributo por elemento, en lugar de datos múltiples, generando campos adicionales de ser necesario.</p>
+<p><strong>No recomendado</strong> - múltiples datos en una celda</p>
+<table id="left-align-col-2">
+  <tbody>
+  <tr>
+    <td>comuna</td>
+    <td>solicitudes_anio</td>
+    <td>categoria_solicitudes_numero_y_tipo</td>
+  </tr>  
+  <tr>
+    <td>6</td>
+    <td>2015</td>
+    <td>Poda y arbolado - 340 Recolección de residuos - 198</td>
+  </tr>  
+  </tbody>
+  </table>
+
+<p><strong>Recomendado</strong> - un dato por celda</p>
+<table id="left-align-col-2">
+  <tbody>
+  <tr>
+    <td> </td>
+    <td>solicitudes_anio</td>
+    <td>solicitudes_categoria</td>
+    <td>solicitudes_numero </td>
+  </tr>  
+   <tr>
+    <td>6</td>
+    <td>2015</td>
+    <td>Poda y arbolado</td>
+    <td>340</td>
+  </tr>  
+    <tr>
+    <td>6</td>
+    <td>2015</td>
+    <td>Recolección de residuos</td>
+    <td>198</td>
+  </tr> 
+  </tbody>
+  </table>
+
+<h4 id="valores-nulos-desconocidos-o-no-aplicables-en-los-datos">Valores nulos, desconocidos o no aplicables en los datos</h4>
+<p>No se permiten celdas vacías. En su lugar, se debe utilizar:</p>
+<ul>
+<li>
+<p><strong>NULL:</strong> cuando el dato no está disponible o no existe.</p>
+</li>
+<li>
+<p><strong>N/A:</strong> cuando el dato no es aplicable en el contexto del registro.</p>
+</li>
+</ul>
+<p>En los campos numéricos, un valor nulo o ausente <strong>no debe representarse con "0"</strong>, ya que el <strong>"0"</strong> es un valor válido y debe indicarse explícitamente cuando corresponda.</p>
+<p>Si existen distintas interpretaciones de un "valor ausente", estas deben ser explicitadas en un campo aparte. Si solo hay una interpretación posible, no es necesario agregar una columna adicional.</p>
+<p><strong>No recomendado</strong> - celdas vacías o valores inconsistentes en los campos</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>solicitudes_numero</td>
-  </tr>
-  <tr>
     <td>34</td>
-  </tr>
-  <tr>
     <td>NA</td>
-  </tr>
-  <tr>
-  </tr>
-  <tr>
+    <td> </td>
     <td>...</td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-  </tr>
-  <tr>
+    <td> </td>
+    <td> </td>
     <td>567</td>
-  </tr>
-</tbody>
-</table>
+  </tr>  
+  </tbody>
+  </table>
 
-<p><span class="recomendado"><strong>Recomendado</strong></span> - texto excluido de campos numéricos</p>
-<table>
-<tbody>
+<p><strong>Recomendado</strong> - uso explícito de valores nulos y no aplicables</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>solicitudes_numero</td>
     <td>solicitudes_numero_missing_desc</td>
-  </tr>
+  </tr>  
   <tr>
     <td>34</td>
-    <td></td>
+    <td> </td>
   </tr>
   <tr>
-    <td></td>
+    <td>NULL</td>
     <td>No disponible</td>
   </tr>
-  <tr>
-    <td></td>
-    <td>No sabe / No contesta</td>
+   <tr>
+    <td>N/A</td>
+    <td>No aplica</td>
   </tr>
-  <tr>
-    <td></td>
+    <tr>
+    <td>NULL</td>
     <td>Valor ausente</td>
   </tr>
-  <tr>
-    <td></td>
-    <td>Valor ausente</td>
-  </tr>
-  <tr>
+    <tr>
     <td>0</td>
-    <td></td>
+    <td> </td>
   </tr>
   <tr>
-    <td>567</td>
-    <td></td>
+  <td>567</td>
+  <td> </td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, el atributo Observaciones detalla la forma en que cada tipo de dato debe representar la ausencia de valor.</li>
+</ul>
 <h3 id="recomendaciones-para-estructurar-planillas-de-calculo">Recomendaciones para estructurar planillas de cálculo</h3>
 <p>Las recomendaciones de esta sección aplican exclusivamente al trabajo sobre planillas de cálculo.</p>
 <h4 id="usar-celdas-simples">Usar celdas simples</h4>
 <p>Recomendamos usar celdas simples y, en ningún caso, combinar celdas.</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - celdas combinadas</p>
-<table>
-<tbody>
+<p><strong>No recomendado</strong> - celdas combinadas</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>proveedor_nombre</td>
     <td colspan="2">contacto_datos</td>
   </tr>
-  <tr>
-    <td></td>
+    <tr>
+    <td> </td>
     <td>correo_electronico</td>
     <td>telefono</td>
-  </tr>
+  </tr>  
+  <tr>
     <td>Ejemplo Sociedad Anónima</td>
     <td>ejemplo@ejemplo.com.ar</td>
     <td>1143XXXXXX</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
-<p><span class="recomendado"><strong>Recomendado</strong></span> - celdas simples, sin combinar</p>
-<table>
-<tbody>
+<p><strong>Recomendado</strong> - celdas simples, sin combinar</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>proveedor_nombre</td>
     <td>contacto_correo_electronico</td>
     <td>contacto_telefono</td>
-  </tr>
-  <tr>
+  </tr>  
+    <tr>
     <td>Ejemplo Sociedad Anónima</td>
     <td>ejemplo@ejemplo.com.ar</td>
     <td>1143XXXXXX</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
 <h4 id="fila-de-encabezado">Fila de encabezado</h4>
 <p>Los datos deben contener sólo una fila de encabezado. Desde la segunda fila en adelante, sólo debe haber datos, pero nunca un encabezado.</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - múltiples filas de encabezado</p>
-<table>
-<tbody>
+<p><strong>No recomendado</strong> - múltiples filas de encabezado</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>Nombre del</td>
     <td>Dirección de correo</td>
     <td>Teléfono de</td>
-  </tr>
+  </tr>  
   <tr>
     <td>proveedor</td>
     <td>electrónico de contacto</td>
     <td>contacto</td>
-  </tr>
+  </tr>  
+  <tr>
     <td>Ejemplo Sociedad Anónima</td>
     <td>ejemplo@ejemplo.com.ar</td>
     <td>1143XXXXXX</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
-<p><span class="recomendado"><strong>Recomendado</strong></span> - encabezado de una única fila</p>
-<table>
-<tbody>
+<p><strong>Recomendado</strong> - encabezado de una única fila</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>proveedor_nombre</td>
     <td>contacto_correo_electronico</td>
     <td>contacto_telefono</td>
-  </tr>
+  </tr>  
+  <tr>
+    <td>Ejemplo Sociedad Anónima</td>
+    <td>ejemplo@ejemplo.com.ar</td>
+    <td>1143XXXXXX</td>
+  </tr>    
   <tr>
     <td>Ejemplo Sociedad Anónima</td>
     <td>ejemplo@ejemplo.com.ar</td>
     <td>1143XXXXXX</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
 <h4 id="celdas-vacias-en-filas-para-agrupar-conceptos">Celdas vacías en filas para agrupar conceptos</h4>
 <p>Recomendamos no dejar celdas vacías en filas bajo la presunción de que valores en blanco posteriores a un valor positivo contienen implícitamente a ese mismo valor en una suerte de "agrupamiento conceptual".</p>
 <p>Este error es muy común en la construcción de planillas de cálculo y suele generar problemas graves cuando cambia el orden original de las filas. Además, impide el uso de tablas dinámicas y otras formas de analizar los datos.</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - primera celda de la segunda fila vacía</p>
-<table>
-<tbody>
+<p><strong>No recomendado</strong> - primera celda de la segunda fila vacía</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>comuna</td>
     <td>solicitudes_anio</td>
     <td>solicitudes_categoria</td>
     <td>solicitudes_numero</td>
-  </tr>
+  </tr>  
   <tr>
-    <td>Comuna 6</td>
+    <td>6</td>
     <td>2015</td>
     <td>Poda y arbolado</td>
     <td> </td>
   </tr>
   <tr>
-    <td></td>
+    <td> </td>
     <td>2015</td>
-    <td>Recolección de residuos</td>
+    <td>Recolección de residuos </td>
     <td>198</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
-<p><span class="recomendado"><strong>Recomendado</strong></span> - primera celda de la segunda fila completa</p>
-<table>
-<tbody>
+<p><strong>Recomendado</strong> - primera celda de la segunda fila completa</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>comuna</td>
     <td>solicitudes_anio</td>
     <td>solicitudes_categoria</td>
     <td>solicitudes_numero</td>
-  </tr>
+  </tr>  
   <tr>
-    <td>Comuna 6</td>
+    <td>6</td>
     <td>2015</td>
     <td>Poda y arbolado</td>
     <td>340</td>
   </tr>
   <tr>
-    <td>Comuna 6</td>
+    <td>6</td>
     <td>2015</td>
-    <td>Recolección de residuos</td>
+    <td>Recolección de residuos </td>
     <td>198</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
 <h4 id="formato-de-celdas">Formato de celdas</h4>
-<p>Las celdas de una planilla de cálculo deben estar formateadas acorde al tipo de datos de que se trate. Específicamente, <strong>los números</strong> siempre deben estar en celdas de formato/tipo "número", <strong>los campos de tipo textual</strong> deben estar en celdas de formato/tipo “texto” y <strong>los campos de tipo fecha</strong> deben estar en celdas de formato/tipo “fecha”.</p>
-<table>
-  <colgroup>
-    <col style="width:30%">
-    <col style="width:40%">
-    <col style="width:30%">
-  </colgroup>
-<tbody>
+<p>Las celdas de una planilla de cálculo deben estar formateadas acorde al tipo de datos de que se trate. Específicamente, los <strong>números</strong> siempre deben estar en celdas de formato/tipo "número", <strong>los campos de tipo textual</strong> deben estar en celdas de formato/tipo “texto” y <strong>los campos de tipo fecha</strong> deben estar en celdas de formato/tipo “fecha”.</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>audiencia_fecha_hora</td>
     <td>audiencia_sujeto_obligado_nombre</td>
     <td>audiencia_numero</td>
-  </tr>
+  </tr>  
   <tr>
-    <td>1/3/16</td>
+    <td>2025-03-01</td>
     <td>Juan</td>
     <td>3456</td>
   </tr>
@@ -1864,8 +2613,8 @@ Recolección de residuos - 198</td>
     <td>(Texto)</td>
     <td>(Número)</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
 <p>Mantener el formato correcto de las celdas según el tipo de datos que contengan:</p>
 <ul>
@@ -1876,24 +2625,17 @@ Recolección de residuos - 198</td>
 <p>Hace que los datos sean más operables en la propia planilla de cálculo, aprovechando mejor sus funcionalidades.</p>
 </li>
 </ul>
-<h3 id="exportacion-a-csv">Exportación a CSV</h3>
-<p>Insistimos: CSV es el formato más recomendado para la publicación de archivos tabulares. A la hora de exportar una planilla de cálculo a CSV hay 3 parámetros que deben ser especificados durante la exportación, independientemente del software de que se use:</p>
-<ul>
-<li>
-<p><strong>Codificación</strong> (encoding, en inglés): siempre debe ser UTF-8.</p>
-</li>
-<li>
-<p><strong>Caracter separador</strong> (separator character, en inglés): siempre debe ser "," (coma).</p>
-</li>
-<li>
-<p><strong>Caracter calificador</strong> (quote character o enclosing character, en inglés): siempre debe ser " “ “ (comillas dobles).</p>
-</li>
-</ul>
 <h2 id="estandares-segun-el-tipo-de-datos">Estándares según el tipo de Datos</h2>
-<p>El formato recomendado para los distintos tipos de datos está mayormente basado en las especificaciones de la <a href="https://www.w3.org/TR/tabular-data-model/">W3C</a>. En los otros casos, las recomendaciones surgen de la experiencia de trabajo del equipo de la Dirección Nacional de Datos e Información Pública, de estándares particulares definidos por organismos del Gobierno de la Ciudad Autónoma de Buenos Aires y del esfuerzo realizado en la búsqueda de estándares más adecuados.</p>
+<p>El formato recomendado para los distintos tipos de datos está mayormente basado en las especificaciones de la W3C. En los otros casos, las recomendaciones surgen de la experiencia de trabajo del equipo de la Dirección Nacional de Datos e Información Pública, de estándares particulares definidos por organismos del Gobierno de la Ciudad Autónoma de Buenos Aires y del esfuerzo realizado en la búsqueda de estándares más adecuados.</p>
+<p><strong>A continuación, se presentan los formatos más generales y frecuentemente utilizados</strong>, los cuales ya están definidos en el <strong>Diccionario de Datos y Metadatos</strong> con el detalle completo de los distintos tipos de datos y las pautas específicas para estructurar correctamente el formato de cada uno.</p>
 <h3 id="texto">Texto</h3>
 <ul>
-<li>Los campos de texto no deben contener espacios en blanco innecesarios al principio ni al final.</li>
+<li>
+<p>Los campos de texto no deben contener espacios en blanco innecesarios al principio ni al final.</p>
+</li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Cadena de caracteres”</p>
+</li>
 </ul>
 <h4 id="entidades">Entidades</h4>
 <p>Las entidades que aparezcan entre los datos de un campo textual deben tener una descripción única. Es decir, toda mención que se realice a una entidad dada debe hacerse usando exactamente la misma cadena de caracteres cada vez:</p>
@@ -1905,63 +2647,71 @@ Recolección de residuos - 198</td>
 <p><strong>Cuando este estándar no exista</strong> y hay dudas respecto del criterio a adoptar para elegir la descripción única de una entidad, debe <strong>privilegiarse siempre aquella que sea lo más explícita</strong>, descriptiva y declarativa posible.</p>
 </li>
 </ul>
-<p>En el caso de la Ciudad Autónoma de Buenos Aires, de acuerdo a los lineamientos establecidos por la Unidad de Sistemas de Información Geográfica (USIG), la Ciudad Autónoma de Buenos Aires debe referenciarse como “CABA”.</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span></p>
-<table id="una-columna">
+<p>En el caso de la Ciudad Autónoma de Buenos Aires, de acuerdo a los lineamientos establecidos por la Gerencia Operativa de Explotación de Datos (GOED), la Ciudad Autónoma de Buenos Aires debe referenciarse como “CABA”.</p>
+<p><strong>No recomendado</strong></p>
+<pre><code>&lt;table id="left-align-col-2"&gt;
+</code></pre>
 <tbody>
   <tr>
     <td>localidad_nombre</td>
-  </tr>
-  <tr>
     <td>Ciudad Autónoma de Buenos Aires</td>
-  </tr>
-  <tr>
     <td>CABA</td>
-  </tr>
-  <tr>
     <td>Capital Federal</td>
-  <tr>
     <td>Ciudad de Buenos Aires</td>
-  </tr>
-</tbody>
+  </tr>  
+  </tbody>
 </table>
-
-<p><span class="recomendado"><strong>Recomendado</strong></span> </p>
-<table  id="una-columna">
+<p><strong>Recomendado</strong></p>
+<pre><code>&lt;table id="left-align-col-2"&gt;
+</code></pre>
 <tbody>
   <tr>
     <td>localidad_nombre</td>
-  </tr>
-  <tr>
     <td>CABA</td>
-  </tr>
-  <tr>
     <td>CABA</td>
-  </tr>
-  <tr>
     <td>CABA</td>
-  </tr>
-  <tr>
     <td>CABA</td>
-  </tr>
-</tbody>
+  </tr>  
+  </tbody>
 </table>
-
 <p>En el ejemplo anterior, los cuatro valores de texto refieren a la misma entidad. Debe elegirse una única forma de referirse a la misma y usarla en todos los casos.</p>
 <p>Siempre que sea posible, la elección deberá fundamentarse en el estándar establecido para ese tipo de entidad (para más información ver la <strong>Guía para la identificación y uso de entidades interoperables de la Ciudad Autónoma de Buenos Aires</strong>). En el caso de no existir un estándar, deberá adecuarse a las pautas generales contexto del dataset que se trate.</p>
-<p>Por ejemplo, para el caso de localidades que conforman el Área Metropolitana de Buenos Aires (AMBA) se recomienda utilizar los nombres definidos en los <a href="https://pypi.org/project/usig-normalizador-amba/">líneamientos de USIG</a></p>
+<p>Por ejemplo, para el caso de localidades que conforman el Área Metropolitana de Buenos Aires (AMBA) se recomienda utilizar los nombres definidos por la Gerencia Operativa de Explotación de Datos (GOED) en IDECABA.</p>
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Localidad” y en “Localidad de AMBA”</li>
+</ul>
 <h4 id="nombres-propios">Nombres propios</h4>
 <p><strong>Se capitalizan</strong> (primera letra de cada palabra es mayúscula, el resto de las letras son minúsculas) <strong>todas las palabras significativas</strong>, salvo las siglas. Las palabras significativas son aquellas que no cumplen la función de artículos o preposiciones.</p>
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo los nombres: “Apellidos y nombres completos de la persona”, “Nombres de la persona”, “Apellidos de la persona”</li>
+</ul>
 <h4 id="instituciones-del-gobierno-de-la-ciudad-de-buenos-aires">Instituciones del Gobierno de la Ciudad de Buenos Aires</h4>
-<p>El nombre y las siglas de las instituciones del Gobierno de la Ciudad Autónoma de Buenos Aires serán los establecidos en la <a href="http://www.buenosaires.gob.ar/organigrama/?menu_id=505">estructura de gobierno</a> de la Secretaria Legal y Técnica. Se recomienda revisar la <strong><a href="../guia-metadatos/">Guía para el uso y la publicación de metadatos del Gobierno de la Ciudad Autónoma de Buenos Aires</a></strong>.</p>
+<p>El nombre y las siglas de las instituciones del Gobierno de la Ciudad Autónoma de Buenos Aires serán los establecidos en la estructura de gobierno que surja del Decreto de Estructura que se dicta al efecto por el Jefe de Gobierno de la Ciudad Autónoma de Buenos Aires.  Se recomienda revisar la Guía para el uso y la publicación de metadatos del Gobierno de la Ciudad Autónoma de Buenos Aires.</p>
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Nombre formal capitalizado”</li>
+</ul>
 <h4 id="siglas">Siglas</h4>
 <p>Todas las siglas se escriben en mayúsculas, sin usar puntos ni espacios intermedios.</p>
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Siglas”.</li>
+</ul>
 <h3 id="numero">Número</h3>
 <ul>
-<li>El separador decimal debe ser el caracter ".".</li>
-<li>No se usará separador de miles.</li>
-<li>No se deberán usar espacios en blanco.</li>
-<li>Para los números negativos debe incluirse el símbolo menos "-” inmediatamente antes del número, sin espacio en blanco intermedio.</li>
+<li>
+<p>El separador decimal debe ser el caracter ".".</p>
+</li>
+<li>
+<p>No se usará separador de miles.</p>
+</li>
+<li>
+<p>No se deberán usar espacios en blanco.</p>
+</li>
+<li>
+<p>Para los números negativos debe incluirse el símbolo menos "-” inmediatamente antes del número, sin espacio en blanco intermedio.</p>
+</li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Siglas”.</p>
+</li>
 </ul>
 <h4 id="moneda">Moneda</h4>
 <p>Los valores numéricos que sean además valores monetarios se consideran números y, por lo tanto, valen las mismas recomendaciones que para ellos. Además, agregamos las siguientes recomendaciones:</p>
@@ -1973,23 +2723,47 @@ Recolección de residuos - 198</td>
 <p>En ningún caso se incluirán símbolos o letras en el campo numérico -ya sea "$", “DOL”, “USD”, etc.</p>
 </li>
 </ul>
-<p>Si en el recurso los valores monetarios están expresados en diferentes monedas, se recomienda indicarlo en un campo aparte (que puede llamarse "moneda_id") usando los códigos alfabéticos definidos en la <a href="http://www.iso.org/iso/home/standards/currency_codes.htm">ISO 4127</a>.</p>
+<p>Si en el recurso los valores monetarios están expresados en diferentes monedas, se recomienda indicarlo en un campo aparte (que puede llamarse "moneda_id") usando los códigos alfabéticos definidos en la <a href="https://www.iso.org/iso-4217-currency-codes.html">ISO 4127</a>.</p>
 <p>Ejemplo:</p>
 <ul>
-<li>ARS, para el peso argentino.</li>
-<li>USD, para el dólar estadounidense.</li>
+<li>
+<p>ARS, para el peso argentino.</p>
+</li>
+<li>
+<p>USD, para el dólar estadounidense.</p>
+</li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Siglas”.</p>
+</li>
+</ul>
+<h4 id="porcentaje">Porcentaje</h4>
+<p>Almacena un valor numérico que representa un porcentaje.</p>
+<ul>
+<li>
+<p>El separador decimal debe ser el caracter punto (".") </p>
+</li>
+<li>
+<p>La cantidad de decimales debe limitarse a dos, salvo que el uso de una mayor cantidad de decimales sea significativo para el caso particular. </p>
+</li>
+<li>
+<p>En ningún caso se incluirán el símbolo %.</p>
+</li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Siglas”.</p>
+</li>
 </ul>
 <h4 id="numeros-telefonicos">Números telefónicos</h4>
 <p>En este apartado, proponemos una solución para incluir números telefónicos nacionales en los recursos de datos.</p>
 <p>A nivel internacional, el estándar para los números telefónicos fue desarrollado por el "Sector de Normalización de las Telecomunicaciones de la Unión Internacional de Telecomunicaciones" (ITU Telecommunication Standardization Sector) bajo la recomendación <a href="https://www.itu.int/rec/T-REC-E.164/es">E.164</a>.</p>
 <p>Para el caso de los números nacionales, el ENACOM tiene la competencia sobre el sistema de numeración telefónica. Este organismo determina que el número nacional de abonado debe estar compuesto por 10 dígitos. Estos 10 dígitos están conformados por un indicativo interurbano más un número de abonado. Pudiendo el indicativo interurbano tener entre 2 y 4 dígitos, y el número de abonado entre 6 y 8 dígitos.</p>
-<table>
-<tbody>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>Indicativo interurbano (ámbito geográfico al que corresponde)</td>
     <td>Número de abonado</td>
-    <td>Número Nacional interurbano = Indicativo interurbano + Número de abonado</td>
-  </tr>
+    <td>Número Nacional interurbano = Indicativo interurbano + Número de abonado </td>
+    <td></td>
+  </tr>  
   <tr>
     <td>11 (AMBA)</td>
     <td>4343XXXX</td>
@@ -2000,149 +2774,209 @@ Recolección de residuos - 198</td>
     <td>434XXXX</td>
     <td>351434XXXX</td>
   </tr>
-  <tr>
+    <tr>
     <td>3837 (Tinogasta)</td>
     <td>43XXXX</td>
     <td>383743XXXX</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
 <p>Esta numeración es válida para los teléfonos móviles, pero dado que para llamar a un móvil desde un teléfono fijo es necesario anteponer "15" al número de abonado, es necesario que el registro del número telefónico especifique de alguna manera si se trata de un móvil o de un teléfono fijo.</p>
 <p>Al no existir estándares nacionales para la inclusión de números telefónicos en recursos de datos, los números telefónicos suelen indicarse de múltiples maneras. Por ejemplo:</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span> - Múltiples formas de indicar un número telefónico</p>
-<table>
-<tbody>
+<p><strong>No recomendado</strong> - Múltiples formas de indicar un número telefónico</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
-    <td>proveedor_nombre</td>
-    <td>contacto_correo_electronico</td>
-    <td>contacto_telefono</td>
-  </tr>
+    <td>proveedor_nombre </td>
+    <td>contacto_correo_electronico </td>
+    <td>contacto_telefono </td>
+  </tr>  
   <tr>
     <td>Ejemplo Sociedad Anónima</td>
     <td>ejemplo@ejemplo.com.ar</td>
     <td>01143XXXXXX</td>
   </tr>
+  <tr>
     <td>Ejemplo2 Sociedad Anónima</td>
-    <td>ejemplo2@ejemplo2.com.ar</td>
-    <td>011-45XXXXXX</td>
+    <td>ejemplo2@ejemplo.com.ar</td>
+    <td>011-45XXXXXX </td>
   </tr>
   <tr>
     <td>Ejemplo3 Sociedad Anónima</td>
-    <td>ejemplo3@ejemplo3.com.ar</td>
-    <td>351 434-XXXX</td>
+    <td>ejemplo3@ejemplo.com.ar</td>
+    <td>351 434-XXXX </td>
   </tr>
   <tr>
     <td>Ejemplo4 Sociedad Anónima</td>
-    <td>ejemplo4@ejemplo4.com.ar</td>
+    <td>ejemplo4@ejemplo.com.ar</td>
     <td>011 15 6344-XXXX</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
 <p>Para los recursos que contengan números telefónicos nacionales recomendamos como mínimo:</p>
 <ul>
-<li>Respetar el estándar definido por el Número Nacional Interurbano utilizando la conformación de números mediante 10 dígitos.</li>
-<li>Asegurarse de indicar si el teléfono es móvil o fijo.</li>
-<li>Omitir el agregado de dígitos adicionales en el indicativo interurbano. Recomendamos no indicar cero inicial antes del código de área.</li>
+<li>
+<p>Respetar el estándar definido por el Número Nacional Interurbano utilizando la conformación de números mediante 10 dígitos.</p>
+</li>
+<li>
+<p>Asegurarse de indicar si el teléfono es móvil o fijo.</p>
+</li>
+<li>
+<p>Omitir el agregado de dígitos adicionales en el indicativo interurbano. Recomendamos no indicar cero inicial antes del código de área.</p>
+</li>
 </ul>
 <p>Con las salvedades que comentaremos al final de este apartado, un posible abordaje sería el de la tabla a continuación:</p>
-<p><span class="recomendado"><strong>Recomendado</strong></span> - adecuado al estándar del Número Nacional Interurbano</p>
-<table>
-  <colgroup>
-    <col style="width:16%">
-    <col style="width:22%">
-    <col style="width:18%">
-    <col style="width:26%">
-    <col style="width:18%">
-      </colgroup>
-<tbody>
+<p><strong>Recomendado</strong> - adecuado al estándar del Número Nacional Interurbano</p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
-    <td >proveedor_nombre</td>
-    <td >contacto_correo_electronico</td>
-    <td >tipo_numero_telefono</td>
-    <td >contacto_telefono_indicativo_interurbano</td>
-    <td >contacto_telefono_numero_abonado</td>
-  </tr>
+    <td>proveedor_nombre</td>
+    <td>contacto_correo_electronico</td>
+    <td>tipo_numero_telefono</td>
+    <td>contacto_telefono_indicativo_interurbano</td>
+    <td>contacto_telefono_numero_abonado</td>
+  </tr>  
   <tr>
     <td>Ejemplo Sociedad Anónima</td>
-    <td  style="font-size:11px;">ejemplo@ejemplo.com.ar</td>
+    <td>ejemplo@ejemplo.com.ar</td>
     <td>Fijo</td>
     <td>11</td>
     <td>43XXXXXX</td>
   </tr>
   <tr>
     <td>Ejemplo2 Sociedad Anónima</td>
-    <td style="font-size:11px;">ejemplo2@ejemplo2.com.ar</td>
+    <td>ejemplo2@ejemplo.com.ar</td>
     <td>Fijo</td>
     <td>11</td>
     <td>45XXXXXX</td>
   </tr>
   <tr>
     <td>Ejemplo3 Sociedad Anónima</td>
-    <td style="font-size:11px;">ejemplo3@ejemplo3.com.ar</td>
+    <td>ejempl3o@ejemplo.com.ar</td>
     <td>Fijo</td>
     <td>351</td>
     <td>434XXXX</td>
   </tr>
   <tr>
     <td>Ejemplo4 Sociedad Anónima</td>
-    <td style="font-size:11px;">ejemplo4@ejemplo4.com.ar</td>
+    <td>ejemplo4@ejemplo.com.ar</td>
     <td>Móvil</td>
     <td>11</td>
     <td>6344XXXX</td>
   </tr>
-</tbody>
-</table>
+
+  </tbody>
+  </table>
 
 <p>Esta recomendación no contempla estos casos específicos:</p>
 <ul>
-<li>No será aplicable a números de uso público, ejemplo: 100, Bomberos; 911, Policía Federal; etc.</li>
-<li>Para casos que requieran la inclusión de más de un número telefónico. Deberán agregarse campos o modificar la estructura de la base de datos.</li>
-<li>Para teléfonos que requieran la inclusión de un número de interno, y al estar éste definido por la persona u organización específica, deberá considerarse la inclusión de otro campo de tipo texto. Ya que los números de interno pueden incluir texto. Ejemplo: "*86", “#36”, etc.</li>
-<li>Para el casos de números internacionales recomendamos contemplar el estándar internacional  <a href="https://www.itu.int/rec/T-REC-E.164/es">E.164</a>.</li>
+<li>
+<p>No será aplicable a números de uso público, ejemplo: 100, Bomberos; 911, Policía Federal; etc.</p>
+</li>
+<li>
+<p>Para casos que requieran la inclusión de más de un número telefónico. Deberán agregarse campos o modificar la estructura de la base de datos.</p>
+</li>
+<li>
+<p>Para teléfonos que requieran la inclusión de un número de interno, y al estar éste definido por la persona u organización específica, deberá considerarse la inclusión de otro campo de tipo texto. Ya que los números de interno pueden incluir texto. Ejemplo: "*86", “#36”, etc.</p>
+</li>
+<li>
+<p>Para el casos de números internacionales recomendamos contemplar el estándar internacional <a href="https://www.itu.int/rec/T-REC-E.164/es">E.164</a>.</p>
+</li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo los nombres: “Telefono fijo completo”, “Nro de telefono móvil completo”, “Código de pais para llamada telefónica”, “Código de área para llamada telefónica”, “Número telefónico local o nro de móvil”. </p>
+</li>
 </ul>
 <h4 id="coordenadas">Coordenadas</h4>
-<p>El estándar utilizado para la referencia del sistema de coordenadas (Coordinate Reference Systems) es el <a href="http://spatialreference.org/ref/epsg/wgs-84">EPSG: 4326 - WGS 84</a>.</p>
-<p>Para registrar datos de coordenadas geográficas de puntos, usamos números decimales. Los campos deberán llamarse "lat" y “long”. Cuando sea conveniente especificar el nombre de la entidad de la cual se consignan las coordenadas, se usarán los sufijos “_lat” y “_long”. Para más información se recomienda visitar el <a href="http://ws.usig.buenosaires.gob.ar/geocoder/2.2">GeoCoder</a> de la USIG</p>
-<p><span class="no-recomendado"><strong>No recomendado</strong></span></p>
-<table>
-<tbody>
+<p>El estándar utilizado para la referencia del sistema de coordenadas (Coordinate Reference Systems) es el <a href="https://spatialreference.org/ref/epsg/4326/">EPSG: 4326 - WGS 84</a>.</p>
+<p>Para registrar datos de coordenadas geográficas de puntos, usamos números decimales. Los campos deberán llamarse "lat" y “long”. Cuando sea conveniente especificar el nombre de la entidad de la cual se consignan las coordenadas, se usarán los sufijos “_lat” y “_long”.  </p>
+<p>Para más información contactar a la GOED.</p>
+<p>Los valores latitud y longitud pueden estar en una misma celda (Lat/long) o separadas, ambas opciones son válidas. </p>
+<p><strong>No recomendado</strong></p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>lat</td>
     <td>long</td>
-  </tr>
+  </tr>  
   <tr>
     <td>34º 11' 30''</td>
     <td>58º 43' 20''</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
-<p><span class="recomendado"><strong>Recomendado</strong></span></p>
-<table>
-<tbody>
+<p><strong>Recomendado</strong></p>
+<table id="left-align-col-2">
+  <tbody>
   <tr>
     <td>lat</td>
     <td>long</td>
-  </tr>
+  </tr>  
   <tr>
     <td>-34.6043222</td>
     <td>-58.4134862</td>
   </tr>
-</tbody>
-</table>
+  </tbody>
+  </table>
 
-<p>Para datos geográficos que no sean coordenadas/puntos (por ejemplo líneas o polígonos) recomendamos su especificación en <a href="https://www.opengeospatial.org/standards/wkt-crs">WKT (Well Known Text)</a>. Los puntos/coordenadas también se pueden representar en WKT, pero en estos casos recomendamos utilizar latitud y longitud para representarlos.</p>
+<p>Para datos geográficos que no sean coordenadas/puntos (por ejemplo líneas o polígonos) recomendamos su especificación en WKT (Well Known Text). Los puntos/coordenadas también se pueden representar en WKT, pero en estos casos recomendamos utilizar latitud y longitud para representarlos.</p>
 <p>También para datos geográficos, recomendamos incluir por una parte un CSV con campos geográficos (en WKT o puntos de coordenadas), y por otra parte el archivo en su formato geoespacial (en alguno de los formatos recomendados anteriormente).</p>
+<p>• En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo los nombres: "Coordenadas geográficas” en una misma celda y por separado “Latitud” y “Longitud”. También se podrán encontrar los datos “Coordenadas Planas/Catersianas” y “Datos geométricos/geográficos”</p>
 <h3 id="tiempo">Tiempo</h3>
 <h4 id="fecha">Fecha</h4>
-<p>Se usará el estándar <a href="https://es.wikipedia.org/wiki/ISO_8601">ISO 8601</a> (YYYY-MM-DDTHH:MM:SS[.mmmmmm][+HH:MM]). A menos que se indique lo contrario, se asumirá que la zona horaria es UTC-03:00 (Argentina).</p>
+<p>Se usará el estándar <a href="https://es.wikipedia.org/wiki/ISO_8601">ISO 8601</a> (YYYY-MM-DDTHH:MM:SS[.mmmmmm][+HH:MM]). </p>
+<p>A menos que se indique lo contrario, se asumirá que la zona horaria es UTC-03:00 (Argentina).</p>
 <ul>
-<li>Fecha: YYYY-MM-DD</li>
-<li>Hora: HH:MM:SS[.mmmmmm][+HH:MM]</li>
-<li>Fecha y Hora: YYYY-MM-DDTHH:MM:SS[.mmmmmm][+HH:MM]</li>
-<li>Duración: YYYY-MM-DDTHH:MM:SS[.mmmmmm]</li>
+<li>
+<p>Fecha: YYYY-MM-DD</p>
+</li>
+<li>
+<p>Hora: HH:MM:SS[.mmmmmm][+HH:MM]</p>
+</li>
+<li>
+<p>Fecha y Hora: YYYY-MM-DDTHH:MM:SS[.mmmmmm][+HH:MM]</p>
+</li>
+<li>
+<p>Duración: P[n]Y[n]M[n]DT[n]H[n]M[n]S </p>
+</li>
+<li>
+<p>Donde: P indica el comienzo de la duración, </p>
+</li>
+<li>
+<p>Y es el número de años, </p>
+</li>
+<li>
+<p>M es el número de meses, </p>
+</li>
+<li>
+<p>D es el número de días, </p>
+</li>
+<li>
+<p>T indica el inicio de la parte de tiempo, </p>
+</li>
+<li>
+<p>H es el número de horas, </p>
+</li>
+<li>
+<p>M es el número de minutos, </p>
+</li>
+<li>
+<p>S es el número de segundos.</p>
+</li>
+</ul>
+<p>Ejemplos de duración:</p>
+<ul>
+<li>
+<p><strong>Duración de 3 años, 2 meses y 10 días:</strong>  ➡ P3Y2M10D</p>
+</li>
+<li>
+<p><strong>Duración de 5 horas, 30 minutos y 15 segundos:</strong>  ➡ PT5H30M15S</p>
+</li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, estos datos se encuentran bajo los nombres: “Fecha”, “Hora”, “Fecha y hora”, “Duración”. </p>
+</li>
 </ul>
 <h4 id="rangos-horarios">Rangos horarios</h4>
 <ul>
@@ -2163,29 +2997,23 @@ Recolección de residuos - 198</td>
 </li>
 </ul>
 <p>Ejemplos de formatos válidos para días:</p>
-<pre><code>DAY: Un solo día
-DAY1-DAY2: Entre entre DAY1 y DAY2
-DAY1_DAY2: DAY1 y DAY2
-DAY1-DAY2_DAY3: DAY1 a DAY2 y DAY3
-</code></pre>
-
+<p>DAY: Un solo día</p>
+<p>DAY1-DAY2: Entre entre DAY1 y DAY2</p>
+<p>DAY1_DAY2: DAY1 y DAY2</p>
+<p>DAY1-DAY2_DAY3: DAY1 a DAY2 y DAY3</p>
 <ul>
 <li>La hora se indica mediante rangos, separando los horarios con guiones medios ("-"). También se pueden indicar varios horarios con el guión bajo "_".</li>
 </ul>
 <p>Ejemplos de formatos válidos para horas:</p>
-<pre><code>HH:MM-HH:MM : Rango simple
-HH:MM-HH:MM_HH:MM-HH:MM : Dos rangos
-</code></pre>
-
+<p>HH:MM-HH:MM : Rango simple</p>
+<p>HH:MM-HH:MM_HH:MM-HH:MM : Dos rangos</p>
 <p>Más ejemplos de formatos válidos completos:</p>
-<pre><code>HH:MM-HH:MM para indicar un rango que ocurre todos los días.
-DAY para indicar que el rango ocupa todo el día DAY.
-DAY__HH:MM-HH:MM para indicar un rango que ocurre los días DAY entre HH:MM y HH:MM.
-DAY__HH:MM-HH:MM_HH:MM-HH:MM para indicar mas un rango horario en el mismo día
-DAY1-DAY2__HH:MM-HH:MM para indicar un rango que ocurre los días DAY1 a DAY2 entre HH:MM y HH:MM
-DAY1-DAY2__HH:MM-HH:MM_HH:MM-HH:MM para indicar mas un rango horario en el mismo rango de días
-</code></pre>
-
+<p>HH:MM-HH:MM para indicar un rango que ocurre todos los días.</p>
+<p>DAY para indicar que el rango ocupa todo el día DAY.</p>
+<p>DAY__HH:MM-HH:MM para indicar un rango que ocurre los días DAY entre HH:MM y HH:MM.</p>
+<p>DAY__HH:MM-HH:MM_HH:MM-HH:MM para indicar mas un rango horario en el mismo día</p>
+<p>DAY1-DAY2__HH:MM-HH:MM para indicar un rango que ocurre los días DAY1 a DAY2 entre HH:MM y HH:MM</p>
+<p>DAY1-DAY2__HH:MM-HH:MM_HH:MM-HH:MM para indicar mas un rango horario en el mismo rango de días</p>
 <ul>
 <li>
 <p>En caso de que se necesite cubrir más de una franja horaria y esta sintaxis sea insuficiente, se pueden incluir varias separadas por espacios.</p>
@@ -2193,123 +3021,128 @@ DAY1-DAY2__HH:MM-HH:MM_HH:MM-HH:MM para indicar mas un rango horario en el mismo
 <li>
 <p>Los días se indicarán con sus iniciales en castellano: LUN, MAR, MIE, JUE, VIE, SAB y DOM</p>
 </li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Días de la semana”.</p>
+</li>
 </ul>
 <p>Ejemplos:</p>
-<pre><code>24hs -&gt; &quot;00:00-23:59&quot; 
-Jueves 24hs -&gt; &quot;JUE&quot; 
-Jueves de 14:30 a 17 hs -&gt; &quot;JUE__14:30-17:00&quot; 
-Jueves de 8 a 12 hs y de 16 a 20 hs -&gt; &quot;JUE__08:00-12:00_16:00-20:00&quot; 
-Jueves de 8 a 15 hs y Viernes de 8 a 15 hs -&gt; &quot;JUE__08:00-15:00 VIE_08:00-15:00&quot; 
-Lunes a Viernes 7:30 a 17 hs y Sábados 8 a 12 hs -&gt; &quot;LUN-VIE__07:30-17:00 SAB__08:00-12:00&quot; 
-Lunes a Viernes 8 a 11 y 14 a 18 hs -&gt; &quot;LUN-VIE__08:00-11:00_14:00-18:00&quot; 
-Lunes y Miercoles 8 a 11 y 14 a 18 hs -&gt; &quot;LUN_MIE__08:00-11:00_14:00-18:00&quot; 
-Lunes a Miercoles y Viernes 8 a 11 y 14 a 18 hs -&gt; &quot;LUN-MIE_VIE__08:00-11:00_14:00-18:00&quot;
-Lunes a Miercoles 8 a 11 y de Viernes a Domingo 9 a 10 -&gt; &quot;LUN-MIE__08:00-11:00 VIE-DOM__09:00-10:00&quot;
-</code></pre>
-
+<p>24hs -&gt; "00:00-23:59" </p>
+<p>Jueves 24hs -&gt; "JUE" </p>
+<p>Jueves de 14:30 a 17 hs -&gt; "JUE__14:30-17:00" </p>
+<p>Jueves de 8 a 12 hs y de 16 a 20 hs -&gt; "JUE__08:00-12:00_16:00-20:00" </p>
+<p>Jueves de 8 a 15 hs y Viernes de 8 a 15 hs -&gt; "JUE__08:00-15:00 VIE_08:00-15:00" </p>
+<p>Lunes a Viernes 7:30 a 17 hs y Sábados 8 a 12 hs -&gt; "LUN-VIE__07:30-17:00 SAB__08:00-12:00" </p>
+<p>Lunes a Viernes 8 a 11 y 14 a 18 hs -&gt; "LUN-VIE__08:00-11:00_14:00-18:00" </p>
+<p>Lunes y Miercoles 8 a 11 y 14 a 18 hs -&gt; "LUN_MIE__08:00-11:00_14:00-18:00" </p>
+<p>Lunes a Miercoles y Viernes 8 a 11 y 14 a 18 hs -&gt; "LUN-MIE_VIE__08:00-11:00_14:00-18:00"</p>
+<p>Lunes a Miercoles 8 a 11 y de Viernes a Domingo 9 a 10 -&gt; "LUN-MIE__08:00-11:00 VIE-DOM__09:00-10:00"</p>
+<ul>
+<li>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Rangos horarios”.</li>
+</ul>
 <h3 id="otros-estandares-sectoriales">Otros estándares sectoriales</h3>
 <ul>
 <li>
-<p>Se utilizará el estándar de Contrataciones Abiertas (<a href="http://standard.open-contracting.org/">Open Contracting Data Standard</a>) para la publicación de datos vinculados con contrataciones públicas.</p>
+<p>Se utilizará el estándar de Contrataciones Abiertas (Open Contracting Data Standard) para la publicación de datos vinculados con contrataciones públicas.</p>
 </li>
 <li>
-<p>Siguiendo los lineamientos del Ministerio de Desarrollo Urbano y Transporte, los datos de movilidad se publicarán de acuerdo al estándar abierto GTFS (<a href="https://developers.google.com/transit/gtfs/?hl=es">General Transit Feed Standard</a>).</p>
+<p>Siguiendo los lineamientos del Ministerio de Desarrollo Urbano y Transporte, los datos de movilidad se publicarán de acuerdo al estándar abierto GTFS (General Transit Feed Standard).</p>
 </li>
 <li>
-<p>Para datos geográficos se utiliza el estándar WKT (<a href="https://www.opengeospatial.org/standards/wkt-crs">Well-Known Text</a>).</p>
+<p>Para datos geográficos se utiliza el estándar WKT (Well-Known Text).</p>
 </li>
 </ul>
 <h3 id="booleano">Booleano</h3>
 <ul>
 <li>
-<p>A menos que se indique lo contrario, se identificarán con los valores <em>true</em> o <em>false</em>.</p>
-<ul>
-<li>Esta convención puede variar en algunos rubros específicos de datos, pero en caso de no existir una convención clara y definida aplicable al rubro o contexto del dataset, se recomienda utilizar <em>true</em> o <em>false</em>.</li>
-</ul>
+<p>A menos que se indique lo contrario, los valores en este campo deben ser TRUE o FALSE.</p>
 </li>
 <li>
-<p>Este campo puede contener "valores ausentes". En ese caso, el campo deberá estar totalmente vacío, no conteniendo ningún caracter.</p>
+<p>No se permite ningún otro valor, ni representaciones alternativas como Sí, No, 1, 0, Verdadero, Falso, o similares. Tampoco se admiten valores ausentes (NULL o N/A) ni campos completamente vacíos.</p>
 </li>
 <li>
-<p>Si existe la posibilidad de que haya otro valor que no sea <em>true</em>, <em>false</em> o "valor ausente" significa que se eligió un tipo de datos incorrecto: este no es booleano, el tipo de dato booleano es binario y sólo admite 2 valores de verdad (aparte del caso del “valor ausente”).</p>
+<p>El tipo de dato booleano es estrictamente binario y sólo admite los dos valores de verdad mencionados. En caso de que se necesite representar valores ausentes o permitir otras convenciones, se debe utilizar un tipo de dato diferente. </p>
+</li>
+<li>
+<p>En el <strong>Diccionario de Datos y Metadatos</strong>, este dato se encuentra bajo el nombre “Opción Binaria”.</p>
 </li>
 </ul>
-<h2 id="glosario">Glosario</h2>
-<p>Ver <a href="../glosario/">Glosario</a></p>
-                
-                  
-                
-              
-              
-                
 
 
-              
-            </article>
-          </div>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
       </main>
       
-        
-<footer id="ba-footer">
-  <div class="container">
-    <div class="row footer-row">
-      <div class="col-md-6 col-sm-12 col-xs-12" >
-        <div class="col-xs-6">
-          <div class="container-ba">
-            <a href="http://www.buenosaires.gob.ar/"><div class="img-responsive logo_footer"></div></a>
-          </div>
-        </div>
-        <div class="col-xs-6">
-          <div class="container-ba-border">
-            <a href="#"><h3>Estrategia de Apertura de Datos del GCBA</h3></a>
-          </div>
-        </div>
-      </div>
+        <footer class="main-footer">
+    <div class="container">
+        <section class="footer-legal-section">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-xl-4 footer-content-img">
+                    <img class="d-md-none" src="../assets/obelisco/footer/logo-footer-mobile.svg"
+                        alt="Logo GCBA" height="48" />
+                    <img class="d-none d-md-inline" src="../assets/obelisco/footer/logo-footer.svg"
+                        alt="Logo GCBA" height="40" />
+                    <img class="img-vamos-ba" src="../assets/obelisco/footer/logo-footer-ba.svg"
+                        alt="Vamos Buenos Aires" />
+                </div>
 
-      <div class="col-md-6 col-sm-12 col-xs-12">
-        <section class="container-redes">
-          <ul class="mini-social">
-            <li><a class="social-fb" href="http://www.facebook.com/gcba" target="_blank">Facebook</a></li>
-            <li><a class="social-tw" href="http://www.twitter.com/gcba" target="_blank">Twitter</a></li>
-            <li><a class="social-yt" href="http://www.youtube.com/user/GCBA" target="_blank">Youtube</a></li>
-            <li><a class="social-in" href="https://www.instagram.com/buenosaires/" target="_blank">Instagram</a></li>
-            <li><a class="social-gp" href="https://plus.google.com/+GobiernodelaCiudaddeBuenosAires/" target="_blank">Google+</a></li>
-          </ul>
+                <div class="col-12">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://boletinoficial.buenosaires.gob.ar">Boletín
+                                oficial</a></li>
+                        <li class="list-inline-item"><a
+                                href="https://buenosaires.gob.ar/inicio/terminos-y-condiciones">Términos y
+                                condiciones</a></li>
+                        <li class="list-inline-item"><a href="https://buenosaires.gob.ar/inicio/privacidad">Política de
+                                privacidad</a></li>
+                        <li class="list-inline-item"><a
+                                href="https://buenosaires.gob.ar/gobierno/transparencia">Transparencia</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
-      </div>
-    </div>
-      <br>
 
-      <div class="col-md-12 col-sm-12" style="margin-top: -55px;">
-        <div class="container-ciudad">
-        <br>
-        <a href="http://www.buenosaires.gob.ar/"><div class="img-responsive logo_footer_ciudad"></div></a>
-      </div>
+        <section>
+            <div class="footer-license-text">
+                Los contenidos de buenosaires.gob.ar están licenciados bajo Creative Commons Reconocimiento 2.5
+                Argentina License.
+            </div>
+        </section>
     </div>
-  </div>
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
     
-      <script src="../assets/javascripts/application.a353778b.js"></script>
+    
+    
       
-        
-        
-          
-          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
-          
-            
-              
-              
-                <script src="../assets/javascripts/lunr/lunr.es.js"></script>
-              
-            
-          
-          
-        
       
-      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top|", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
       
     
   </body>
