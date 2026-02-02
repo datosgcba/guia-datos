@@ -5,6 +5,8 @@
 .md-sidebar__inner .md-nav__link {
     padding-top: 0.4em;
     padding-bottom: 0.4em;
+    text-decoration: none;
+    /* color: blue; */
 }
 
 .navbar.o-header .header-container {
